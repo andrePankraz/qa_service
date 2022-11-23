@@ -580,7 +580,10 @@ def test_opensearch_get_wiki():
     print(response)
 
 
-def main():
+def _main_debug():
+    '''
+    Just for debugging.
+    '''
     import sys
     logging.basicConfig(stream=sys.stdout, level=logging.DEBUG)
     logging.getLogger('urllib3.connectionpool').setLevel(logging.INFO)
@@ -595,4 +598,7 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    '''
+    Just for debugging.
+    '''
+    _main_debug()
