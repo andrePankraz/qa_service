@@ -129,6 +129,7 @@ dmypy.json
 .pyre/
 
 # Custom
+imports/geodatendeutschland.csv
+imports/dewiki*
 models/
 uploads/
-cloud_ops/

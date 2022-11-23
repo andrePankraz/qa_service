@@ -1,3 +1,7 @@
 fastapi
+mwparserfromhell
+opensearch-py
+sentence_cleaner_splitter@git+https://github.com/facebookresearch/LASER.git#subdirectory=utils
+sentence_transformers
 transformers@git+https://github.com/huggingface/transformers.git
 uvicorn
