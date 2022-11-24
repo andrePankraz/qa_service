@@ -2,6 +2,8 @@
 This file was created by ]init[ AG 2022.
 
 Module for building a Wikipedia index with sentence embeddings.
+
+First download into folder imports: wget https://dumps.wikimedia.org/dewiki/latest/dewiki-latest-pages-articles-multistream.xml.bz2
 '''
 from embedding_manager import EmbeddingManager
 from wikipedia_processor import read_places, wiki_sentences
@@ -424,7 +426,7 @@ def _test_opensearch_search_wiki_nested():
                     }
                 },
                 'inner_hits': {
-                    '_source' : False
+                    '_source': False
                 }
             }
         }
@@ -456,6 +458,7 @@ def main():
     # logging.info("Setting limits to 5 GB RAM")
     # resource.setrlimit(resource.RLIMIT_AS, (5000000000, 5000000000))
 
+    _test_opensearch_create_index()
     _test_opensearch_index_wiki()
 
 
