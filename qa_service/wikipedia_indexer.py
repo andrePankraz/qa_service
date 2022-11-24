@@ -300,7 +300,7 @@ def _test_opensearch_index_wiki():
 
     places = read_places()
     # title_pattern = re.compile('^Dresden$')
-    # Articles: 18839   Sentences: 819134  ->  18.6gb, 22.7 kByte per Entry
+    # Articles: 18870   Sentences: 831349  ->  18.9gb, 831349 entries, 22734 Byte per Entry
     # (Single Sentences, HNSW, nsmlib, cosinesim)
     text_pattern = re.compile('Postleitzahl')
     article_nr = 0
@@ -348,7 +348,7 @@ def _test_opensearch_index_wiki_nested():
     places = read_places()
     # title_pattern = re.compile('^Dresden$')
     # Articles: Articles: 18870   Sentences: 831349 -> 19gb, 850219 entries, 22347 Byte per Entry
-    # (Single Sentences, HNSW, nsmlib, cosinesim)
+    # (Nested Sentences, HNSW, nsmlib, cosinesim)
     text_pattern = re.compile('Postleitzahl')
     article_nr = 0
     sentence_nr = 0
@@ -379,13 +379,14 @@ def _test_opensearch_index_wiki_nested():
 
 def _test_opensearch_search_wiki():
     client = get_os_client()
-    index_name = 'wiki-index'
+    index_name = 'wiki-index-s'
 
     embedding_manager = EmbeddingManager()
-    embedding = embedding_manager.embed(["Wer ist der Bürgermeister von Berlin?"])[0]
+    embedding = embedding_manager.embed(["Welche Flüsse fließen durch Berlin?"])[0]
 
     # Search for the document.
     query = {
+        'size': 50,
         '_source': ['sentence'],
         'query': {
             'knn': {
@@ -409,10 +410,11 @@ def _test_opensearch_search_wiki_nested():
     index_name = 'wiki-index'
 
     embedding_manager = EmbeddingManager()
-    embedding = embedding_manager.embed(["Wer ist der Bürgermeister von Berlin?"])[0]
+    embedding = embedding_manager.embed(["Welche Flüsse fließen durch Berlin?"])[0]
 
     # Search for the document.
     query = {
+        'size': 10,
         '_source': ['embeddings.sentence'],
         'query': {
             'nested': {
@@ -421,7 +423,7 @@ def _test_opensearch_search_wiki_nested():
                     'knn': {
                         'embeddings.embedding': {
                             'vector': embedding.cpu().numpy(),
-                            'k': 20
+                            'k': 10
                         }
                     }
                 },
@@ -458,8 +460,9 @@ def main():
     # logging.info("Setting limits to 5 GB RAM")
     # resource.setrlimit(resource.RLIMIT_AS, (5000000000, 5000000000))
 
-    _test_opensearch_create_index()
-    _test_opensearch_index_wiki()
+    # _test_opensearch_create_index()
+    # _test_opensearch_index_wiki()
+    _test_opensearch_search_wiki()
 
 
 if __name__ == '__main__':
