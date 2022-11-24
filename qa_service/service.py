@@ -1,7 +1,7 @@
 '''
 This file was created by ]init[ AG 2022.
 
-Module for Speech Service.
+Module for QA Service.
 '''
 from fastapi import FastAPI
 from fastapi.staticfiles import StaticFiles
@@ -33,7 +33,7 @@ def main():
     import uvicorn
     os.chdir('qa_service')
     # just 1 worker, or models will be loaded multiple times!
-    uvicorn.run('qa_service:app', host='0.0.0.0', port=8200)
+    uvicorn.run('service:app', host='0.0.0.0', port=8200)
 
 
 if __name__ == '__main__':

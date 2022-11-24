@@ -8,9 +8,9 @@ import mwparserfromhell
 import numpy
 import os
 import re
-from places import read_places
 from sentence_cleaner_splitter.cleaner_splitter import SentenceSplitClean
 from typing import Generator
+from .places import read_places
 from xml.etree import cElementTree as ET
 
 log = logging.getLogger(__name__)
@@ -117,43 +117,3 @@ def wiki_sentences(
                     # ignore single or double words (e.g. headlines)
                     sentences.append(sentence)
         yield title, sentences, progress
-
-
-def test_parse_wiki():
-    places = read_places()
-    # title_pattern = re.compile('^Dresden$')
-    # Articles: 18839   Sentences: 819134
-    text_pattern = re.compile('Postleitzahl')
-    article_nr = 0
-    sentence_nr = 0
-    for title, sentences, progress in wiki_sentences(
-            'imports/dewiki-latest-pages-articles-multistream.xml', title_pattern=places, text_pattern=text_pattern):
-        article_nr += 1
-        sentence_nr += len(sentences)
-        log.info(f"### {article_nr} / {sentence_nr} ({progress:.2f}%): {title} ###")
-        # print(f"{sentences}")
-    log.info(f"Articles: {article_nr}   Sentences: {sentence_nr}")
-
-
-def _main_debug():
-    '''
-    Just for debugging.
-    '''
-    import sys
-    logging.basicConfig(stream=sys.stdout, level=logging.DEBUG)
-    logging.getLogger('urllib3.connectionpool').setLevel(logging.INFO)
-    logging.getLogger('opensearch').setLevel(logging.INFO)
-
-    import resource
-    log.info(f"Current limits: {resource.getrlimit(resource.RLIMIT_AS)}")
-    log.info("Setting limits to 5 GB RAM")
-    resource.setrlimit(resource.RLIMIT_AS, (5000000000, 5000000000))
-
-    test_parse_wiki()
-
-
-if __name__ == '__main__':
-    '''
-    Just for debugging.
-    '''
-    _main_debug()

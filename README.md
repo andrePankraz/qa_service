@@ -2,13 +2,15 @@
 This file was created by ]init[ AG 2022.
 -->
 
-# AI Development Environment
+# QA Service
 
-Setup Docker container for genric AI development with PyTorch. Remember tests, colab notebooks etc.
+Solve Question Answering (QA) problems with Natural Language Processing (NLP) from AI.
 
 The tests are performed in a Docker container that also works in the Windows Subsystem for Linux (WSL).
 An NVIDIA graphics card with at least 4 GB VRAM is recommended, depending on the models used.
 CUDA is part of the Docker image, only the NVIDIA graphics driver needs to be installed.
+
+Docker must have CUDA enabled (e.g. for WSL see https://docs.nvidia.com/cuda/wsl-user-guide/index.html).
 
 ## Start as local service with Test-UI
 
