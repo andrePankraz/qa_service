@@ -6,16 +6,19 @@ Module for building a Wikipedia index with sentence embeddings.
 First download into folder imports: wget https://dumps.wikimedia.org/dewiki/latest/dewiki-latest-pages-articles-multistream.xml.bz2
 '''
 from embedding_manager import EmbeddingManager
-from wikipedia_processor import read_places, wiki_sentences
+from wikipedia_processor import download, read_places, wiki_sentences
 import logging
 import numpy
 from opensearchpy import OpenSearch, helpers
+import os
 import re
 from sentence_transformers import util
 import torch
 
 log = logging.getLogger(__name__)
 log.setLevel(logging.DEBUG)
+
+imports_folder = os.environ.get('IMPORTS_FOLDER', '/opt/qa_service/imports/')
 
 
 def get_os_client() -> OpenSearch:
@@ -50,39 +53,59 @@ def get_os_client() -> OpenSearch:
 def _test_similarity():
     embedding_manager = EmbeddingManager()
     embeddings = embedding_manager.embed(
-        ['Die Hauptstadt von Deutschland ist Berlin.',
-         'In London, der Hauptstadt von GB, wohnen auch viele Deutsche.',
+        ['Was ist die Hauptstadt von Deutschland?',
+         'Von welchem Land ist Berlin die Hauptstadt?',
+         'Die Hauptstadt von Deutschland ist Berlin.',
+         'Berlin ist die Hauptstadt von Deutschland.',
+         'Die Hauptstadt von Italien ist Rom.',
+         'Rom ist die Hauptstadt von Italien',
+         'In Rom, der Hauptstadt von Italien, wohnen auch viele Deutsche.',
+         'In Amerika gibt es eine kleine Stadt namens Berlin.',
          'Da beißt die Maus keinen Faden ab.'])
-    print(f"Embeddings: {embeddings}")
+
+    # torch.set_printoptions(profile="full")
+    torch.set_printoptions(linewidth=200)
+
+    print(f"Embeddings Shape: {embeddings.shape}")
+    # print(torch.mm(embeddings, embeddings.T))
+    print(f"Similarity:\n{util.cos_sim(embeddings, embeddings)}")
 
 
-def _test_similarity_wiki():
+def _test_similarity_wiki(question: str, wikipage: str):
+    download(f"https://de.wikipedia.org/wiki/Spezial:Exportieren/{wikipage}", f"{imports_folder}{wikipage}.xml")
+
     embedding_manager = EmbeddingManager()
 
-    for title, sentences, progress in wiki_sentences('imports/Wikipedia-Berlin.xml'):
+    for title, sentences, _ in wiki_sentences(f"{imports_folder}{wikipage}.xml", filtered=True):
         log.info(f"##### {title} #####")
 
-        embeddings = embedding_manager.embed(
-            [(title if title in sentence else f"{title}: {sentence}") for sentence in sentences])
+        with open(f"{imports_folder}{wikipage}.txt", "wt") as f:
+            print('\n'.join(sentences), file=f)
 
-        query_embedding = embedding_manager.embed(['Welche Flüsse fließen durch Berlin?'])[0]
+        query_embedding = embedding_manager.embed([question])[0]
+        sentence_embeddings = embedding_manager.embed(sentences)
 
-        cos_scores = util.cos_sim(query_embedding, embeddings)
+        cos_scores = util.cos_sim(query_embedding, sentence_embeddings)
         top_results = torch.topk(cos_scores[0], k=min(10, len(cos_scores[0])))
         for score, idx in zip(top_results[0], top_results[1]):
             if score >= 0.4:
                 log.info(f"(Score: {score:.4f})  {sentences[idx]}")
 
 
+def _test_download_wiki():
+    download('https://dumps.wikimedia.org/dewiki/latest/dewiki-latest-pages-articles-multistream.xml.bz2',
+             imports_folder + 'dewiki-latest-pages-articles-multistream.xml.bz2', 'Downloading Wikipedia-Export')
+
+
 def _test_parse_wiki():
     places = read_places()
     # title_pattern = re.compile('^Dresden$')
-    # Articles: 18870   Sentences: 831349
+    # Articles: 18944   Sentences: 1051387
     text_pattern = re.compile('Postleitzahl')
     article_nr = 0
     sentence_nr = 0
     for title, sentences, progress in wiki_sentences(
-            'imports/dewiki-latest-pages-articles-multistream.xml', title_pattern=places, text_pattern=text_pattern):
+            imports_folder + 'dewiki-latest-pages-articles-multistream.xml.bz2', title_pattern=places, text_pattern=text_pattern, filtered=True):
         article_nr += 1
         sentence_nr += len(sentences)
         log.info(f"### {article_nr} / {sentence_nr} ({progress:.2f}%): {title} ###")
@@ -300,18 +323,18 @@ def _test_opensearch_index_wiki():
 
     places = read_places()
     # title_pattern = re.compile('^Dresden$')
-    # Articles: 18870   Sentences: 831349  ->  18.9gb, 831349 entries, 22734 Byte per Entry
+    # Articles: 18944   Sentences: 1051387  ->  18.9gb, 831349 entries, 22734 Byte per Entry
     # (Single Sentences, HNSW, nsmlib, cosinesim)
     text_pattern = re.compile('Postleitzahl')
     article_nr = 0
     sentence_nr = 0
     for title, sentences, progress in wiki_sentences(
-            'imports/dewiki-latest-pages-articles-multistream.xml', title_pattern=places, text_pattern=text_pattern):
+            imports_folder + 'dewiki-latest-pages-articles-multistream.xml.bz2', title_pattern=places, text_pattern=text_pattern, filtered=True):
         article_nr += 1
         sentence_nr += len(sentences)
         log.info(f"### {article_nr} / {sentence_nr} ({progress:.2f}%): {title} ###")
 
-        embeddings = embedding_manager.embed([f"{title}: {sentence}" for sentence in sentences])
+        embeddings = embedding_manager.embed(sentences)
         actions = []
         for sentence_idx, (sentence, embedding) in enumerate(zip(sentences, embeddings)):
             document = {
@@ -347,18 +370,18 @@ def _test_opensearch_index_wiki_nested():
 
     places = read_places()
     # title_pattern = re.compile('^Dresden$')
-    # Articles: Articles: 18870   Sentences: 831349 -> 19gb, 850219 entries, 22347 Byte per Entry
+    # Articles: Articles: 18944   Sentences: 1051387 -> 19gb, 850219 entries, 22347 Byte per Entry
     # (Nested Sentences, HNSW, nsmlib, cosinesim)
     text_pattern = re.compile('Postleitzahl')
     article_nr = 0
     sentence_nr = 0
     for title, sentences, progress in wiki_sentences(
-            'imports/dewiki-latest-pages-articles-multistream.xml', title_pattern=places, text_pattern=text_pattern):
+            imports_folder + 'dewiki-latest-pages-articles-multistream.xml.bz2', title_pattern=places, text_pattern=text_pattern, filtered=True):
         article_nr += 1
         sentence_nr += len(sentences)
         log.info(f"### {article_nr} / {sentence_nr} ({progress:.2f}%): {title} ###")
 
-        embeddings = embedding_manager.embed([f"{title}: {sentence}" for sentence in sentences])
+        embeddings = embedding_manager.embed(sentences)
         nested = []
         for sentence, embedding in zip(sentences, embeddings):
             nested.append({
@@ -386,13 +409,13 @@ def _test_opensearch_search_wiki():
 
     # Search for the document.
     query = {
-        'size': 50,
+        'size': 25,
         '_source': ['sentence'],
         'query': {
             'knn': {
                 'embedding': {
                     'vector': embedding.cpu().numpy(),
-                    'k': 50
+                    'k': 25
                 }
             }
         }
@@ -402,7 +425,11 @@ def _test_opensearch_search_wiki():
         index=index_name,
         request_timeout=300
     )
-    log.info(f"Search results: {response}")
+    # log.info(f"Search results: {response}")
+    hits = [[hit['_score'], hit['_id'], hit['_source']['sentence']] for hit in response['hits']['hits']]
+    sentences = [f"{score:.2f}: {id:<20} {sentence}" for (score, id, sentence) in hits]
+    out = '\n'.join(sentences)
+    log.info(f"Search results:\n{out}")
 
 
 def _test_opensearch_search_wiki_nested():
@@ -455,10 +482,16 @@ def main():
     logging.getLogger('urllib3.connectionpool').setLevel(logging.INFO)
     logging.getLogger('opensearch').setLevel(logging.INFO)
 
-    import resource
-    logging.info(f"Current limits: {resource.getrlimit(resource.RLIMIT_AS)}")
+    # import resource
+    # logging.info(f"Current limits: {resource.getrlimit(resource.RLIMIT_AS)}")
     # logging.info("Setting limits to 5 GB RAM")
     # resource.setrlimit(resource.RLIMIT_AS, (5000000000, 5000000000))
+
+    # _test_similarity()
+    # _test_similarity_wiki('Welche Flüsse fließen durch Berlin?', 'Berlin')
+
+    # _test_download_wiki()
+    # _test_parse_wiki()
 
     # _test_opensearch_create_index()
     # _test_opensearch_index_wiki()

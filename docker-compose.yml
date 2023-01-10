@@ -67,7 +67,8 @@ services:
       - opensearch-node1
     shm_size: '2gb'
     environment:
-      - MODEL_FOLDER=/opt/qa_service/models/
+      - MODELS_FOLDER=/opt/qa_service/models/
+      - IMPORTS_FOLDER=/opt/qa_service/imports/
     stdin_open: true # docker run -i
     tty: true # docker run -t
     volumes:

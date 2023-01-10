@@ -29,9 +29,33 @@ class EmbeddingManager:
             return
         with EmbeddingManager.lock:
             # Load model Sentence Embedding
-            # Max sequence length is 512 -> embedding is 1024 dimensional
-            model_id = 'Sahajtomar/German-semantic'
-            model_folder = os.environ.get('MODEL_FOLDER', '/opt/speech_service/models/')
+
+            # Max sequence length is 512 -> Embedding is 1024 dimensional
+            # This model is really good, all important stuff is there - 9/10
+            model_id = 'Sahajtomar/German-semantic'  # Model Size is around 1.3 GB
+
+            # Max sequence length is 512 -> Embedding is 768 dimensional
+            # This model is really good, small and just 768-dim, even though scores all quite similar - 8/10
+            # model_id = 'PM-AI/bi-encoder_msmarco_bert-base_german' # Model Size is around 0.4 GB
+
+            # Max sequence length is 512 -> Embedding is 1024 dimensional
+            # This model is quite good, but major river info sentence is missing - 7/10
+            # model_id = 'aari1995/gBERT-large-sts-v2' # Model Size is around 1.25 GB
+
+            # Max sequence length is 512 -> Embedding is 768 dimensional
+            # This model is quite bad, focussing on very short sentences - 4/10
+            # model_id = 'setu4993/LaBSE' # Model Size is around 1.77 GB
+
+            # Max sequence length is 512 -> Embedding is 768 dimensional
+            # This model is really bad, mixing up rivers and climate stuff - 3/10
+            # model_id = 'symanto/sn-xlm-roberta-base-snli-mnli-anli-xnli' # Model Size is around 1 GB
+
+            # Max sequence length is 512 -> Embedding is 768 dimensional
+            # Needs: pip install 'protobuf<=3.20.1' --force-reinstall
+            # This model is really bad, very often no rivers at all - 2/10
+            # model_id = 'T-Systems-onsite/cross-en-de-roberta-sentence-transformer' # Model Size is around 1 GB
+
+            models_folder = os.environ.get('MODELS_FOLDER', '/opt/speech_service/models/')
             device = 'cpu'
             if torch.cuda.is_available():
                 log.info(f"CUDA available: {torch.cuda.get_device_name(0)}")
@@ -42,8 +66,8 @@ class EmbeddingManager:
                 if (vram >= 4):
                     device = 'cuda:0'
                     # model_id = 'facebook/nllb-200-3.3B' if vram >= 32 else 'facebook/nllb-200-distilled-1.3B' if vram >= 12 else 'facebook/nllb-200-distilled-600M'
-            log.info(f"Loading model {model_id!r} in folder {model_folder!r}...")
-            self.model = SentenceTransformer(model_id, device=device, cache_folder=model_folder)
+            log.info(f"Loading model {model_id!r} in folder {models_folder!r}...")
+            self.model = SentenceTransformer(model_id, device=device, cache_folder=models_folder)
             log.info("...done.")
             if device != 'cpu':
                 log.info(f"VRAM left: {round(torch.cuda.mem_get_info(0)[0]/1024**3,1)} GB")

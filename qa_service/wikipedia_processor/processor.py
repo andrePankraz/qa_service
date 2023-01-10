@@ -3,8 +3,10 @@ This file was created by ]init[ AG 2022.
 
 Module for Wikipedia Processor.
 '''
+import bz2
+from html import unescape
 import logging
-import mwparserfromhell
+from mwparserfromhell import nodes, parse, wikicode
 import numpy
 import os
 import re
@@ -22,8 +24,8 @@ def wiki_articles(filepath: str) -> Generator[tuple[str, str, float], None, None
     ns = None
     wikicode = None
     total_size = os.path.getsize(filepath)
-    with open(filepath, 'r') as f:
-        for event, el in ET.iterparse(f):
+    with open(filepath, 'rb') as f:
+        for _, el in ET.iterparse(bz2.BZ2File(f) if filepath.endswith('bz2') else f):
             if '}' in el.tag:
                 el.tag = el.tag.split('}', 1)[1]  # strip all namespaces
             if el.tag == 'page':
@@ -42,43 +44,76 @@ def wiki_articles(filepath: str) -> Generator[tuple[str, str, float], None, None
 
 
 def wikicode_texts(wikicode_text) -> Generator[str, None, None]:
-    wikicode = mwparserfromhell.parse(wikicode_text)
-    for m in wikicode.ifilter(False):
-        if isinstance(m, mwparserfromhell.nodes.text.Text):
-            if '|' in m.value:  # skip 'mini|...|'
-                prefix, delim, last = m.value.rpartition('|')
-                m.value = last if delim else prefix
-            yield m.value
-        elif isinstance(m, mwparserfromhell.nodes.heading.Heading):
-            yield from wikicode_texts(m.title)
-        elif isinstance(m, mwparserfromhell.nodes.wikilink.Wikilink):
-            link_text = m.title if not m.text else m.text
-            yield from wikicode_texts(link_text)
-        elif isinstance(m, mwparserfromhell.nodes.external_link.ExternalLink):
-            yield from wikicode_texts(m.title)
-        elif isinstance(m, mwparserfromhell.nodes.tag.Tag):
-            if m.tag == 'ref':
-                pass
-            elif m.has('mode') and m.get('mode').value == 'packed':
-                # special mode for elif m.tag == 'gallery':
-                for lines in str(m.contents).split('\n'):
-                    if '|' in lines:
-                        prefix, delim, last = lines.partition('|')
-                        l = '- ' + last if delim else prefix
-                    yield from wikicode_texts(lines + '\n')
-            else:
-                yield from wikicode_texts(m.contents)
-        elif isinstance(m, mwparserfromhell.nodes.html_entity.HTMLEntity):
-            yield from wikicode_texts(m.value)
-        elif isinstance(m, mwparserfromhell.nodes.template.Template):
-            if m.name.startswith('Infobox Gemeinde in Deutschland'):
-                for param in m.params:
-                    yield param.name.strip() + ' ist '
-                    yield from wikicode_texts(param.value.strip() + '\n')
-        elif isinstance(m, mwparserfromhell.nodes.comment.Comment):
-            pass
-        else:
-            yield f"#?#{type(m)} {m}#?#"
+    yield from _wikicode_texts(parse(wikicode_text), [])
+
+
+def _wikicode_texts(wikicode: wikicode.Wikicode, ancestors: list) -> Generator[str, None, None]:
+    # wikicode.filter doesn't really work, because we don't know tag ends (nested level) via this API
+    for node in wikicode.nodes:
+        # most regular and important Text node first
+        mode = type(node).__name__
+        if isinstance(node, nodes.Text):
+            # if node.value.find('Metadaten') != -1:  # for Debugging
+            #    pass
+            value = node.value
+            if ancestors and ancestors[-1] == 'Wikilink':
+                if value.startswith('mini|'):
+                    values = value.split('|')
+                    if values[-1].startswith('alternativtext='):
+                        yield f"{values[-2]}: {values[-1][15:]}"
+                    else:
+                        yield values[-1]
+                    continue
+                alt_pos = value.find('alt=')
+                if alt_pos == 0 or alt_pos > 0 and value[alt_pos - 1] == '|':
+                    end_pos = value.find('|', alt_pos + 4)
+                    if end_pos >= 0:
+                        yield value[end_pos + 1:] + ": "
+                    yield value[alt_pos + 4: end_pos]
+                    continue
+            yield value
+        elif isinstance(node, nodes.Argument):
+            continue
+        elif isinstance(node, nodes.Comment):
+            yield f"(Kommentar: {node.contents})"
+            continue
+        elif isinstance(node, nodes.ExternalLink):
+            contents = node.title if node.title else node.url
+            yield from _wikicode_texts(contents, ancestors + [mode])
+            continue
+        elif isinstance(node, nodes.Heading):
+            yield ('=' * node.level) + ' '
+            yield from _wikicode_texts(node.title, ancestors + [mode])
+            yield ' ' + ('=' * node.level)
+            continue
+        elif isinstance(node, nodes.HTMLEntity):
+            # shouldn't happen, because already unescaped before this method
+            yield f"&{node.value};"
+            continue
+        elif isinstance(node, nodes.Tag):
+            # if node.tag not in ('b', 'br', 'i', 'li', 'ref', 'small', 'sub', 'table', 'td', 'th', 'tr'):  # 4 debugging
+            #     pass
+            if node.tag == 'br':
+                yield '\n'
+            elif node.tag == 'ref':  # Footnote Reference
+                yield ' ('
+            yield from _wikicode_texts(node.contents, ancestors + [mode + '.' + str(node.tag)])
+            if node.tag == 'ref':
+                yield ') '
+            continue
+        elif isinstance(node, nodes.Template):
+            if node.name == 'nowrap':
+                for param in node.params:
+                    yield from _wikicode_texts(param.value, ancestors + [mode + '.' + str(node.name)])
+            # no generic handling, template params must be evaluated for special cases
+            # yield from _wikicode_texts(node.name, ancestors + [mode + '.' + str(node.name)])
+            continue
+        elif isinstance(node, nodes.Wikilink):
+            contents = node.text if node.text else node.title
+            yield from _wikicode_texts(contents, ancestors + [mode])
+            continue
+        # for child_code in children:
+        #     yield from _wikicode_texts(child_code, ancestors + [mode])
 
 
 sentence_splitter = SentenceSplitClean('deu_Latn', 'default')
@@ -87,7 +122,8 @@ sentence_splitter = SentenceSplitClean('deu_Latn', 'default')
 def wiki_sentences(
         filepath: str,
         title_pattern: re.Pattern | numpy.ndarray | None = None,
-        text_pattern: re.Pattern | None = None) -> Generator[tuple[str, list[str], float], None, None]:
+        text_pattern: re.Pattern | None = None,
+        filtered: bool | None = None) -> Generator[tuple[str, list[str], float], None, None]:
 
     for title, wikicode, progress in wiki_articles(filepath):
         # if True:
@@ -99,21 +135,22 @@ def wiki_sentences(
             continue
         if isinstance(text_pattern, re.Pattern) and not text_pattern.search(wikicode):
             continue
-        wikicode = str(wikicode).replace('&nbsp;', ' ').replace('&#8239;', ' ')
+        # wikicode = str(wikicode).replace('&amp;', '&').replace('&lt;', '<').replace('&gt;', '>')
+        wikicode = unescape(str(wikicode))
         text = ''.join(wikicode_texts(wikicode))
         sentences = []
         for line in text.split('\n'):
-            for _, _, sentence in sentence_splitter(line):
-                if sentence.startswith('Kategorie:'):
-                    sentences.append(f"{title} ist {sentence[10:]}")
-                    continue
-                l = len(sentence.split(' '))
-                if l == 2 and ':' in sentence[:-1]:
-                    # Simple table entries like "Postleitzahl: 55555\n",
-                    # but not "Aufzählung (Auswahl):\n"
-                    sentences.append(' ist '.join(sentence.split(':')))
-                    continue
-                if l >= 3:
-                    # ignore single or double words (e.g. headlines)
-                    sentences.append(sentence)
+            if len(line.split(' ')) <= 10:
+                lines = [line]  # don't split any further
+            else:
+                lines = [sentence for _, _, sentence in sentence_splitter(line)]
+            for line in lines:
+                if filtered:
+                    if len(line.split(' ')) <= 3 and ':' not in line:
+                        continue
+                    if line.startswith('Kategorie:'):
+                        line = f"{title} ist {line[10:]}"
+                    elif title not in line:
+                        line = f"{title}: {line}"
+                sentences.append(line)
         yield title, sentences, progress

@@ -23,17 +23,10 @@ def read_places() -> numpy.ndarray:
     return pandas.read_csv('imports/places.csv').to_numpy()
 
 
-def _main_debug():
+if __name__ == '__main__':
     '''
     Just for debugging.
     '''
     # _convert_places()
     places = read_places()
     print('Dresden' in places)
-
-
-if __name__ == '__main__':
-    '''
-    Just for debugging.
-    '''
-    _main_debug()
