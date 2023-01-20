@@ -43,24 +43,31 @@ def wiki_articles(filepath: str) -> Generator[tuple[str, str, float], None, None
             el.clear()  # else iterparse still builds tree in memory!
 
 
-def wikicode_texts(wikicode_text) -> Generator[str, None, None]:
-    yield from _wikicode_texts(parse(wikicode_text), [])
+def wikicode_texts(wikicode_text: str, title: str) -> Generator[str, None, None]:
+    yield from _wikicode_texts(parse(wikicode_text), title, [])
 
 
-def _wikicode_texts(wikicode: wikicode.Wikicode, ancestors: list) -> Generator[str, None, None]:
+def _wikicode_texts(wikicode: wikicode.Wikicode, title: str, ancestors: list) -> Generator[str, None, None]:
     # wikicode.filter doesn't really work, because we don't know tag ends (nested level) via this API
     for node in wikicode.nodes:
         # most regular and important Text node first
         mode = type(node).__name__
         if isinstance(node, nodes.Text):
-            # if node.value.find('Metadaten') != -1:  # for Debugging
-            #    pass
             value = node.value
+            # if value.find('BioTop Report 2010.') != -1:  # for Debugging
+            #    pass
             if ancestors and ancestors[-1] == 'Wikilink':
+                if value.startswith('Kategorie:'):
+                    yield title
+                    yield ' ist '
+                    yield value[10:]
+                    continue
                 if value.startswith('mini|'):
                     values = value.split('|')
                     if values[-1].startswith('alternativtext='):
-                        yield f"{values[-2]}: {values[-1][15:]}"
+                        yield values[-2]
+                        yield ': '
+                        yield values[-1][15:]
                     else:
                         yield values[-1]
                     continue
@@ -68,22 +75,25 @@ def _wikicode_texts(wikicode: wikicode.Wikicode, ancestors: list) -> Generator[s
                 if alt_pos == 0 or alt_pos > 0 and value[alt_pos - 1] == '|':
                     end_pos = value.find('|', alt_pos + 4)
                     if end_pos >= 0:
-                        yield value[end_pos + 1:] + ": "
+                        yield value[end_pos + 1:]
+                        yield ': '
                     yield value[alt_pos + 4: end_pos]
                     continue
             yield value
         elif isinstance(node, nodes.Argument):
             continue
         elif isinstance(node, nodes.Comment):
-            yield f"(Kommentar: {node.contents})"
+            yield '(Kommentar: '
+            yield node.contents
+            yield ')'
             continue
         elif isinstance(node, nodes.ExternalLink):
             contents = node.title if node.title else node.url
-            yield from _wikicode_texts(contents, ancestors + [mode])
+            yield from _wikicode_texts(contents, title, ancestors + [mode])
             continue
         elif isinstance(node, nodes.Heading):
             yield ('=' * node.level) + ' '
-            yield from _wikicode_texts(node.title, ancestors + [mode])
+            yield from _wikicode_texts(node.title, title, ancestors + [mode])
             yield ' ' + ('=' * node.level)
             continue
         elif isinstance(node, nodes.HTMLEntity):
@@ -97,20 +107,53 @@ def _wikicode_texts(wikicode: wikicode.Wikicode, ancestors: list) -> Generator[s
                 yield '\n'
             elif node.tag == 'ref':  # Footnote Reference
                 yield ' ('
-            yield from _wikicode_texts(node.contents, ancestors + [mode + '.' + str(node.tag)])
+            yield from _wikicode_texts(node.contents, title, ancestors + [mode + '.' + str(node.tag)])
             if node.tag == 'ref':
                 yield ') '
             continue
         elif isinstance(node, nodes.Template):
-            if node.name == 'nowrap':
+            if node.name.startswith('nowrap'):
                 for param in node.params:
-                    yield from _wikicode_texts(param.value, ancestors + [mode + '.' + str(node.name)])
+                    yield from _wikicode_texts(param.value, title, ancestors + [mode + '.' + str(node.name)])
+                continue
+            if node.name.startswith('Farblegende'):
+                if len(node.params) >= 2:
+                    yield from _wikicode_texts(node.params[1].value, title, ancestors + [mode + '.' + str(node.name)])
+                continue
+            if node.name.startswith('Infobox'):
+                for param in node.params:
+                    yield param.name.strip()
+                    yield ' ist'
+                    yield from _wikicode_texts(param.value, title, ancestors + [mode + '.' + str(node.name)])
+                continue
+            if node.name.startswith('Internetquelle'):
+                yield 'Internetquelle: '
+                for param in node.params:
+                    if param.name == 'url' or param.name == 'titel':
+                        yield from _wikicode_texts(param.value, title, ancestors + [mode + '.' + str(node.name)])
+                continue
+            if node.name.startswith('Siehe auch'):
+                yield 'Siehe auch: '
+                first: bool = True
+                for param in node.params:
+                    if first:
+                        first = False
+                    else:
+                        yield ', '
+                    yield from _wikicode_texts(param.value, title, ancestors + [mode + '.' + str(node.name)])
+                continue
+            if node.name.startswith('Webarchiv'):
+                yield 'Webarchiv: '
+                for param in node.params:
+                    if param.name == 'url':
+                        yield from _wikicode_texts(param.value, title, ancestors + [mode + '.' + str(node.name)])
+                continue
             # no generic handling, template params must be evaluated for special cases
             # yield from _wikicode_texts(node.name, ancestors + [mode + '.' + str(node.name)])
             continue
         elif isinstance(node, nodes.Wikilink):
             contents = node.text if node.text else node.title
-            yield from _wikicode_texts(contents, ancestors + [mode])
+            yield from _wikicode_texts(contents, title, ancestors + [mode])
             continue
         # for child_code in children:
         #     yield from _wikicode_texts(child_code, ancestors + [mode])
@@ -136,21 +179,24 @@ def wiki_sentences(
         if isinstance(text_pattern, re.Pattern) and not text_pattern.search(wikicode):
             continue
         # wikicode = str(wikicode).replace('&amp;', '&').replace('&lt;', '<').replace('&gt;', '>')
-        wikicode = unescape(str(wikicode))
-        text = ''.join(wikicode_texts(wikicode))
-        sentences = []
+        wikicode: str = unescape(str(wikicode))
+        text: str = ''.join(wikicode_texts(wikicode, title))
+        sentences: list[str] = []
+
         for line in text.split('\n'):
-            if len(line.split(' ')) <= 10:
+            if len(line.split()) <= 10:
                 lines = [line]  # don't split any further
             else:
                 lines = [sentence for _, _, sentence in sentence_splitter(line)]
             for line in lines:
-                if filtered:
-                    if len(line.split(' ')) <= 3 and ':' not in line:
-                        continue
-                    if line.startswith('Kategorie:'):
-                        line = f"{title} ist {line[10:]}"
-                    elif title not in line:
-                        line = f"{title}: {line}"
-                sentences.append(line)
+                line = line.strip()
+                if not filtered:
+                    sentences.append(line)
+                    continue
+                if len(line) == 0:
+                    continue
+                if len(line.split()) <= 3 and ':' not in line and ' ist ' not in line:
+                    continue
+                sentences.append(line if title in line else f"{title}: {line}")
+                current_line = ''
         yield title, sentences, progress

@@ -3,7 +3,7 @@
     <sitename>Wikipedia</sitename>
     <dbname>dewiki</dbname>
     <base>https://de.wikipedia.org/wiki/Wikipedia:Hauptseite</base>
-    <generator>MediaWiki 1.40.0-wmf.17</generator>
+    <generator>MediaWiki 1.40.0-wmf.19</generator>
     <case>first-letter</case>
     <namespaces>
       <namespace key="-2" case="first-letter">Medium</namespace>
@@ -41,17 +41,17 @@
     <ns>0</ns>
     <id>2552494</id>
     <revision>
-      <id>229653434</id>
-      <parentid>229653405</parentid>
-      <timestamp>2023-01-09T12:27:44Z</timestamp>
+      <id>230016928</id>
+      <parentid>229932360</parentid>
+      <timestamp>2023-01-19T22:08:20Z</timestamp>
       <contributor>
-        <username>Histohans</username>
-        <id>2989725</id>
+        <username>Faktengebunden</username>
+        <id>3052136</id>
       </contributor>
-      <comment>Änderung [[Spezial:Diff/229653405|229653405]] von [[Special:Contribs/Histohans|Histohans]] rückgängig gemacht;</comment>
+      <comment>Ein neues Bild mit dem fertigen Schloss. Das Bild sollte aktuell sein und das heutige Panorma zeigen.</comment>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="284438" xml:space="preserve">{{Begriffsklärungshinweis}}
+      <text bytes="284713" xml:space="preserve">{{Begriffsklärungshinweis}}
 
 {| class="wikitable infobox toptextcells float-right" style="width:330px;"
 |-
@@ -169,7 +169,7 @@
 |-
 | [[Bundesrat (Deutschland)#Mitglieder und Stimmenverteilung auf die Länder|Bundesratsstimmgewicht]]: || 4
 |-
-|colspan="2" style="text-align:center"| [[Datei:Cityscape Berlin.jpg|370px|zentriert|alt=Farbfotografie von Berlin in der Vogelperspektive. Im Vordergrund stehen bewaldete Flächen vom Park Tiergarten und die Straße des 17. Juni führt zum Brandenburger Tor. Von links nach rechts sind das Reichstagsgebäude, der Fernsehturm, der Berliner Dom, das Rote Rathaus und das Berliner Schloss|Aussicht von der Siegessäule auf die Straße des 17.&amp;nbsp;Juni Richtung Berliner Mitte]] Blick von der [[Siegessäule (Berlin)|Siegessäule]] im [[Großer Tiergarten|Tiergarten]] in Richtung [[Berlin-Mitte]] mit [[Reichstagsgebäude|Reichstag]], [[Berliner Fernsehturm|Fernsehturm]], [[Berliner Dom]], [[Rotes Rathaus|Rotem Rathaus]], [[Brandenburger Tor]] und [[Berliner Schloss]]
+|colspan="2" style="text-align:center"| [[Datei:Berlin Panorama von der Siegessäule Richtung Mitte, Berlin, Deutschland.jpg|alternativtext=Farbfotografie von Berlin in der Vogelperspektive. Im Vordergrund stehen bewaldete Flächen vom Park Tiergarten und die Straße des 17. Juni führt zum Brandenburger Tor. Von links nach rechts sind das Reichstagsgebäude, der Fernsehturm, der Berliner Dom, das Rote Rathaus und das Berliner Schloss|zentriert|370x370px|Blick von der [[Siegessäule (Berlin)|Siegessäule]] im [[Großer Tiergarten|Tiergarten]] in Richtung [[Berlin-Mitte]] mit [[Reichstagsgebäude|Bundestag]], [[Berliner Fernsehturm|Fernsehturm]], [[Berliner Dom]], [[Rotes Rathaus|Rotem Rathaus]], [[Brandenburger Tor]] und [[Berliner Schloss]]]]Blick von der [[Siegessäule (Berlin)|Siegessäule]] im [[Großer Tiergarten|Tiergarten]] in Richtung [[Berlin-Mitte]] mit [[Reichstagsgebäude|Bundestag]], [[Berliner Fernsehturm|Fernsehturm]], [[Berliner Dom]], [[Rotes Rathaus|Rotem Rathaus]], [[Brandenburger Tor]] und [[Berliner Schloss]]
 |}
 
 '''Berlin''' {{IPA|bɛr'li:n|Tondatei=De-Berlin.ogg}} ist die [[Bundeshauptstadt#Deutschland|Hauptstadt]]&lt;ref&gt;[https://www.gesetze-im-internet.de/gg/art_22.html ''Grundgesetz für die Bundesrepublik Deutschland Art 22.''] In: ''gesetze-im-internet.de.'' [[Bundesministerium der Justiz und für Verbraucherschutz]], abgerufen am 10. Januar 2017.&lt;/ref&gt; und ein [[Land (Deutschland)|Land]] der [[Deutschland|Bundesrepublik Deutschland]]. Die [[Stadt]] ist mit rund {{Formnum|{{#expr:{{Metadaten Einwohnerzahl DE-BE|Berlin|ohneTz}}/1000000 round 1}}}}&amp;nbsp;Millionen [[Einwohner]]n die [[Liste der Großstädte in Deutschland|bevölkerungsreichste]] und mit {{FLdez|DE|11000000|0}}&amp;nbsp;Quadratkilometern die flächengrößte [[Gemeinde (Deutschland)|Gemeinde]] Deutschlands sowie die bevölkerungsreichste Stadt der [[Europäische Union|Europäischen Union]].&lt;ref name="Bevölkerung" /&gt; Die Stadt hat mit {{#expr:{{Metadaten Einwohnerzahl DE-BE|Berlin|ohneTz}}/{{FLdez|DE|11000000|0}} round 0}} Einwohnern pro Quadratkilometer die [[Liste deutscher Gemeinden nach Bevölkerungsdichte|dritthöchste Bevölkerungsdichte]] Deutschlands. In der [[Agglomeration Berlin]] leben knapp 4,7&amp;nbsp;Millionen Einwohner, in der [[Hauptstadtregion Berlin-Brandenburg]] rund 6,2&amp;nbsp;Millionen. Der [[Stadtstaat]] besteht aus [[Verwaltungsgliederung Berlins|zwölf Bezirken]]. Neben den Flüssen [[Spree]], [[Havel]] und [[Dahme (Fluss)|Dahme]] befinden sich im Stadtgebiet kleinere Fließgewässer sowie zahlreiche Seen und Wälder.
@@ -1319,7 +1319,7 @@ Internationale Musiker wie [[Leonard Cohen]], [[David Bowie]], [[Iggy Pop]], [[L
 [[Kategorie:Wikipedia:Artikel mit Video]]
 [[Kategorie:Deutscher Ortsname slawischer Herkunft]]
 [[Kategorie:Ersterwähnung 1244]]</text>
-      <sha1>4d6j9fh7m2wwiwhitlscbpb3q0d54yv</sha1>
+      <sha1>siiuscptpawb4av3j5a54bu1aka77si</sha1>
     </revision>
   </page>
 </mediawiki>
