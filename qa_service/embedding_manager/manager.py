@@ -32,7 +32,7 @@ class EmbeddingManager:
 
             # Max token length is 512 -> Embedding is 1024 dimensional
             # This model is really good, good with rivers, bad with mayor - 9/10
-            # model_id = 'Sahajtomar/German-semantic'  # Model Size is around 1.3 GB
+            model_id = 'Sahajtomar/German-semantic'  # Model Size is around 1.3 GB
 
             # Max token length is 350 -> Embedding is 768 dimensional
             # This model is really good, small and just 768-dim, even though scores all quite similar - 8/10

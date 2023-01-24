@@ -179,12 +179,20 @@ def wiki_sentences(
         if isinstance(text_pattern, re.Pattern) and not text_pattern.search(wikicode):
             continue
         # wikicode = str(wikicode).replace('&amp;', '&').replace('&lt;', '<').replace('&gt;', '>')
-        wikicode: str = unescape(str(wikicode))
-        text: str = ''.join(wikicode_texts(wikicode, title))
-        sentences: list[str] = []
+        wikicode = unescape(str(wikicode))
+        text = ''.join(wikicode_texts(wikicode, title))
+        sentences = list()
 
+        current_line = ''
         for line in text.split('\n'):
-            if len(line.split()) <= 10:
+            if current_line:
+                line = current_line + ' ' + line
+                current_line = ''
+            tokens = line.split()
+            if 0 < len(tokens) < 25 and tokens[-1].endswith(':'):
+                current_line = line
+                continue
+            if len(tokens) <= 50:
                 lines = [line]  # don't split any further
             else:
                 lines = [sentence for _, _, sentence in sentence_splitter(line)]
@@ -198,5 +206,4 @@ def wiki_sentences(
                 if len(line.split()) <= 3 and ':' not in line and ' ist ' not in line:
                     continue
                 sentences.append(line if title in line else f"{title}: {line}")
-                current_line = ''
         yield title, sentences, progress

@@ -461,17 +461,17 @@ def _test_opensearch_get_wiki(id: str,
     log.info(f"Search results: {response}")
 
 
-def _test_answer():
+def _test_answer(question: str, context: str):
     qa_manager = QaManager()
-    print(qa_manager.answer('Wer ist der Bürgermeister von Dresden?', 'Der Bürgermeister von Dresden ist Max Mustermann.'))
+    print(qa_manager.answer(question, context))
 
 
 def _test_opensearch_answer_wiki(
         embedding_manager: EmbeddingManager,
         question: str,
         top_k: int = 10,
-        range_from: int = -1,
-        range_to: int = 3,
+        range_before: int = 1,
+        range_after: int = 3,
         index: str = 'wiki_index'):
     client = get_os_client()
     embedding = embedding_manager.embed([question])[0]
@@ -493,11 +493,10 @@ def _test_opensearch_answer_wiki(
         index=index,
         request_timeout=300
     )
-    hits = [hit['_id'].split(':') for hit in response['hits']['hits']]
-    # log.info(f"Search results: {response}")
+    log.info(f"Search results: {response}")
     ids = {}  # use dict for unique keys (overlapping ranges possible), that preserve ordering
     for (country, article, line) in [hit['_id'].split(':') for hit in response['hits']['hits']]:
-        for l in range(max(1, int(line) - range_from), int(line) + range_to + 1):
+        for l in range(max(1, int(line) - range_before), int(line) + range_after + 1):
             ids[f"{country}:{article}:{l}"] = 0
 
     client = get_os_client()
@@ -525,9 +524,9 @@ def main():
     embedding_manager = EmbeddingManager()
 
     # _test_similarity(embedding_manager)
-    # _test_similarity_wiki(embedding_manager, 'Wie heißt der Bürgermeister von Dresden?', 'Dresden', 50)
+    _test_similarity_wiki(embedding_manager, 'Wie heißt der Bürgermeister von Dresden?', 'Dresden', 50)
 
-    _test_download_wiki()
+    # _test_download_wiki()
     # _test_parse_wiki()
 
     # _test_opensearch_create_index(embedding_manager)
@@ -536,17 +535,19 @@ def main():
 
     # _test_opensearch_get_wiki('de:Dresden:1')
 
-    # _test_answer()
+    # _test_answer("Wann ist Bürgermeister von Berlin?", "Der Bürgermeister von Berlin heißt Max Mustermann.")
+    # _test_answer("Wann ist Bürgermeister von Berlin?", "Berlin: Bürgermeister ist Max Mustermann.")
+    # _test_answer("Wann ist Bürgermeister von Berlin?", "Berlin: Bürgermeister: Max Mustermann.")
 
-    # _test_opensearch_answer_wiki(embedding_manager, 'Wie groß ist Berlin?', 10)
+    _test_opensearch_answer_wiki(embedding_manager, 'Wie heißt der Bürgermeister von Dresden?', 10)
 
-    while True:
+    while False:
         choice = input('Welche Frage hast Du zu deutschen Städten?\n').strip()
         if not choice:
             continue
         if choice == 'exit':
             break
-        _test_opensearch_answer_wiki(embedding_manager, choice, top_k=20, range_from=-1, range_to=4)
+        _test_opensearch_answer_wiki(embedding_manager, choice, top_k=20, range_before=1, range_after=4)
 
 
 if __name__ == '__main__':

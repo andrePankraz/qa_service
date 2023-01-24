@@ -6,7 +6,7 @@ Dresden: Lageplan ist Saxony DD.svg
 Lageplanbeschreibung ist Lage der Stadt Dresden in Sachsen
 Dresden: Bundesland ist Sachsen
 Dresden: Höhe ist 112
-Dresden: (Kommentar: Bitte nur offizielle Einwohnerzahlen des Landesamts für Statistik verwenden)
+Dresden: (Kommentar:  Bitte nur offizielle Einwohnerzahlen des Landesamts für Statistik verwenden )
 Dresden: PLZ ist 01067–01328, 01465
 Dresden: Vorwahl ist 0351, 03528, 035201
 Dresden: Gemeindeschlüssel ist 14612000
@@ -19,8 +19,7 @@ Dresden: Bürgermeister ist Dirk Hilbert
 Dresden: Bürgermeistertitel ist Oberbürgermeister
 Dresden: Partei ist FDP
 Dresden: Collage der Sehenswürdigkeiten: Frauenkirche, Residenzschloss, Semperoper, Militärhistorisches Museum, Zwinger, Nachtpanorama
-Dresden (;; abgeleitet aus dem altsorbischen Drežďany für Sumpf- oder Auwaldbewohner) ist die Landeshauptstadt des Freistaates Sachsen.
-Mit  Einwohnern () ist Dresden, nach Leipzig, die zweitgrößte sächsische Kommune und der Einwohnerzahl nach zwölftgrößte Stadt Deutschlands.
+Dresden (; ; abgeleitet aus dem altsorbischen Drežďany für Sumpf- oder Auwaldbewohner) ist die Landeshauptstadt des Freistaates Sachsen. Mit  Einwohnern () ist Dresden, nach Leipzig, die zweitgrößte sächsische Kommune und der Einwohnerzahl nach zwölftgrößte Stadt Deutschlands.
 Dresden: Als Sitz der Sächsischen Staatsregierung und des Sächsischen Landtags sowie zahlreicher Landesbehörden ist die Großstadt das politische Zentrum Sachsens.
 Außerdem sind bedeutende Bildungs- und Kultureinrichtungen des Freistaates hier konzentriert, darunter die renommierte Technische Universität, die Hochschule für Technik und Wirtschaft, die Hochschule für Bildende Künste Dresden und die Hochschule für Musik Carl Maria von Weber Dresden.
 Die an der Elbe gelegene kreisfreie Stadt ist sowohl eines der sechs Oberzentren Sachsens als auch wirtschaftliches Zentrum des Ballungsraumes Dresden, einer der ökonomisch dynamischsten Regionen in Deutschland mit über 780.000 Einwohnern.
@@ -29,8 +28,7 @@ Dresden: In: Spiegel Online.
 Innovationen und Spitzentechnologien spielen im Raum Dresden eine herausragende Rolle; wirtschaftlich bedeutend sind etwa die Informationstechnik und Nanoelektronik, weshalb es sich auch als Zentrum von "Silicon Saxony" positioniert.
 Ebenfalls große Wertschöpfung im Raum Dresden erbringen die Branchen Pharmazie, Kosmetik, Maschinen-, Fahrzeug- und Anlagenbau, Lebensmittel, optische Industrie, Dienstleistungen, Handel, sowie der Tourismus.
 Mit drei Autobahnen, zwei Fernbahnhöfen, einem Binnenhafen sowie einem internationalen Flughafen bildet Dresden außerdem einen wichtigen Verkehrsknotenpunkt.
-Dresden: Archäologische Spuren auf dem späteren Stadtgebiet deuten auf eine Besiedlung schon in der Steinzeit hin.
-In erhaltenen Urkunden wurde Dresden 1206 erstmals erwähnt und entwickelte sich zur kurfürstlichen, später königlichen Residenz, 1918 bis 1933 sowie ab 1990 Hauptstadt des Freistaates Sachsen, in der DDR von 1952 bis 1990 Bezirkshauptstadt.
+Archäologische Spuren auf dem späteren Stadtgebiet deuten auf eine Besiedlung schon in der Steinzeit hin. In erhaltenen Urkunden wurde Dresden 1206 erstmals erwähnt und entwickelte sich zur kurfürstlichen, später königlichen Residenz, 1918 bis 1933 sowie ab 1990 Hauptstadt des Freistaates Sachsen, in der DDR von 1952 bis 1990 Bezirkshauptstadt.
 International bekannt ist Dresden als Kulturstadt mit zahlreichen bedeutenden Bauwerken, wie dem barocken Zwinger, herausragenden Museen, wie der Gemäldegalerie Alter Meister, berühmten Klangkörpern, wie der Sächsischen Staatskapelle oder dem Kreuzchor und als Wirkungsstätte weithin bekannter Kulturschaffender, z. B. Richard Wagner.
 Dresden: Die Dresdner Altstadt wurde in großen Teilen rekonstruiert und durch verschiedene architektonische Epochen geprägt, neben dem Zwinger beispielsweise mit der Frauenkirche am Neumarkt, der Semperoper und der Hofkirche sowie dem Residenzschloss.
 Dresden: Der 1434 begründete Striezelmarkt ist einer der ältesten und bekanntesten Weihnachtsmärkte Deutschlands.
@@ -55,8 +53,7 @@ Dresden: Die sächsische Landeshauptstadt in Zahlen.
 Dresden: Die Stadt ist nach teils großflächigen Eingemeindungen hinter Berlin, Hamburg und Köln und vor Bremen und München ihrer Fläche nach die viertgrößte Großstadt Deutschlands und steht in der Liste der flächengrößten Gemeinden Deutschlands an 14. Stelle.
 Dresden: Die Länge der Stadtgrenze beträgt 139,65 km.
 Dresden: Die Ausdehnung des Stadtgebiets beläuft sich in Nord-Süd-Richtung auf 22,6, in Ost-West-Richtung auf 27,1 km.
-Dresden: Durch das Stadtgebiet fließen außer der schiffbaren Elbe (Länge im Stadtgebiet: 30 km) die beiden im Osterzgebirge entspringenden linken Nebenflüsse Lockwitzbach und Weißeritz sowie die rechts zufließende Prießnitz.
-Dresden: Daneben fließen auf dem Stadtgebiet noch kleinere Flüsse, wie der Kaitzbach, der Landgraben und der Lausenbach.
+Dresden: Durch das Stadtgebiet fließen außer der schiffbaren Elbe (Länge im Stadtgebiet: 30 km) die beiden im Osterzgebirge entspringenden linken Nebenflüsse Lockwitzbach und Weißeritz sowie die rechts zufließende Prießnitz. Daneben fließen auf dem Stadtgebiet noch kleinere Flüsse, wie der Kaitzbach, der Landgraben und der Lausenbach.
 Dresden: Siehe auch: Liste der Landschaften in Sachsen, Liste der Gewässer in Sachsen
 Dresden gehört nach großflächigen Eingemeindungen mit 63% Grün- und Waldflächen zu den Großstädten in Europa mit dem höchsten Anteil an Vegetationsfläche, wovon die Dresdner Heide mit 5876 ha die größte geschlossene Waldfläche bildet.
 Insgesamt liegen in Dresden 7341 ha Waldflächen und 676 ha Wasserflächen.
@@ -74,15 +71,13 @@ Siehe auch: Liste der Naturschutzgebiete in der Stadt Dresden
 Dresden: Die Natur- und Kulturlandschaft Dresdner Elbtal mit den Elbwiesen ziehen sich fast 20 km durch das Stadtgebiet, ist aber in der Innenstadt unterbrochen.
 Dresden: An einer besonders breiten zentrumsnahen Stelle wird es durch die von 2007 bis 2013 errichtete Waldschlößchenbrücke durchschnitten, weshalb die UNESCO das Elbtal 2009 nach jahrelanger Kontroverse von seiner Welterbeliste strich.
 (Dresden verliert Welterbe-Status, Pressemitteilung der Unesco, 25. Juni 2009.)
-In Dresden gibt es ca. 54.000 Straßenbäume.
-Dresden: (Sächsische Zeitung vom 28. April 2020, S. 16.)
+In Dresden gibt es ca. 54.000 Straßenbäume. (Sächsische Zeitung vom 28. April 2020, S. 16.)
 Den überwiegenden Anteil der oberflächennah anstehenden Gesteine im Stadtgebiet von Dresden prägen glazigene Ablagerungen pleistozänen Alters.
 Dresden: Im Elbtal dominieren fluviatile Ablagerungen, während im Bereich des südlichen Talhanges meist äolische Sedimente in Form von Löss und Lösslehm vorkommen.
 Dresden: Im Süden und Südwesten werden diese Sedimente von Aufragungen des Grund- und Übergangsstockwerkes durchbrochen.
 Dresden: Hierbei handelt es sich um eine vielfältige Abfolge von Gesteinen unterschiedlicher Ausbildungen und verschiedenen Alters, z. B. kreidezeitlichen Pläner, permische (rotliegende) Sedimentite und Vulkanite sowie variszische Intrusiva.
 Dresden: In den morphologisch höher gelegenen nördlichen Stadtteilen stehen außerdem proterozoische Granitoide oberflächennah an.
-Dresden: Das dominierende tektonische Element ist die Lausitzer Störung (auch Lausitzer Überschiebung).
-Sie verläuft etwa parallel zur Elbe und prägt das Landschaftsbild von Dresden in typischer Weise.
+Das dominierende tektonische Element ist die Lausitzer Störung (auch Lausitzer Überschiebung). Sie verläuft etwa parallel zur Elbe und prägt das Landschaftsbild von Dresden in typischer Weise.
 Dresden liegt mit seinem humiden Klima in der kühl-gemäßigten Klimazone, jedoch ist ein Übergang zum Kontinentalklima spürbar.
 Dresden: Der größte Teil des bewohnten Stadtgebietes liegt im Elbtal.
 Dresden: Dort herrscht ein milderes Mikroklima als in den Stadtteilen auf den Hängen und im Hügelland der näheren Umgebung.
@@ -100,14 +95,12 @@ Der Februar ist mit im Mittel unter 40 mm Niederschlagshöhe der niederschlagsä
 Dresden: (Webarchiv: http://www.dwd.de/bvbw/generator/DWDWWW/Content/Oeffentlichkeit/KU/KU2/KU21/klimadaten/german/nieder__8110__fest__html,templateId=raw,property=publicationFile.html/nieder_8110_fest_html.html , Deutscher Wetterdienst.)
 Dresden: Die höchste Regenmenge innerhalb von 24 Stunden fiel am 12. August 2002 mit 158 mm.
 Dresden: Die sogenannte Vb-Wetterlage, die zu diesem Niederschlagsereignis führte und den gesamten sächsischen und böhmischen Raum betraf, hatte ein starkes Elbhochwasser zur Folge.
-Der Kälterekord in Dresden beträgt minus 30,5 Grad Celsius, gemessen am 11. Februar 1929 in der Innenstadt.
-(Internetquelle: https://www.saechsische.de/katastrophenwinter-in-dresden-5016944.html Katastrophenwinter in Dresden)
+Der Kälterekord in Dresden beträgt minus 30,5 Grad Celsius, gemessen am 11. Februar 1929 in der Innenstadt. (Internetquelle: https://www.saechsische.de/katastrophenwinter-in-dresden-5016944.html Katastrophenwinter in Dresden )
 Aufgrund der Lage Dresdens an der Elbe und an Nebengewässern aus dem Osterzgebirge musste der Hochwasserschutz in der Entwicklung der Stadt berücksichtigt werden.
 Dresden: Dazu wurden Freiräume belassen und Altarme weitestgehend baufrei gehalten.
 Dresden: Zusätzlich zu dieser Retention gibt es Flutrinnen, die Wasser schneller abführen sollen.
 Dresden: Systeme zur Hochwasserregulierung befinden sich dagegen kaum in der Stadt, sondern im südlich gelegenen Erzgebirge und am Oberlauf der Elbe.
-Dresden: Nahe gelegene Großstädte sind Chemnitz (80 km südwestlich), Leipzig (100 km nordwestlich) und die tschechische Hauptstadt Prag (150 km südlich).
-Berlin befindet sich 200 km nördlich; 230 km östlich liegt Breslau (Wrocław), die nächstgelegene Partnerstadt Dresdens.
+Nahe gelegene Großstädte sind Chemnitz (80 km südwestlich), Leipzig (100 km nordwestlich) und die tschechische Hauptstadt Prag (150 km südlich). Berlin befindet sich 200 km nördlich; 230 km östlich liegt Breslau (Wrocław), die nächstgelegene Partnerstadt Dresdens.
 Dresden: In der Nachbarschaft liegen der Landkreis Bautzen mit der Stadt Radeberg, der Landkreis Sächsische Schweiz-Osterzgebirge mit den Städten Pirna, Heidenau und Freital und der Landkreis Meißen mit Moritzburg und der Stadt Radebeul.
 Alle erwähnten Städte grenzen direkt an Dresden und bilden den Kernraum des Ballungsraumes Dresden.
 Dresden: Etwas weiter entfernt liegen Meißen, Riesa und die Bergstadt Freiberg.
@@ -128,22 +121,16 @@ Dresden: Am 12. August 2006 wurde deshalb nach umfangreichen Ermittlungen ein Ne
 Dresden: Einwohner der Stadt nachträglich vom Oberbürgermeister begrüßt.
 Mit mehr als 6000 Geburten (im Jahr 2012) galt Dresden bis 2014 als "Geburtenhauptstadt" unter deutschen Großstädten. () Am 31. Dezember 2017 lebten in Dresden laut Melderegister 557.098 Einwohner bei einer Bevölkerungsdichte von 1.696 Einwohnern je Quadratkilometer.
 (Internetquelle: http://www.dresden.de/de/leben/stadtportrait/statistik/bevoelkerung-gebiet.php Bevölkerung & Gebiet) Am 31. Dezember 2018 hatten laut Melderegister 560.641 Einwohner den Hauptwohnsitz in Dresden.
-Am 31. Dezember 2019 hatten laut Melderegister 563.011 Einwohner den Hauptwohnsitz in Dresden bei einer Bevölkerungsdichte von 1.715 Einwohnern je Quadratkilometer.
-Dresden: (Internetquelle: https://www.dresden.de/de/leben/stadtportrait/statistik/bevoelkerung-gebiet.php Bevölkerung & Gebiet)
-Dresden: Am 31. März 2020 waren es noch 562.132 Einwohner.
-Dresden: (Internetquelle: https://www.dresden.de/de/leben/stadtportrait/statistik-geodaten.php Statistik & Geodaten)
+Am 31. Dezember 2019 hatten laut Melderegister 563.011 Einwohner den Hauptwohnsitz in Dresden bei einer Bevölkerungsdichte von 1.715 Einwohnern je Quadratkilometer. (Internetquelle: https://www.dresden.de/de/leben/stadtportrait/statistik/bevoelkerung-gebiet.php Bevölkerung & Gebiet )
+Dresden: Am 31. März 2020 waren es noch 562.132 Einwohner. (Internetquelle: https://www.dresden.de/de/leben/stadtportrait/statistik-geodaten.php Statistik & Geodaten )
 2021 hatten 561.942 Menschen ihren Hauptwohnsitz in Dresden.
 Dresden steht bei den größten Städten der Europäischen Union an 44. Stelle.
-Am 31. Dezember 2018 lebten etwa 23.176 Deutsche mit Migrationshintergrund in Dresden (Wohnbevölkerung mit ausländischer Herkunft und deutscher Staatsangehörigkeit), das entspricht 4,1 Prozent aller Einwohner Dresdens.
-Dresden: (Internetquelle: http://www.dresden.de/de/leben/gesellschaft/migration.php Menschen mit Migrationshintergrund) (Internetquelle: http://www.dresden.de/de/leben/stadtportrait/statistik/bevoelkerung-gebiet/Bevoelkerungsbestand.php Bevölkerungsbestand)
+Am 31. Dezember 2018 lebten etwa 23.176 Deutsche mit Migrationshintergrund in Dresden (Wohnbevölkerung mit ausländischer Herkunft und deutscher Staatsangehörigkeit), das entspricht 4,1 Prozent aller Einwohner Dresdens. (Internetquelle: http://www.dresden.de/de/leben/gesellschaft/migration.php Menschen mit Migrationshintergrund )  (Internetquelle: http://www.dresden.de/de/leben/stadtportrait/statistik/bevoelkerung-gebiet/Bevoelkerungsbestand.php Bevölkerungsbestand )
 Dresden: Ausländer, Flüchtlinge und Asylbewerber
 Der Ausländeranteil (Wohnbevölkerung ohne deutsche Staatsangehörigkeit) in Dresden bezifferte sich am 31. Dezember 2018 auf 8,0 Prozent. () Von 2010 bis 2018 stieg der Ausländeranteil von 4,7 auf 8,0 Prozent bzw. von 24.692 auf 44.665 Personen. () (Quelle: Statistisches Landesamt des Freistaates Sachsen (Kommentar: es fehlen Titel, Datum, evtl. URL)) (Internetquelle: https://www.dresden.de/de/rathaus/aktuelles/pressemitteilungen/archiv/2015/01/pm_042.php Dresdens Bevölkerung wächst weiter) Zu den größten im Verlauf des Jahres 2014 zugezogenen Ausländergruppen zählten Personen aus Syrien (512 Personen), Eritrea (216), China (172), Indien (129), Tunesien (109) und Libyen (78).
 Im Jahr 2013 nahm Dresden 1.333 Asylbewerber auf, 2014 wurde mit 1.740 gerechnet. () Im Juli 2015 lebten rund 2.600 Asylbewerber in Dresden.
 (Internetquelle: http://www.dresden.de/de/leben/gesellschaft/migration/asyl.php Asyl in Dresden) Aufgrund der steigenden Flüchtlingszahlen plante Dresden, bis Ende 2016 14 neue Übergangswohnheime in Betrieb zu nehmen (Internetquelle: https://www.dresden.de/de/rathaus/aktuelles/pressemitteilungen/archiv/2014/10/pm_103.php Landeshauptstadt Dresden bereitet sich auf steigende Flüchtlingszahlen vor) bzw. die Zahl der Übergangswohnheime auf 19 Standorte zu erweitern. ()
-Im Stadtgebiet entfallen 8087 Hektar auf Gebäude- und Freiflächen, im Jahr 2011 gab es in Dresden 292.740 Wohnungen mit 286.889 Haushalten.
-Die Oberbürgermeisterin (Hrsg.): Faktum Dresden.
-Dresden: Die sächsische Landeshauptstadt in Zahlen.
-20. (aktualisierte) Auflage, Dresden 2012, S. 8 f.; zu Definitionen siehe das PDF (265 KB))
+Im Stadtgebiet entfallen 8087 Hektar auf Gebäude- und Freiflächen, im Jahr 2011 gab es in Dresden 292.740 Wohnungen mit 286.889 Haushalten. (Landeshauptstadt Dresden. Die Oberbürgermeisterin (Hrsg.): Faktum Dresden. Die sächsische Landeshauptstadt in Zahlen. 2012/2013. 20. (aktualisierte) Auflage, Dresden 2012, S. 8 f.; zu Definitionen siehe das PDF (265 KB))
 Dresden: Wie feinstrukturiert und unterschiedlich die urbanen Räume besiedelt sind, zeigt sich beim Vergleich von Äußerer und Innerer Neustadt.
 Die Äußere Neustadt ist mit mehr als 15.000 Bewohnern pro Quadratkilometer der am dichtesten besiedelte Stadtteil Dresdens, während die Innere (historische) Neustadt mit etwa 4.000 Einwohnern pro Quadratkilometer eine weit geringere Bevölkerungsdichte aufweist, die jedoch weit über anderen Stadtteilen liegt.
 Dresden: Der Bereich mit der dichtesten Besiedlung ist der Stadtbezirk Blasewitz: Dies ist vor allem mit dem Stadtteil Striesen verbunden, weniger mit dem früheren Gemeindegebiet von Blasewitz.
@@ -178,8 +165,7 @@ In Dresden lebten 2011 etwa 760 Juden.
 Dresden: Weitere registrierte Religionsgemeinschaften sind muslimische, buddhistische und hinduistische Glaubensgemeinschaften und die Glaubensgemeinschaft der Bahá'í.
 Dresden: (Internetquelle: https://www.dresden.de/de/leben/stadtportrait/kirchen/glaubensgemeinschaften.php Weitere Glaubensgemeinschaften)
 Dresden: ===  Erste Besiedlung, Stadtgründung und Mittelalter  ===
-Bereits in der Jungsteinzeit bestanden erste Siedlungen im Raum Dresden.
-Dresden: Die Kreisgrabenanlagen in Nickern aus dem 5. Jahrtausend v. Chr. waren die ersten Monumentalbauten im heutigen Stadtgebiet.
+Bereits in der Jungsteinzeit bestanden erste Siedlungen im Raum Dresden. Die Kreisgrabenanlagen in Nickern aus dem 5. Jahrtausend v. Chr. waren die ersten Monumentalbauten im heutigen Stadtgebiet.
 Dresden: Die Furt durch die Elbe in Höhe der heutigen Altstadt bestand wahrscheinlich schon im frühen Mittelalter.
 Dresden: Eine Besiedlung blieb aber trotz der lukrativen Lage an der Elbe und seiner fruchtbaren Böden aufgrund der starken Bewaldung problematisch.
 Dresdens vom altsorbischen (= "Sumpf-" oder "Auwald-Bewohner," Mehrzahlform) (Ernst Eichler und Hans Walther: Sachsen.
@@ -199,8 +185,7 @@ Dresden: 1/2006, S. 28, Webarchiv: http://www.archiv.sachsen.de/download/Archivb
 Das in Dresden ausgestellte Schriftstück befasst sich mit einer Gerichtsverhandlung wegen Schleifung der Burg Thorun auf dem Burgwartsberg, der im Gebiet der heutigen Stadt Freital südlich von Dresden zwischen Potschappel und Pesterwitz liegt.
 In einer Urkunde vom 21. Januar 1216 wird Dresden bereits als Stadt erwähnt: .
 Dresden: (Codex Diplomaticus Saxoniae Regiae 1 A 3, S. 162 f. Nr. 217, hier S. 163 Zeile 15. Online-Edition abgerufen am 13. Dezember 2013.)
-1350 wird das rechtselbisch gelegene Dresden (Altendresden), die heutige Innere Neustadt, als selbstständige Ansiedlung "Antiqua Dressdin" erstmals erwähnt.
-Dresden: Eine Verleihung des Stadtrechts an Altendresden ist urkundlich bisher nicht belegt, aber sie soll am 21. Dezember 1403 durch Wilhelm I. erfolgt sein.
+1350 wird das rechtselbisch gelegene Dresden (Altendresden), die heutige Innere Neustadt, als selbstständige Ansiedlung „Antiqua Dressdin“ erstmals erwähnt. Eine Verleihung des Stadtrechts an Altendresden ist urkundlich bisher nicht belegt, aber sie soll am 21. Dezember 1403 durch Wilhelm I. erfolgt sein.
 Dresden: Erst ab 29. März 1549 bildeten unter Kurfürst Moritz die rechts- und linkselbischen Teile der Stadt eine Einheit.
 Dresden: ===  Frühe Neuzeit  ===
 Bei der Erlangung des Stapelrechts am 17. September 1455 war Dresden noch eine recht unbedeutende Stadt, wurde jedoch nach der Leipziger Teilung der wettinischen Länder 1485 für Jahrhunderte herzogliche Residenzstadt der sächsischen Herrscher und erfuhr mit der Erhebung des wettinischen Herrschaftsbesitzes zum Kurfürstentum und Königreich eine Aufwertung als politisches und kulturelles Zentrum.
@@ -225,8 +210,7 @@ Dresden: Als sich die österreichische Armee der Stadt näherte, rief der preuß
 1785 schrieb Friedrich Schiller für die Tafel der Freimaurerloge "Zu den drei Schwertern" in Dresden das Gedicht An die Freude.
 Dresden: Dieses Gedicht wurde von Ludwig van Beethoven für seine 9. Sinfonie vertont.
 Dresden: Die Melodie des Themas dieser Vertonung ist die Hymne der Europäischen Union.
-Dresden: Im Frühjahr des Jahres 1791 wurde im nahe gelegenen Ort Pillnitz mit der Pillnitzer Deklaration ein Initial für die mehr als 150 Jahre währende Feindseligkeit zwischen Deutschland und Frankreich gelegt.
-Dresden: Darin riefen die vornehmlich deutschen Monarchen die europäischen Mächte zur Zerschlagung der Französischen Revolution auf.
+Dresden: Im Frühjahr des Jahres 1791 wurde im nahe gelegenen Ort Pillnitz mit der Pillnitzer Deklaration ein Initial für die mehr als 150 Jahre währende Feindseligkeit zwischen Deutschland und Frankreich gelegt. Darin riefen die vornehmlich deutschen Monarchen die europäischen Mächte zur Zerschlagung der Französischen Revolution auf.
 Dresden: ===  19. und frühes 20. Jahrhundert  ===
 Dresden: Altmarkt mit Kreuzkirche, um 1900
 Im Großraum Dresden fanden 1813 in den Befreiungskriegen gegen Napoleon vorentscheidende Schlachten der Völkerschlacht bei Leipzig statt.
@@ -237,8 +221,7 @@ Dresden: Der auf die Märzrevolutionen folgende Dresdner Maiaufstand vom 3. bis 
 Dresden: Er konnte sie erst durch preußische Unterstützung wiedergewinnen.
 Dresden: Bekannte Teilnehmer des Aufstandes waren Richard Wagner und Gottfried Semper; beide verließen daraufhin Sachsen.
 Dresden: Nach Niederschlagung der Revolution fanden hier 1850/1851 die Dresdner Konferenzen statt, die einzigen in der Zeit des Deutschen Bundes, auf der alle Staaten vertreten waren.
-Im weiteren 19. Jahrhundert blieb Dresden von Kriegen verschont und wurde Hauptstadt eines der wohlhabendsten Bundesstaaten im Deutschen Reich.
-Dresden: Im Ersten Weltkrieg blieb die Stadt zwar von direkten Kampfhandlungen unberührt, aber die Einwohnerzahl ging zwischen 1910 und dem ersten Nachkriegsjahr 1919 um fast 20.000 Menschen zurück.
+Im weiteren 19. Jahrhundert blieb Dresden von Kriegen verschont und wurde Hauptstadt eines der wohlhabendsten Bundesstaaten im Deutschen Reich. Im Ersten Weltkrieg blieb die Stadt zwar von direkten Kampfhandlungen unberührt, aber die Einwohnerzahl ging zwischen 1910 und dem ersten Nachkriegsjahr 1919 um fast 20.000 Menschen zurück.
 Vom 17. bis 19. Juli 1880 fand in Dresden der 11. Deutsche Feuerwehrtag statt.
 Dresden: ===  Weimarer Republik  ===
 Alltagsszene vor dem Hauptbahnhof in Dresden am Ende der Goldenen Zwanziger
@@ -254,9 +237,7 @@ Dresden: Führende Unternehmen bestanden hier zwischen 1918 und 1933 im (Elektro
 Dresden: Teilweise haben sich diese Unternehmen (häufig in neu gegründeter Form) bis in die Gegenwart erhalten.
 Dresden: Die durch die Stadt 1909 übernommenen Straßenbahnbetriebe wurden 1930 als Dresdner Straßenbahn AG wieder privatisiert.
 Dresden: ===  Zeit des Nationalsozialismus  ===
-Dresden: Die etwa 5000 jüdischen Dresdner, die noch 1933 Gemeindemitglieder waren, wurden vertrieben oder später in Konzentrationslager deportiert.
-Der Antisemitismus in Dresden ist vor allem durch die Tagebücher Victor Klemperers ("Ich will Zeugnis ablegen bis zum letzten") dokumentiert.
-Dresden: Nach dem Zweiten Weltkrieg lebten nur noch 41 Juden in der Stadt.
+Die etwa 5000 jüdischen Dresdner, die noch 1933 Gemeindemitglieder waren, wurden vertrieben oder später in Konzentrationslager deportiert. Der Antisemitismus in Dresden ist vor allem durch die Tagebücher Victor Klemperers („Ich will Zeugnis ablegen bis zum letzten“) dokumentiert. Nach dem Zweiten Weltkrieg lebten nur noch 41 Juden in der Stadt.
 Bei den Bücherverbrennungen am 8. März und 10. Mai 1933 sollte unter anderem das Werk des Dresdners Erich Kästner "symbolisch für immer ausgetilgt werden." () Das vor allem expressionistische Kulturleben Dresdens aus dem ersten Viertel des 20. Jahrhunderts endete 1933.
 Dresden: Die Werke von Ernst Ludwig Kirchner, Max Pechstein, Karl Schmidt-Rottluff oder Otto Dix dieser Zeit waren Teil der Ausstellung Entartete "Kunst."
 Dresden: 56 Werke der Galerie Neue Meister wurden beschlagnahmt.
@@ -280,8 +261,7 @@ Außerdem gab es ein KZ-Außenlager in der Schandauer Straße 68 in Dresden-Stri
 Dresden: Das Familienlager Bernsdorf & Co. in der Schandauer Straße 68. Lorbeer Verlag.
 In der Ausländerkinder-Pflegestätte "Kiesgrube Dresden" wurden 497 Kinder geboren, 225 Säuglinge und Kleinkinder verstarben dort.
 Dresden: Die noch erhaltenen Privatbanken im jüdischen Familienbesitz wurden unter Zwang der Dresdner Bank angeschlossen.
-Dresden war seit Jahrhunderten ein militärisches Zentrum und diente bis 1945 zur Aufstellung militärischer Großverbände.
-Dresden: Die Albertstadt nördlich des Stadtzentrums war als autarke Militärstadt angelegt und wurde in der Zeit des Nationalsozialismus weiter ausgebaut.
+Dresden war seit Jahrhunderten ein militärisches Zentrum und diente bis 1945 zur Aufstellung militärischer Großverbände. Die Albertstadt nördlich des Stadtzentrums war als autarke Militärstadt angelegt und wurde in der Zeit des Nationalsozialismus weiter ausgebaut.
 Dresden: Blick vom Rathausturm nach Süden nach der Bombardierung, Aufnahme von Richard Peter
 Dresden: Der gleiche Blick nach der Trümmerberäumung, 1958
 Im Zweiten Weltkrieg wurden bereits im August 1944 erste Luftangriffe auf den Großraum Dresden geflogen, woraufhin sich die Stadt auf Bombardierungen vorbereitete.
@@ -312,8 +292,7 @@ Dresden: Einige dieser Arbeiten zogen sich, geprägt von der wirtschaftlichen Ge
 Dresden: Das Schloss wurde über viele Jahre gesichert und Teile rekonstruiert (so der Stallhof).
 Dresden: Erst ab 1986 begann der Wiederaufbau, der bis in die Gegenwart dauert.
 Dresden: Die Ruine der Frauenkirche sollte als Mahnmal gegen den Krieg auf dem Neumarkt verbleiben.
-Dresden: Während so Theater- und Schloßplatz 1990 zumindest nach historischem Vorbild bebaut waren, blieb der Neumarkt völlig unbebaut.
-Dresden: Der Altmarkt dagegen ist geprägt von Bauten des Sozialistischen Klassizismus und einer Raumgestaltung und -ausrichtung nach sozialistischen Idealen (z. B. Kulturpalast).
+Dresden: Während so Theater- und Schloßplatz 1990 zumindest nach historischem Vorbild bebaut waren, blieb der Neumarkt völlig unbebaut. Der Altmarkt dagegen ist geprägt von Bauten des Sozialistischen Klassizismus und einer Raumgestaltung und -ausrichtung nach sozialistischen Idealen (z. B. Kulturpalast).
 Dresden: Von 1955 bis 1958 wurde ein großer Teil der von der Sowjetunion erbeuteten Kunstschätze zurückgegeben, so dass ab 1960 viele Museen der Staatlichen Kunstsammlungen in wiedererbauten Einrichtungen oder Interimsausstellungen eröffnet werden konnten.
 Dresden: Die wichtigen Klangkörper wie die Staatskapelle traten in Ausweichspielstätten auf (zum Beispiel im Kulturpalast ab 1969).
 Dresden: Teile der Kultureinrichtungen wurden aus der Innenstadt herausverlegt (so die Landesbibliothek in die Albertstadt).
@@ -321,11 +300,8 @@ Dresden, Germany around 1980.jpg|Elbufer, links die Brühlsche Terrasse, 1980
 DresdenSchlossOkt1985.jpg|Ruine des Schlosses, rechts die einzigen stehengebliebenen Umfassungsmauern des [[Taschenbergpalais]], 1985
 Dresden: Ruine der Dresdner Frauenkirche, Oktober 1985 - Originalversion.jpg|Ruine der Dresdner Frauenkirche, 1985
 Bundesarchiv Bild 183-1989-1219-034, Dresden, Besuch Kohl, Rede auf Altmarkt.jpg|[[Helmut Kohl]] spricht am 19. Dezember 1989 vor der Ruine der Frauenkirche auf dem Neumarkt
-Dresden: Die im Krieg nahezu unzerstörte Äußere Neustadt blieb aufgrund von Bürgerprotesten erhalten.
-Dresden: Ihr drohte in den 1980er Jahren der Abriss, da ihre Bebauung stark vernachlässigt wurde und deshalb in schlechtem Zustand war.
-Dresden: In Prohlis und Gorbitz entstanden Großsiedlungen in Plattenbauweise auf zuvor unbebautem Land.
-Dresden: Die Johannstadt und andere Gebiete im Stadtzentrum wurden ebenso in Großblockbauweise überbaut.
-Dresden: Weitestgehend erhalten wurden die Villenviertel in Blasewitz, Striesen, Kleinzschachwitz, Loschwitz und am Weißen Hirsch.
+Dresden: Die im Krieg nahezu unzerstörte Äußere Neustadt blieb aufgrund von Bürgerprotesten erhalten. Ihr drohte in den 1980er Jahren der Abriss, da ihre Bebauung stark vernachlässigt wurde und deshalb in schlechtem Zustand war.
+Dresden: In Prohlis und Gorbitz entstanden Großsiedlungen in Plattenbauweise auf zuvor unbebautem Land. Die Johannstadt und andere Gebiete im Stadtzentrum wurden ebenso in Großblockbauweise überbaut. Weitestgehend erhalten wurden die Villenviertel in Blasewitz, Striesen, Kleinzschachwitz, Loschwitz und am Weißen Hirsch.
 Bis zum Ende des Kalten Krieges waren in und um Dresden die 1. Gardepanzerarmee der Sowjetarmee sowie die 7. Panzerdivision der Nationalen Volksarmee stationiert.
 Dresden: Nach der Wende in der DDR ab 1989 wurden gemäß den Bestimmungen des Zwei-plus-Vier-Vertrags von 1990 die sowjetischen/russischen Truppen Anfang der 1990er Jahre aus Deutschland abgezogen und die NVA aufgelöst.
 Zwischen dem 30. September und dem 5. Oktober 1989 fuhren Sonderzüge mit den Flüchtlingen aus der bundesdeutschen Prager Botschaft über Dresden und Plauen in die Bundesrepublik.
@@ -337,12 +313,10 @@ Dresden: Es bildete sich spontan die "Gruppe der 20," die am nächsten Tag dem S
 Am Tag darauf fand in Leipzig die erste große Montagsdemonstration statt, wie sie in den folgenden Wochen in Dresden ebenfalls stattfanden.
 Dresden: ===  Seit 1990  ===
 Nach der politischen Wende 1989 und der deutschen Wiedervereinigung 1990 wurde Dresden wieder die Hauptstadt des wieder errichteten Landes Sachsen.
-Dresden: In der Stadt wurden nochmals einige alte Gebäude abgerissen.
-Dresden: Viele andere wurden jedoch mit Hilfe steuerlicher Subventionen wieder restauriert.
-Viele Gebiete Dresdens gelten daher als Beispiele für die gelungene Restaurierung von Baudenkmälern und stehen als Gesamtensembles unter Denkmalschutz.
+In der Stadt wurden nochmals einige alte Gebäude abgerissen. Viele andere wurden jedoch mit Hilfe steuerlicher Subventionen wieder restauriert. Viele Gebiete Dresdens gelten daher als Beispiele für die gelungene Restaurierung von Baudenkmälern und stehen als Gesamtensembles unter Denkmalschutz.
 Bundesarchiv Bild 183-1990-0516-011, Dresden, Blick auf Altstadt und Neustadt.jpg|Blick über die Dresdner Innenstadt, 1990
 Schillergarten Dresden August 2002.jpg|[[Schillergarten]] mit Blick auf Loschwitz, Elbhochwasser August 2002
-Dresden An der Frauenkirche.jpg|Der [[Neumarkt (Dresden) |Neumarkt]] mit nach historischen Vorbildern gestalteten Gebäuden, 2011
+Dresden An der Frauenkirche.jpg|Der [[Neumarkt (Dresden)|Neumarkt]] mit nach historischen Vorbildern gestalteten Gebäuden, 2011
 Dresden: Im August 2002 wurde die Stadt von der "Jahrhundertflut" getroffen.
 Dresden: Dabei überschwemmten die Weißeritz und die Elbe nebst mehrerer ihrer Nebengewässer die Stadt.
 Dresden: Die Elbe erreichte einen Pegelstand, der das bis dato schwerste Hochwasser von 1845 übertraf.
@@ -353,7 +327,7 @@ Dresden: 2006 feierte die Stadt ihr 800-jähriges Bestehen (formal am Tag ihrer 
 Dresden: Höhepunkt war dabei im Rahmen des Festumzuges im August eine Nachstellung des kompletten Fürstenzuges durch Reiter in historischen Kostümen.
 Dresden: Am 5. Juni 2009 besuchte mit Barack Obama erstmals ein Präsident der Vereinigten Staaten die Stadt und traf sich mit Bundeskanzlerin Angela Merkel im Residenzschloss.
 Dresden: Er besichtigte anschließend die Frauenkirche.
-Die Technische Universität Dresden wurde 2012 in den Kreis der "Elite-Hochschulen" Deutschlands aufgenommen.
+Die Technische Universität Dresden wurde 2012 in den Kreis der „Elite-Hochschulen“ Deutschlands aufgenommen.
 Im Oktober 2014 nahm die islam- und fremdenfeindliche Bewegung Pegida, die durch Demonstrationen in Dresden und anschließend in anderen Städten im Jahr 2015 viel Aufmerksamkeit erreichte, ihren Anfang.
 Dresden: Die Stadt erhielt am 21. April 2015 zusammen mit der schwedischen Stadt Vara den Europapreis, der jährlich vom Ministerkomitee des Europarats an Gemeinden verliehen wird, die sich um den europäischen Gedanken verdient gemacht haben.
 (Internetquelle: http://website-pace.net/en_GB/web/apce/the-europe-prize Dresden in Germany and Vara in Sweden are the winners of the 2015 Europe Prize)
@@ -383,7 +357,7 @@ Dresden: Die anderen, nach Königen benannten Vorstädte blieben ihrerseits als 
 Dresden: Später wuchs die Stadt vor allem im 19. Jahrhundert, als weitere Dörfer dichter bebaut wurden.
 Dresden: Der Begriff Vorstadt wurde nach dem Ersten Weltkrieg für weitere Stadtteile nicht mehr verwendet.
 Von 1957 bis 1991 war das Stadtgebiet in die fünf Stadtbezirke Dresden-Mitte, -Ost, -West, -Süd und -Nord eingeteilt.
-Dresden Kaiserpalast Ilgenhaus Pirnaischer Platz um 1910.jpg|[[Pirnaische Vorstadt]] mit einstigem [[Kaiserpalast (Dresden) |Kaiserpalast]] (um 1910)
+Dresden Kaiserpalast Ilgenhaus Pirnaischer Platz um 1910.jpg|[[Pirnaische Vorstadt]] mit einstigem [[Kaiserpalast (Dresden)|Kaiserpalast]] (um 1910)
 Dresden Aeussere Neustadt.jpg|[[Äußere Neustadt]]
 Dresden Wohnanlage Hansastrasse.jpg|[[Leipziger Vorstadt]]
 Dresden Pieschen.jpg|[[Pieschen]] – 1897 eingemeindet
@@ -396,8 +370,7 @@ Dresden: Wachwitz 20060623.jpg|[[Wachwitz]] – 1930 eingemeindet
 Dresden: ===  Stadtbezirke und Ortschaften seit 1990  ===
 Siehe auch: Liste der Gemarkungen von Dresden , Liste der Stadtbezirke und Ortschaften in Dresden
 Siehe auch: Liste der statistischen Stadtteile von Dresden , Liste der Straßen und Plätze in Dresden
-Dresden: Seit 1991 gab es die Gliederung in zehn Ortsämter (für das Stadtgebiet vor 1990) und neun Ortschaften (nach 1990 eingemeindete Flächen).
-Dresden: Mit der Einführung der Ortschaftsverfassung und die Wahl 2019 wurde die Bezeichnung "Ortsamt" rückgängig gemacht und nunmehr Stadtbezirke eingerichtet, die ihrerseits ebenfalls den eingemeindeten "Ortschaften" entsprechen.
+Dresden: Seit 1991 gab es die Gliederung in zehn Ortsämter (für das Stadtgebiet vor 1990) und neun Ortschaften (nach 1990 eingemeindete Flächen). Mit der Einführung der Ortschaftsverfassung und die Wahl 2019 wurde die Bezeichnung „Ortsamt“ rückgängig gemacht und nunmehr Stadtbezirke eingerichtet, die ihrerseits ebenfalls den eingemeindeten „Ortschaften“ entsprechen.
 Dresden: Sie sind Stadtteile beziehungsweise Ortsteile des Stadtgebietes mit Flächenstand vom 31. Dezember 1990 und haben jeweils ein Stadtbezirksamt, das heißt ein Rathaus vor Ort, sowie einen Stadtbezirksrat im Sinne des von der Sächsischen Gemeindeordnung, der zu allen wichtigen Angelegenheiten, die den Stadtbezirk betreffen, vom Stadtrat und seinen Ausschüssen anzuhören ist.
 Dresden: Vorsitzender des Stadtbezirksbeirats ist der Oberbürgermeister oder eine von ihm beauftragte Person.
 Dresden: Diese beauftragte Person ist in der Regel die Leiterin oder der Leiter der Verwaltung des Stadtbezirks (Stadtbezirksamtsleiter).
@@ -416,9 +389,8 @@ Dresden: Je Ortschaft existiert ein Ortschaftsrat, der - im Gegensatz zu den Sta
 Dresden: Jeder Ortschaftsrat wählt für seine Ortschaft einen Ortsvorsteher.
 Dresden: Im Gegensatz zu den Ortsbeiräten haben die Ortschaftsräte eigene Entscheidungskompetenzen und dafür eigene Budgets innerhalb des Stadthaushaltes, über das sie selbst verfügen.
 Dresden: Soweit sich ihre Entscheidungsbefugnisse nicht aus der Sächsischen Gemeindeordnung ergeben, regeln die jeweiligen Eingemeindungsverträge (wobei der von Schönfeld-Weißig der inhaltlich und zeitlich weitreichendste dieser Verträge ist) im Detail ihre Kompetenzen.
-Dresden: Die größte und bevölkerungsreichste Ortschaft ist Schönfeld-Weißig, die sich im Schönfelder Hochland erstreckt.
-Dresden: Sie entstand ihrerseits aus mehreren ehemaligen Gemeinden, die sich in den 1990er Jahren zunächst als Gemeinde Schönfeld-Weißig vereinigt hatten.
-Die jahrelang nur inoffiziell diskutierte "Einführung der Ortschaftsverfassung für das gesamte Stadtgebiet Dresdens" war 2014 ein Wahlkampfthema (Antrag: Internetquelle: http://ratsinfo.dresden.de/vo0050.php?__kvonr=7669&voselect=2686 Einführung der Ortschaftsverfassung für das gesamte Stadtgebiet Dresdens
+Dresden: Die größte und bevölkerungsreichste Ortschaft ist Schönfeld-Weißig, die sich im Schönfelder Hochland erstreckt. Sie entstand ihrerseits aus mehreren ehemaligen Gemeinden, die sich in den 1990er Jahren zunächst als Gemeinde Schönfeld-Weißig vereinigt hatten.
+Die jahrelang nur inoffiziell diskutierte „Einführung der Ortschaftsverfassung für das gesamte Stadtgebiet Dresdens“ war 2014 ein Wahlkampfthema (Antrag: Internetquelle: http://ratsinfo.dresden.de/vo0050.php?__kvonr=7669&voselect=2686 Einführung der Ortschaftsverfassung für das gesamte Stadtgebiet Dresdens
 Dresden: Internetquelle: http://www.menschen-in-dresden.de/2014/stadtrat-linke-gruene-spd-und-piraten-einigen-sich-auf-gemeinsame-ziele-bis-2019/ Stadtrat: Linke, Grüne, SPD und Piraten einigen sich auf gemeinsame Ziele bis 2019) und sollte zur darauffolgenden Stadtratswahl 2019 eingeführt werden.
 (Landesdirektion Sachsen trifft Entscheidung zur Hauptsatzung der Stadt Dresden.
 Dresden: Ortschaftsverfassung kann im gesamten Stadtgebiet eingeführt werden - allerdings frühestens zur nächsten Stadtratswahl, Pressemitteilung der Landesdirektion Sachsen vom 3. Dezember 2014; abgerufen am 15. März 2015.)
@@ -426,24 +398,24 @@ Dresden: Die Änderung der Sächsischen Gemeindeordnung im Jahr 2018, durch die 
 (Internetquelle: https://www.dnn.de/Dresden/Lokales/Gruene-in-Dresden-sauer-auf-schwarz-rote-Koalition-im-Freistaat Grüne in Dresden sauer auf schwarz-rote Koalition im Freistaat)
 Dresden: Dresdner Stadtbezirke, Ortschaften und Stadtteile im Detail
 Dresden: + Die 10 Stadtbezirke und die 9 Ortschaften mit ihren zugehörigen Orts- und Stadtteilen
-Dresden: Altstadt 57.958 16,97 3.415 Innere Altstadt, Friedrichstadt, Johannstadt, Pirnaische Vorstadt, Seevorstadt und Wilsdruffer Vorstadt
-Dresden: Neustadt 50.871 14,79 3.440 Albertstadt, Äußere Neustadt, Innere Neustadt, Leipziger Vorstadt und Radeberger Vorstadt
-Dresden: Pieschen 53.532 16,21 3.303 Pieschen, Trachenberge, Mickten, Kaditz, Trachau und Übigau
+Dresden: Altstadt  57.958  16,97  3.415  Innere Altstadt, Friedrichstadt, Johannstadt, Pirnaische Vorstadt, Seevorstadt und Wilsdruffer Vorstadt
+Dresden: Neustadt  50.871  14,79  3.440  Albertstadt, Äußere Neustadt, Innere Neustadt, Leipziger Vorstadt und Radeberger Vorstadt
+Dresden: Pieschen  53.532  16,21  3.303  Pieschen, Trachenberge, Mickten, Kaditz, Trachau und Übigau
 Dresden: Klotzsche  20.782  27,07  768  Klotzsche, Hellerau, Hellerberge und Wilschdorf
-Dresden: Loschwitz 20.500 68,80 298 Loschwitz, Weißer Hirsch, Rochwitz, Wachwitz, Niederpoyritz, Hosterwitz, Söbrigen, Oberpoyritz, Bühlau, Pillnitz und die Dresdner Heide
-Dresden: Blasewitz 88.917 14,49 6.136 Blasewitz, Striesen, Tolkewitz, Gruna, Dobritz und Seidnitz
-Dresden: Leuben 39.270 13,05 3.010 Leuben, Laubegast, Alttolkewitz, Kleinzschachwitz, Zschieren, Meußlitz, Großzschachwitz, Sporbitz und für Teile von Niedersedlitz und Dobritz
-Dresden: Prohlis 58.028 21,15 2.744 Großluga, Kleinluga, Kauscha, Leubnitz-Neuostra, Lockwitz, Nickern, Niedersedlitz, Prohlis, Reick, Strehlen, Torna und Teile von Mockritz
-Dresden: Plauen 57.413 15,79 3.637 Plauen, Südvorstadt, Coschütz, Gittersee, Kaitz, Kleinpestitz, Mockritz, Gostritz, Räcknitz und Zschertnitz
-Dresden: Cotta 74.289 19,38 3.833 Briesnitz, Kemnitz, Stetzsch, Cotta, Omsewitz, Leutewitz, Gorbitz, Wölfnitz, Löbtau, Naußlitz, Roßthal, Dölzschen
+Dresden: Loschwitz  20.500  68,80  298  Loschwitz, Weißer Hirsch, Rochwitz, Wachwitz, Niederpoyritz, Hosterwitz, Söbrigen, Oberpoyritz, Bühlau, Pillnitz und die Dresdner Heide
+Dresden: Blasewitz  88.917  14,49  6.136  Blasewitz, Striesen, Tolkewitz, Gruna, Dobritz und Seidnitz
+Dresden: Leuben  39.270  13,05  3.010  Leuben, Laubegast, Alttolkewitz, Kleinzschachwitz, Zschieren, Meußlitz, Großzschachwitz, Sporbitz und für Teile von Niedersedlitz und Dobritz
+Dresden: Prohlis  58.028  21,15  2.744  Großluga, Kleinluga, Kauscha, Leubnitz-Neuostra, Lockwitz, Nickern, Niedersedlitz, Prohlis, Reick, Strehlen, Torna und Teile von Mockritz
+Dresden: Plauen  57.413  15,79  3.637  Plauen, Südvorstadt, Coschütz, Gittersee, Kaitz, Kleinpestitz, Mockritz, Gostritz, Räcknitz und Zschertnitz
+Dresden: Cotta  74.289  19,38  3.833  Briesnitz, Kemnitz, Stetzsch, Cotta, Omsewitz, Leutewitz, Gorbitz, Wölfnitz, Löbtau, Naußlitz, Roßthal, Dölzschen
 Dresden: Altfranken  1.118  1,28  873
 Dresden: Cossebaude  5.758  8,04  716  Gohlis, Niederwartha, Cossebaude, Neu-Leuteritz
-Dresden: Gompitz 3.272 11,72 279 Gompitz, Ockerwitz, Pennrich, Roitzsch, Steinbach, Unkersdorf, Zöllmen
+Dresden: Gompitz  3.272  11,72  279  Gompitz, Ockerwitz, Pennrich, Roitzsch, Steinbach, Unkersdorf, Zöllmen
 Dresden: Langebrück  3.913  6,95  563
-Dresden: Mobschatz 1.468 8,50 173 Alt-Leuteritz, Brabschütz, Merbitz, Mobschatz, Podemus und Rennersdorf
+Dresden: Mobschatz  1.468  8,50  173  Alt-Leuteritz, Brabschütz, Merbitz, Mobschatz, Podemus und Rennersdorf
 Dresden: Oberwartha  432  2,03  213
 Dresden: Schönborn  504  5,20  97
-Dresden: Schönfeld-Weißig 13.086 41,34 317 Borsberg, Cunnersdorf, Eschdorf, Gönnsdorf, Krieschendorf, Malschendorf, Pappritz, Reitzendorf, Rockau, Rossendorf, Schönfeld, Schullwitz, Weißig und Zaschendorf
+Dresden: Schönfeld-Weißig  13.086  41,34  317  Borsberg, Cunnersdorf, Eschdorf, Gönnsdorf, Krieschendorf, Malschendorf, Pappritz, Reitzendorf, Rockau, Rossendorf, Schönfeld, Schullwitz, Weißig und Zaschendorf
 Dresden: Weixdorf  5.987  15,49  387  Weixdorf, Marsdorf, Lausa, Friedersdorf und Gomlitz
 Dresden: ===  Namensherkunft der Ortsteile  ===
 Viele Stadtteilnamen sind wie der Stadtname Dresden sorbischer Herkunft.
@@ -455,9 +427,7 @@ Dresden: Die im Gefolge der Ostsiedlung eingedeutschten Endungen gehen somit hä
 Dresden: Leutewitz zum Beispiel wurde erstmals als Ludiwice "bei den Ludischen, d. h. bei den Leuten des Lud, Dorf des Lud" erwähnt.
 Dresden: Pillnitz hieß ursprünglich Belenewitz "Dorf des Belan."
 Dresden: Andere Stadtteilnamen sind aus geografischen Merkmalen gebildet worden; so bedeutet Klotzsche "gerodeter Wald."
-Dresden: Sehr wenige Ortsbezeichnungen wie Langebrück haben ihren Ursprung tatsächlich in der deutschen Sprache.
-Dresden: Die (neueren) Ortsbezeichnungen "Weißer Hirsch" und "Wilder Mann" gehen beide auf Gastwirtschaften zurück, die sich in diesen Randlagen der Stadt befanden.
-Dresden: Die Stadtteilbezeichnung Gittersee ist eine Volksetymologie und entwickelte sich aus dem slawischen "Geterssin."
+Dresden: Sehr wenige Ortsbezeichnungen wie Langebrück haben ihren Ursprung tatsächlich in der deutschen Sprache. Die (neueren) Ortsbezeichnungen „Weißer Hirsch“ und „Wilder Mann“ gehen beide auf Gastwirtschaften zurück, die sich in diesen Randlagen der Stadt befanden. Die Stadtteilbezeichnung Gittersee ist eine Volksetymologie und entwickelte sich aus dem slawischen „Geterssin“.
 Dresden: ==  Politik und Verwaltung  ==
 Dresden: Das Neue Rathaus ist der Sitz der Stadtverwaltung
 Die insgesamt 70 Stadträte Dresdens werden nach dem in Sachsen auf kommunaler Ebene üblichen Personen-Mehrstimmenwahlsystem mit drei Stimmen - wobei Kumulieren und Panaschieren möglich ist - für eine Amtszeit von fünf Jahren gewählt.
@@ -480,8 +450,7 @@ Dresden: Sie führen den Titel "Bürgermeister," wobei der "Erste Bürgermeister
 Dresden: Dies kam Ende 2014 bis Mitte 2015 voll zum Tragen, da die Oberbürgermeisterin Helma Orosz aus gesundheitlichen Gründen vorzeitig in den Ruhestand gegangen war.
 Dresden: Ihr Stellvertreter, der seit 2008 Erste Bürgermeister Dirk Hilbert (FDP), wurde im zweiten Wahlgang am 5. Juli 2015 mit 54,2% der Stimmen zum neuen Oberbürgermeister gewählt.
 Dresden: Für Senioren, Ausländer und Behinderte sowie für geheimzuhaltende Angelegenheiten hat der Stadtrat Beiräte berufen, letzterer hat jedoch seit 1994 bis heute kein einziges Mal getagt.
-Die Stadtverwaltung Dresden zählte im Jahr 2021 ca. 7.400 Mitarbeiter, 2010 waren es noch etwa 6.200.
-Dresden: Sie sind auf mehr als 50 Standorte in der Stadt verteilt.
+Die Stadtverwaltung Dresden zählte im Jahr 2021 ca. 7.400 Mitarbeiter, 2010 waren es noch etwa 6.200. Sie sind auf mehr als 50 Standorte in der Stadt verteilt.
 Dresden: ===  Historische Entwicklung der städtischen Verwaltung  ===
 Dresden: An der Spitze der Stadt gab es seit dem 13. Jahrhundert (1292) einen Rat mit einem Bürgermeister.
 Dresden: Dieser wurde vom Rat gewählt und wechselte jährlich.
@@ -494,19 +463,16 @@ Dresden: 1874 schied die Stadt aus der Amtshauptmannschaft aus und wurde eine "e
 Sie blieb weiterhin Sitz der Amtshauptmannschaft Dresden (bzw. beider AHM Dresden-Altstadt und -Neustadt) sowie der Kreishauptmannschaft Dresden.
 Mit der DDR-Kreisreform wurde Dresden 1952 als Stadtkreis definiert; der Kreis Dresden-Land erhielt einen neuen Zuschnitt, mit dem er bis zu seiner Auflösung Anfang 1996 fortbestand.
 Dresden: Während der Zeit des Nationalsozialismus wurden Oberbürgermeister und Ratsherren entsprechend der Deutschen Gemeindeordnung von der NSDAP eingesetzt.
-Dresden: Nach dem Ende des Zweiten Weltkriegs setzte die sowjetische Stadtkommandantur 1945 zunächst eine Verwaltung ein.
-Dresden: Im September 1946 wurde als Stadtvertretung eine Stadtverordnetenversammlung gewählt.
-Dresden: Bei späteren Wahlen bis 1989 traten alle Parteien und Organisationen auf einer gemeinsamen Liste der Nationalen Front auf.
+Dresden: Nach dem Ende des Zweiten Weltkriegs setzte die sowjetische Stadtkommandantur 1945 zunächst eine Verwaltung ein. Im September 1946 wurde als Stadtvertretung eine Stadtverordnetenversammlung gewählt. Bei späteren Wahlen bis 1989 traten alle Parteien und Organisationen auf einer gemeinsamen Liste der Nationalen Front auf.
 Dresden: Nach dem Beitritt der DDR zur Bundesrepublik Deutschland wurde das zunächst weiterhin als Stadtverordnetenversammlung, seit 1994 als Stadtrat bezeichnete Gremium wieder frei gewählt.
 Dresden: Vorsitzender dieses Gremiums war von 1990 bis 1994 ein besonderer Präsident (beziehungsweise eine Präsidentin: Evelyn Müller, CDU).
 Dresden: Die Wahl des Oberbürgermeisters war Sache der Stadtverordnetenversammlung.
 Dresden: Nach Einführung der Süddeutschen Ratsverfassung in Sachsen ist seit 1994 der nunmehr direkt vom Volk gewählte Oberbürgermeister zugleich Vorsitzender des Stadtrates.
-Dresden: Amtsinhaber ist seit 2015 Dirk Hilbert von der FDP, der sich 2015 im zweiten Wahlgang mit 54,2% der Stimmen gegen Eva-Maria Stange (SPD) durchsetzte.
-Dresden: Im Jahr 2022 konnte sich Dirk Hilbert im zweiten Wahlgang erneut gegen seine vier Mitbewerber durchsetzen.
+Dresden: Amtsinhaber ist seit 2015 Dirk Hilbert von der FDP, der sich 2015 im zweiten Wahlgang mit 54,2 % der Stimmen gegen Eva-Maria Stange (SPD) durchsetzte. Im Jahr 2022 konnte sich Dirk Hilbert im zweiten Wahlgang erneut gegen seine vier Mitbewerber durchsetzen.
 Dresden: Die beiden Wahlgänge der Oberbürgermeisterwahl 2022 ergaben folgende Ergebnisse: (Internetquelle: https://www.dresden.de/de/rathaus/politik/wahlen/ob-wahl/ergebnis.php Beteiligung und Ergebnisse 1. Wahlgang
-Dresden: Internetquelle: https://wahlen.dresden.de/2022/obwzwg/index.html Oberbürgermeisterwahl 2022 - Zweiter Wahlgang) (Internetquelle: https://www.stadtwikidd.de/wiki/Oberb%C3%BCrgermeisterwahl_2008 Oberbürgermeisterwahl 2008)
+Dresden: Internetquelle: https://wahlen.dresden.de/2022/obwzwg/index.html Oberbürgermeisterwahl 2022 – Zweiter Wahlgang )  (Internetquelle: https://www.stadtwikidd.de/wiki/Oberb%C3%BCrgermeisterwahl_2008 Oberbürgermeisterwahl 2008 )
 Siehe auch: Liste der Oberbürgermeister von Dresden
-Dresden: Bei der letzten Kommunalwahl am 26. Mai 2019 wurde folgender Stadtrat gewählt: (Amtliches Endergebnis der Stadtratswahl 2019.)
+Dresden: Bei der letzten Kommunalwahl am 26. Mai 2019 wurde folgender Stadtrat gewählt: (Amtliches Endergebnis der Stadtratswahl 2019.)
 Dresden: Christlich Demokratische Union Deutschlands
 Bündnis Freie Bürger Dresden
 Dresden: Im Stadtrat haben sich folgende Fraktionen gebildet: CDU (einschließlich Freie Bürger, 14 Mitglieder), Grüne (13 Mitglieder), AfD (12 Mitglieder), Linke (12 Mitglieder), SPD (6 Mitglieder), FDP (5 Mitglieder), FW (4 Mitglieder).
@@ -516,11 +482,8 @@ Dresden: Fortan war die Fraktion aus CDU und Freien Bürger größte Fraktion.
 (Internetquelle: https://www.mdr.de/nachrichten/sachsen/dresden/dresden-radebeul/stadtrat-dresden-neue-fraktion-dissidenten-100.html Neue Fraktion: Im Stadtrat von Dresden sitzen jetzt "Dissidenten") Nach zwei Fraktionsaustritten aus der CDU-Fraktion ist die offizielle Sitzverteilung erneut verändert.
 Dresden: ===  Polizei und Justiz  ===
 Die Polizeidirektion Dresden sitzt im Polizeipräsidium nahe dem Pirnaischen Platz.
-Das Amtsgericht Dresden befindet sich im Bezirk des Landgerichts Dresden; übergeordnet ist das Oberlandesgericht Dresden.
-Weitere Gerichte sind das Verwaltungsgericht Dresden, das Arbeitsgericht Dresden und das Sozialgericht Dresden.
-Seit 1559 bestand das Sächsische Appellationsgericht in Dresden.
-Ab 1835 wurde es durch das Oberappellationsgericht Dresden abgelöst, dem das Appellationsgericht Dresden und das Bezirksgericht Dresden nachgeordnet waren.
-Zu DDR-Zeiten gab es das Bezirksgericht Dresden sowie das Landesverwaltungsgericht Sachsen mit Sitz in Dresden.
+Das Amtsgericht Dresden befindet sich im Bezirk des Landgerichts Dresden; übergeordnet ist das Oberlandesgericht Dresden. Weitere Gerichte sind das Verwaltungsgericht Dresden, das Arbeitsgericht Dresden und das Sozialgericht Dresden.
+Seit 1559 bestand das Sächsische Appellationsgericht in Dresden. Ab 1835 wurde es durch das Oberappellationsgericht Dresden abgelöst, dem das Appellationsgericht Dresden und das Bezirksgericht Dresden nachgeordnet waren. Zu DDR-Zeiten gab es das Bezirksgericht Dresden sowie das Landesverwaltungsgericht Sachsen mit Sitz in Dresden.
 Die Justizvollzugsanstalt Dresden befindet sich der Dresdner Albertstadt.
 Dresden: ===   Stadtwappen und -flagge  ===
 Flagge der Landeshauptstadt Dresden
@@ -540,33 +503,24 @@ Während 2006, zum Zeitpunkt des Verkaufs, der Dresdner Immobilienmarkt durch ei
 Dresden: Mittlerweile lag zwischenzeitlich 2018 die durchschnittliche Dresdner Wohnkostenquote mit 32% des Gesamteinkommens für Familien höher als in Stuttgart und auf dem geteilten Rang vier gleichauf mit Nürnberg, (Pressemitteilung der Immowelt Group vom 11. Oktober 2018 - Platz 1: München; Platz 2: Frankfurt; Platz 3: Berlin.) gleichwohl wurden daraus politische Lösungen, wie der Rückkauf von ehemaligen städtischen Wohnungen oder die (Wieder-) Gründung einer städtischen Wohnungsgesellschaft zwar diskutiert und seitdem zum Teil realisiert: Eine gewisse Zögerlichkeit resultiert daraus, dass etwa 22% des Wohnungsbestandes der Stadt sich ohnehin im Besitz von Wohnungsgenossenschaften befindet (Stand 2022, prozentual gegenüber 2006 nahezu unverändert), die ihrerseits bereits von ihrem genossenschaftlichen Auftrag her preisgünstige Wohnungen anbieten.
 Das seit 2007, also nunmehr fast 16 Jahren (Stand: Ende 2022) geltende Verschuldungsverbot der Stadt Dresden ist dabei nach wie vor fraktionsübergreifender Konsens bei den politischen Mandatsträgern im Stadtrat.
 Dresden: ====  Gegenwart  ====(Kommentar: 2019 und später aufnehmen)
-Dresden: Die Wiederbebauung des Neumarktes - in welcher Verdichtung und ob modern oder historisiert - steht exemplarisch für das internationale Interesse an der Dresdner Architektur.
-Die Gesellschaft Historischer Neumarkt Dresden ist wegen dieser Auseinandersetzung gegründet worden.
+Die Wiederbebauung des Neumarktes – in welcher Verdichtung und ob modern oder historisiert – steht exemplarisch für das internationale Interesse an der Dresdner Architektur. Die Gesellschaft Historischer Neumarkt Dresden ist wegen dieser Auseinandersetzung gegründet worden.
 Der Stadtrat Dresdens verabschiedete am 30. Oktober 2019 eine Grundsatzerklärung gegen Rechtsextremismus.
 Dresden: Diese fand in der internationalen () wie auch nationalen Berichterstattung unter dem Begriff Ausrufung des Nazi-Notstandes Beachtung.
 Oberbürgermeister Hilbert distanzierte sich nur wenige Stunden später von diesem Begriff. () (Internetquelle: https://www.mdr.de/sachsen/dresden/dresden-radebeul/dresden-ruft-nazinotstand-aus-100.html Debatte über "Nazinotstand": Dresden verabschiedet Grundsatzerklärung gegen Rechts) Die Grundsatzerklärung wurde fraktionsübergreifend mit den Stimmen der SPD, Bündnis 90/Die Grünen, Die Linke, FDP und Fraktionslosen beschlossen () und sieht vor, "demokratische Alltagsstrukturen zu stärken," "Bürgerschaft und zivilgesellschaftliche Bündnisse, die sich für aktiv für Menschenrechte einsetzen," zu unterstützen, Opfern rechter Gewalt zu helfen, Täter konsequent zu verfolgen und die Verbreitung menschenfeindlicher und extrem rechter Einstellungen auf öffentlichen Plätzen nicht unwidersprochen zuzulassen. ()
-Der Wahlkreis 159 (Dresden I) umfasst die Stadtteile südlich der Elbe mit Ausnahme einiger westlicher Bereiche.
-Dresden: In diesem Wahlkreis ist Markus Reichel von der CDU gewählter Abgeordneter.
-Der Wahlkreis 160 (Dresden II) schließt alle Stadtteile nördlich der Elbe und einige westliche südlich der Elbe ein und reicht bis in den Landkreis Meißen.
-Dresden: Abgeordneter dieses Wahlkreises ist Lars Rohwer von der CDU.
+Der Wahlkreis 159 (Dresden I) umfasst die Stadtteile südlich der Elbe mit Ausnahme einiger westlicher Bereiche. In diesem Wahlkreis ist Markus Reichel von der CDU gewählter Abgeordneter.
+Der Wahlkreis 160 (Dresden II) schließt alle Stadtteile nördlich der Elbe und einige westliche südlich der Elbe ein und reicht bis in den Landkreis Meißen. Abgeordneter dieses Wahlkreises ist Lars Rohwer von der CDU.
 Dresden: Weiterhin vertreten von den Landeslisten der jeweiligen Parteien Torsten Herbst (FDP), Rasha Nasr (SPD), Kassem Taher Saleh und Merle Spellerberg (beide Grüne) sowie bis zur Niederlegung ihres Mandats auch Katja Kipping (Linke) die Stadt.
 Am 14. Dezember 1987 unterzeichneten der Dresdner Oberbürgermeister, Wolfgang Berghofer (r.), und der Präsident des Amtsrates und 1. Bürgermeister der Hansestadt Hamburg, Klaus von Dohnanyi (l.), die Vereinbarung zur Entwicklung kommunaler Beziehungen im Plenarsaal des Rathauses in Dresden.
 Städtepartnerschaften bestehen mit folgenden Städten: (Partnerstädte auf Dresden.de)
-Dresden: Eine Städtefreundschaft besteht außerdem seit 1976 mit der polnischen Stadt Gostyń in Zusammenhang mit der von dort stammenden Widerstandsgruppe Schwarze Legion.
-(Gostyn auf Dresden.de Abgerufen am 30. Oktober 2020.)
-Dresden: Weitere Städtefreundschaften bestehen zu Daejeon in Südkorea und zu Schiras im Iran.
-Dresden: (Befreundete Städte auf dresden.de, abgerufen am 11. März 2021.)
+Eine Städtefreundschaft besteht außerdem seit 1976 mit der polnischen Stadt Gostyń in Zusammenhang mit der von dort stammenden Widerstandsgruppe Schwarze Legion. (Gostyn auf Dresden.de Abgerufen am 30. Oktober 2020.)
+Dresden: Weitere Städtefreundschaften bestehen zu Daejeon in Südkorea und zu Schiras im Iran. (Befreundete Städte auf dresden.de, abgerufen am 11. März 2021.)
 Dresden: ===  Konsulate und Auslandsvertretungen  ===
-Neben einem tschechischen Generalkonsulat befinden sich in Dresden die Honorarkonsulate von Dänemark, Ecuador, Finnland, Italien, Kap Verde, Kasachstan, Kroatien, Litauen, Luxemburg, Niederlande, Österreich, Panama, den Philippinen, der Schweiz, Slowenien, Spanien, Südafrika, Südkorea und Ungarn.
-Außerdem befindet sich in Dresden ein Institut français.
+Neben einem tschechischen Generalkonsulat befinden sich in Dresden die Honorarkonsulate von Dänemark, Ecuador, Finnland, Italien, Kap Verde, Kasachstan, Kroatien, Litauen, Luxemburg, Niederlande, Österreich, Panama, den Philippinen, der Schweiz, Slowenien, Spanien, Südafrika, Südkorea und Ungarn. Außerdem befindet sich in Dresden ein Institut français.
 Siehe auch: Liste der konsularischen Vertretungen in Dresden
 Dresden: ==  Kultur und Sehenswürdigkeiten  ==
 Dresden: Historische Innenstadt mit Sehenswürdigkeiten
 Dresden: Abendliche Elbe am Terrassenufer
-Dresden war in den Jahren 2004 bis 2009 Weltkulturerbestätte der UNESCO.
-Dresden: Die Stadt beherbergt über 50 Museen, mehr als 35 Theater und Kleinkunstbühnen, herausragende Klangkörper und bekannte Bauwerke verschiedener Epochen.
-Dresden: Großveranstaltungen ziehen jedes Jahr Gäste aus dem In- und Ausland an.
-Jährlich wird der Kunstpreis der Landeshauptstadt Dresden verliehen.
+Dresden war in den Jahren 2004 bis 2009 Weltkulturerbestätte der UNESCO. Die Stadt beherbergt über 50 Museen, mehr als 35 Theater und Kleinkunstbühnen, herausragende Klangkörper und bekannte Bauwerke verschiedener Epochen. Großveranstaltungen ziehen jedes Jahr Gäste aus dem In- und Ausland an. Jährlich wird der Kunstpreis der Landeshauptstadt Dresden verliehen.
 Dresden: ===  Theater und Bühnen  ===
 Die Sächsische Staatsoper Dresden im Bauwerk der Semperoper wurde 1841 am jetzigen Standort, dem Theaterplatz, gegründet.
 Dresden: Das Gebäude wurde in seiner Geschichte zweimal zerstört.
@@ -574,11 +528,9 @@ Dresden: Insgesamt war die Staatsoper in mehr als 50 Jahren ihrer etwa 160-jähr
 Dresden: In der Semperoper und ihren Vorgängerbauten wurden Opern u. a. von Richard Wagner und Richard Strauss uraufgeführt.
 Dresden: Das Orchester der Oper ist die Sächsische Staatskapelle (siehe Abschnitt Musik).
 Dresden: Die Semperoper verfügt außerdem über eine Kammerbühne, "Semper Zwei."
-Das Staatsschauspiel Dresden betreibt das "Schauspielhaus," - allgemein als das "Große Haus" bekannt - und damit das größte Theater der Stadt, sowie das "Kleine Haus" in der Glacisstraße.
-Dresden: Am Theaterplatz befindet sich der Theaterkahn, eine Bühne auf einem Elbschiff.
-Die Staatsoperette Dresden hat seit Dezember 2016 ihr Haus im Kraftwerk Mitte.
-Dresden: Entgegen ihrer Bezeichnung ist die Stadt Besitzer und Betreiber der Operette.
-Die bedeutenden Kabaretttheater der Stadt sind "Die Herkuleskeule," "Dresdner Friedrichstatt Palast," die "Comödie Dresden" und das "Boulevardtheater Dresden."
+Das Staatsschauspiel Dresden betreibt das „Schauspielhaus“, – allgemein als das „Große Haus“ bekannt – und damit das größte Theater der Stadt, sowie das „Kleine Haus“ in der Glacisstraße. Am Theaterplatz befindet sich der Theaterkahn, eine Bühne auf einem Elbschiff.
+Die Staatsoperette Dresden hat seit Dezember 2016 ihr Haus im Kraftwerk Mitte. Entgegen ihrer Bezeichnung ist die Stadt Besitzer und Betreiber der Operette.
+Die bedeutenden Kabaretttheater der Stadt sind „Die Herkuleskeule“, „Dresdner Friedrichstatt Palast“, die „Comödie Dresden“ und das „Boulevardtheater Dresden“.
 Dresden: Theater für moderne Formen von Aufführungen sind das Theater Junge Generation, zu dem auch ein Puppentheater gehört, das neubauLABOR im Kleinen Haus des Staatsschauspiels und insbesondere das Festspielhaus Hellerau, in dem sich das Europäische Zentrum der Künste befindet.
 Weitere Theater und Aufführungsstätten sind das Societaetstheater, das Studententheater Die Bühne, "Das Projekttheater" sowie die "Theaterruine St. Pauli" in der Neustadt und das "Boulevardtheater Dresden."
 (Boulevardtheater Dresden) Die Kulturvereine "Mimenstudio Dresden e. V.," "Kulturverein riesa efau" und die "Motorenhalle - Projektzentrum für zeitgenössische Kunst" zeigen ebenfalls Aufführungen; auch das Tanztheater Derewo ist in Dresden beheimatet.
@@ -591,27 +543,19 @@ Dresden: Das Textbuch schrieb Martin Opitz nach der italienischen Oper des Jacop
 Dresden: Johann Georg Pisendel, seit 1728 Konzertmeister, führte eine "neuzeitliche Orchesterleitung" ein, wodurch das Orchester in der ersten Hälfte des 18. Jahrhunderts in Europa führend wurde.
 Dresden: (Kai Köpp: Johann Georg Pisendel (1687-1755) und die Anfänge der neuzeitlichen Orchesterleitung.
 Dresden: Schneider, Tutzing 2005, ISBN 3-7952-1140-9.)
-Dresden: Musikdirektoren im 19. Jahrhundert wurden unter anderen Carl Maria von Weber, Heinrich Marschner sowie als Assistent Richard Wagner.
-Dresden: Seit September 2012 ist Christian Thielemann Chefdirigent.
-Dresden: Die Dresdner Philharmonie, das Konzertorchester der Stadt, wurde 1871 gegründet.
-(Adreßbuch für Dresden und seine Vororte, 1904) Bis 1915 trug das Orchester den Namen "Gewerbehaus-Kapelle," bis 1923 "Dresdner Philharmonisches Orchester."
-Dresden: Chefdirigenten in jüngerer Zeit waren unter anderen Kurt Masur und Marek Janowski.
-Dresden: Derzeitiger Chefdirigent ist Michael Sanderling.
-Dresden: Die Dresdner Sinfoniker wurden 1996 von Sven Helbig und Markus Rindt gegründet.
-Dresden: Das Orchester widmet sich der zeitgenössischen Musik sowie dem Crossoverbereich.
-Dresden: 2004 wurde es mit dem ECHO Klassik ausgezeichnet und vertonte zusammen mit den Pet Shop Boys den Film Panzerkreuzer Potemkin neu.
-Weitere Orchester sind das "ensemble courage," ein Ensemble für zeitgenössische (Kammer-) Musik, 2004 mit dem Förderpreis der Stadt Dresden ausgezeichnet, Sinfonietta Dresden, ein Kammerorchester mit vielfältigen Aufgaben im städtischen Musikleben und einer eigenen Konzertreihe, das Dresdner Barockorchester, die Dresdner Kapellsolisten sowie die Virtuosi Saxoniae.
+Dresden: Musikdirektoren im 19. Jahrhundert wurden unter anderen Carl Maria von Weber, Heinrich Marschner sowie als Assistent Richard Wagner. Seit September 2012 ist Christian Thielemann Chefdirigent.
+Die Dresdner Philharmonie, das Konzertorchester der Stadt, wurde 1871 gegründet. (Adreßbuch für Dresden und seine Vororte, 1904)  Bis 1915 trug das Orchester den Namen „Gewerbehaus-Kapelle“, bis 1923 „Dresdner Philharmonisches Orchester“. Chefdirigenten in jüngerer Zeit waren unter anderen Kurt Masur und Marek Janowski. Derzeitiger Chefdirigent ist Michael Sanderling.
+Dresden: Die Dresdner Sinfoniker wurden 1996 von Sven Helbig und Markus Rindt gegründet. Das Orchester widmet sich der zeitgenössischen Musik sowie dem Crossoverbereich. 2004 wurde es mit dem ECHO Klassik ausgezeichnet und vertonte zusammen mit den Pet Shop Boys den Film Panzerkreuzer Potemkin neu.
+Weitere Orchester sind das „ensemble courage“, ein Ensemble für zeitgenössische (Kammer-)Musik, 2004 mit dem Förderpreis der Stadt Dresden ausgezeichnet, Sinfonietta Dresden, ein Kammerorchester mit vielfältigen Aufgaben im städtischen Musikleben und einer eigenen Konzertreihe, das Dresdner Barockorchester, die Dresdner Kapellsolisten sowie die Virtuosi Saxoniae.
 Dresden: Das Dresdner Festspielorchester (DFO) ist ein 2012 für die Dresdner Musikfestspiele gegründetes, international besetztes Ensemble unter der Leitung von Ivor Bolton, es hat 2016 seine erste eigene CD veröffentlicht.
-In Dresden haben zwei berühmte Chöre mit langer Geschichte ihre Heimat:
-Dresden: Der Dresdner Kreuzchor (Capella sanctae crucis) ist zwar Knabenchor der Kreuzkirche und wird mit dieser identifiziert, ist jedoch seit seiner Gründung bis heute ein städtischer Chor.
+In Dresden haben zwei berühmte Chöre mit langer Geschichte ihre Heimat: Der Dresdner Kreuzchor (Capella sanctae crucis) ist zwar Knabenchor der Kreuzkirche und wird mit dieser identifiziert, ist jedoch seit seiner Gründung bis heute ein städtischer Chor.
 Dresden: Nach dessen eigener Darstellung sei er so alt wie die Stadt selbst und im 13. Jahrhundert gegründet worden (was allerdings so nicht zutrifft).
 Dresden: Der Knabenchor der Kathedrale (ehemalige Hofkirche) wiederum sind die Dresdner Kapellknaben, der jedoch im Gegensatz zum Kreuzchor ein kirchlicher Chor ist.
-Weitere Chöre in Dresden sind:
-Dresden: Dresdner Kammerchor - international renommierter Chor mit einem breiten Repertoire (Alte Musik über Romantik bis zu Uraufführungen), gegründet (1985) und geleitet von Hans-Christoph Rademann
-Dresden: Das Sächsische Vocalensemble - 1996 gegründet mit dem Schwerpunkt Alte Musik und geleitet von Matthias Jung.
-Philharmonische Chöre Dresden - 1967 gegründet, arbeiten hauptsächlich mit der Philharmonie zusammen, derzeitiger Leiter ist Gunter Berger
-Knabenchor Dresden - gegründet im Jahr 1971 durch Studienrat Manfred Winter, geleitet von Matthias Jung
-Singakademie Dresden - einer der bedeutendsten Laienchöre Mitteldeutschlands, hervorgegangen aus dem 1884 gegründeten Dresdner Lehrergesangverein, bestehend aus Kinder-, Kammer-, Oratorien- und Seniorenchor, geleitet von Ekkehard Klemm
+Weitere Chöre in Dresden sind:  Dresdner Kammerchor – international renommierter Chor mit einem breiten Repertoire (Alte Musik über Romantik bis zu Uraufführungen), gegründet (1985) und geleitet von Hans-Christoph Rademann
+Dresden: Das Sächsische Vocalensemble – 1996 gegründet mit dem Schwerpunkt Alte Musik und geleitet von Matthias Jung.
+Philharmonische Chöre Dresden – 1967 gegründet, arbeiten hauptsächlich mit der Philharmonie zusammen, derzeitiger Leiter ist Gunter Berger
+Knabenchor Dresden – gegründet im Jahr 1971 durch Studienrat Manfred Winter, geleitet von Matthias Jung
+Singakademie Dresden – einer der bedeutendsten Laienchöre Mitteldeutschlands, hervorgegangen aus dem 1884 gegründeten Dresdner Lehrergesangverein, bestehend aus Kinder-, Kammer-, Oratorien- und Seniorenchor, geleitet von Ekkehard Klemm
 Dresden: Sven Helbig ist zugleich Produzent der Band Polarkreis 18, der 2008 als erster Dresdner Band mit Allein Allein ein Nummer-eins-Hit in den deutschen Singlecharts gelang.
 In den 1970er Jahren war Dresden mit Bands wie electra und Lift ein Zentrum der Rockmusik in der DDR.
 Dresden: Die Mitglieder dieser Bands waren vorrangig Studenten der Hochschule für Musik Carl Maria von Weber.
@@ -625,14 +569,11 @@ Dresden: Kultur extra, Spiegel Online vom 26. März 1998.)
 Ray & the Rockets veröffentlichten im Jahre 1998, 44 Jahre nach der "Erfindung" des Rock 'n' Roll den ersten Rock-'n'-Roll-Tonträger Dresdens.
 Dresden: (Wolfgang Doebeling: 45 r.p.m.
 Dresden: Rolling Stone Nr. 8 vom August 1999.)
-Bekannte Komponisten, die in Dresden wirkten, sind zum Beispiel Fritz Geißler, Jörg Herchet, Heinrich Schütz, Richard Wagner, Carl Maria von Weber und Jan Dismas Zelenka.
-Einige Komponisten haben in Dresden ihren Wohnsitz, darunter Thuon Burtevitz, Alexander Keuk, Wilfried Krätzschmar, Karoline Schulz, Jorge García del Valle Méndez und Udo Zimmermann.
+Bekannte Komponisten, die in Dresden wirkten, sind zum Beispiel Fritz Geißler, Jörg Herchet, Heinrich Schütz, Richard Wagner, Carl Maria von Weber und Jan Dismas Zelenka. Einige Komponisten haben in Dresden ihren Wohnsitz, darunter Thuon Burtevitz, Alexander Keuk, Wilfried Krätzschmar, Karoline Schulz, Jorge García del Valle Méndez und Udo Zimmermann.
 Dresden: ===  Museen und Galerien  ===
 Dresden: Blick in die Skulpturensammlung mit den vor der Flut ausgegliederten Gipsabgüssen
-Dresden hat eine vielseitige Museumslandschaft - eine Komposition von historisch gewachsenen und wertvollen jüngeren Einrichtungen.
-Der über Jahrhunderte anhaltende kulturelle Beitrag Dresdens wird mit etwa 50 Museen repräsentiert, darunter viele halbstaatliche und private Institutionen.
-Die Staatlichen Kunstsammlungen Dresden (SKD) enthalten die bekanntesten Museen der Stadt.
-Dresden: Die zentralen Einrichtungen der Kunstsammlungen sind das Residenzschloss und der Zwinger.
+Dresden hat eine vielseitige Museumslandschaft – eine Komposition von historisch gewachsenen und wertvollen jüngeren Einrichtungen. Der über Jahrhunderte anhaltende kulturelle Beitrag Dresdens wird mit etwa 50 Museen repräsentiert, darunter viele halbstaatliche und private Institutionen.
+Die Staatlichen Kunstsammlungen Dresden (SKD) enthalten die bekanntesten Museen der Stadt. Die zentralen Einrichtungen der Kunstsammlungen sind das Residenzschloss und der Zwinger.
 Dresden: Die Gemäldegalerie Alte Meister befindet sich seit 1855 im Semperbau des Zwingers.
 Dresden: Das berühmteste Exponat ist die Sixtinische Madonna von Raffael, die ursprünglich 1512/13 als Altarbild gemalt wurde.
 Dresden: Mit weiteren Werken unter anderen von Rembrandt, Rubens und Canaletto führt die Galerie Bilder der Renaissance und des Barock.
@@ -650,35 +591,26 @@ Dresden: Ein besonderes Museum der SKD ist der Mathematisch-Physikalische Salon,
 Dresden: Er enthält mathematische und physikalische Instrumente aus der Zeit des Barock und der Aufklärung sowie Globen und astronomische Kartografien.
 Er ist eines der frühesten Zeugnisse für die Verbindung von Kultur und Wissenschaft in Dresden und wurde 1728 aus der allgemeinen Kunstsammlung ausgegründet.
 Dresden: Die Grundlagen dieser Sammlung wurden dort schon Jahrhunderte vorher gelegt.
-Dresden: Weitere Einrichtungen der Kunstsammlungen sind das Kunstgewerbemuseum im Schloss Pillnitz, das Kupferstichkabinett mit dem Josef-Hegenbarth-Archiv, das Museum für Sächsische Volkskunst, die Porzellansammlung - eine Sammlung Meißner Porzellan, die Puppentheatersammlung, die Skulpturensammlung und die Kunsthalle im Lipsius-Bau.
+Dresden: Weitere Einrichtungen der Kunstsammlungen sind das Kunstgewerbemuseum im Schloss Pillnitz, das Kupferstichkabinett mit dem Josef-Hegenbarth-Archiv, das Museum für Sächsische Volkskunst, die Porzellansammlung – eine Sammlung Meißner Porzellan, die Puppentheatersammlung, die Skulpturensammlung und die Kunsthalle im Lipsius-Bau.
 Dresden: ====  Nationale Museen  ====
 Dresden: Militärhistorisches Museum der Bundeswehr
-Dresden: Das Deutsche Hygiene-Museum dient seit seiner Gründung 1912 der gesundheitlichen, humanbiologischen und medizinischen Aufklärung der breiten Bevölkerung.
-Dresden: Bekanntestes Exponat ist die Gläserne Frau, die einen plastischen Einblick auf alle inneren Organe zulässt.
-Dresden: Im Norden der Stadt, in der ehemaligen Kasernenvorstadt Albertstadt, liegt das Militärhistorische Museum der Bundeswehr.
-Dresden: Es wurde von 2006 bis 2011 nach Plänen von Daniel Libeskind umgebaut (siehe Moderne Bauwerke).
-Dresden: 10.000 Objekte bezeugen Kulturgeschichten der Gewalt.
-Dresden: Die Sammlung umfasst Waffen und Kriegsgeräte aus mehreren Jahrhunderten.
+Dresden: Das Deutsche Hygiene-Museum dient seit seiner Gründung 1912 der gesundheitlichen, humanbiologischen und medizinischen Aufklärung der breiten Bevölkerung. Bekanntestes Exponat ist die Gläserne Frau, die einen plastischen Einblick auf alle inneren Organe zulässt.
+Dresden: Im Norden der Stadt, in der ehemaligen Kasernenvorstadt Albertstadt, liegt das Militärhistorische Museum der Bundeswehr. Es wurde von 2006 bis 2011 nach Plänen von Daniel Libeskind umgebaut (siehe Moderne Bauwerke). 10.000 Objekte bezeugen Kulturgeschichten der Gewalt. Die Sammlung umfasst Waffen und Kriegsgeräte aus mehreren Jahrhunderten.
 Dresden: ====  Städtische Museen  ====
 Dresden: Landhaus am Pirnaischen Platz
 Das Stadtmuseum Dresden und die Städtische Galerie Dresden sind im Landhaus (dem ersten Tagungsgebäude für die Landstände) am Pirnaischen Platz untergebracht.
-Weitere Museen in städtischer Verantwortung sind die Technischen Sammlungen, das Carl-Maria-von-Weber-Museum, das Kraszewski-Museum, das Kügelgenhaus - Museum der Dresdner Romantik, das Schillerhäuschen, das Palitzsch-Museum, Leonhardi-Museum und das Kunsthaus Dresden.
+Weitere Museen in städtischer Verantwortung sind die Technischen Sammlungen, das Carl-Maria-von-Weber-Museum, das Kraszewski-Museum, das Kügelgenhaus – Museum der Dresdner Romantik, das Schillerhäuschen, das Palitzsch-Museum, Leonhardi-Museum und das Kunsthaus Dresden.
 Besonders erwähnenswert unter den Autorinnen und Autoren, die zumindest einen Teil ihres Lebens in Dresden verbracht haben, sind Volker Braun, Heinz Czechowski, Durs Grünbein, Ralf Günther, Erich Kästner, Victor Klemperer, Theodor Körner, Karl Mickel, Ludwig Renn, Friedrich Schiller, Ingo Schulze, Ludwig Tieck und Józef Ignacy Kraszewski.
 Bekannte Autoren, die zurzeit in Dresden ihren Wohnsitz haben, sind zum Beispiel Marcel Beyer, Undine Materni, Thomas Rosenlöcher, Volker Sielaff, Uwe Tellkamp, Jens Wonneberger und Michael Wüstefeld.
-Einmal im Jahr schreibt Dresden den Dresdner Stadtschreiber aus.
-Dresden: Der ausgewählte Schriftsteller lebt jeweils für sechs Monate in der Stadt.
-Dresden: Alle zwei Jahre wird der Dresdner Lyrikpreis ausgelobt.
+Einmal im Jahr schreibt Dresden den Dresdner Stadtschreiber aus. Der ausgewählte Schriftsteller lebt jeweils für sechs Monate in der Stadt. Alle zwei Jahre wird der Dresdner Lyrikpreis ausgelobt.
 Darüber hinaus widmen sich in Dresden ansässige Vereine der Förderung der zeitgenössischen Literatur, so die Literarische Arena, das Literaturbüro und das Literaturforum Dresden.
 Dresden: Sächsische Landes- und Universitätsbibliothek (SLUB)
 Die Sächsische Landesbibliothek - Staats- und Universitätsbibliothek Dresden befindet sich im Süden der Stadt auf dem Campus der Technischen Universität.
 Dresden: Sie entstand 1996 aus dem Zusammenschluss der Dresdner Universitätsbibliothek mit der Sächsischen Landesbibliothek, die 1556 als Hofbibliothek gegründet wurde.
 Dresden: Sie gehört mit etwa neun Millionen Bestandseinheiten zu den größten Bibliotheken in Deutschland und hat das Pflichtexemplarrecht für in Sachsen erschienene und erscheinende Bücher.
 Dresden: In der Bibliothek befindet sich die Deutsche Fotothek.
-Hochschulbibliotheken bestehen an der Hochschule für Wirtschaft und Technik, an der Hochschule für Musik Carl Maria von Weber, an der Hochschule für Bildende Künste sowie am gemeinsamen Campus der Berufsakademie Dresden und der Evangelischen Hochschule Dresden.
-Dresden: (Internetquelle: http://www.bibliotheken-dresden.de/thematische-suche/hochschulbibliotheken Hochschulbibliotheken)
-Dresden: Die Stadt verfügt mit den Städtischen Bibliotheken über eine der am intensivsten genutzten Bibliotheken in Deutschland.
-Dresden: Jährlich verleiht sie 5,4 Millionen Medien.
-Dresden: Neben der Zentralbibliothek bestehen 19 Stadtteilbibliotheken und eine Fahrbibliothek.
+Hochschulbibliotheken bestehen an der Hochschule für Wirtschaft und Technik, an der Hochschule für Musik Carl Maria von Weber, an der Hochschule für Bildende Künste sowie am gemeinsamen Campus der Berufsakademie Dresden und der Evangelischen Hochschule Dresden. (Internetquelle: http://www.bibliotheken-dresden.de/thematische-suche/hochschulbibliotheken Hochschulbibliotheken )
+Dresden: Die Stadt verfügt mit den Städtischen Bibliotheken über eine der am intensivsten genutzten Bibliotheken in Deutschland. Jährlich verleiht sie 5,4 Millionen Medien. Neben der Zentralbibliothek bestehen 19 Stadtteilbibliotheken und eine Fahrbibliothek.
 Bedeutende Archive in Dresden sind das Stadtarchiv und das Hauptstaatsarchiv.
 In Dresden gibt es 18 Kinos mit rund 10.700 Sitzplätzen.
 Dresden: (Webarchiv: http://www.ffa.de/downloads/marktdaten/3_Besucher_Umsatz_Preise/3.3_Staedtemehrals200000/2010.pdf (PDF; 20 kB) - Filmförderungsanstalt.)
@@ -727,16 +659,13 @@ Der Georgenbau ist dabei einer der wenigen erhaltenen Renaissancebauten in Dresd
 Der Wiederaufbau des Schlosses begann 1986 und ist im Jahre 2015 weit fortgeschritten und es wird umfangreich durch die Staatlichen Kunstsammlungen Dresden genutzt.
 Dresden: Als erstes eigenständiges Element der Schlossanlagen konnte der Stallhof fertiggestellt werden.
 Dresden: Zur architektonischen Einheit des Schloßplatzes zählen noch die Hofkirche (siehe unten), der Fürstenzug und das erst Ende des 19. Jahrhunderts errichtete Ständehaus.
-Dresden: Am Rand der Innenstadt befindet sich der Große Garten, ein Park mit Merkmalen barocker Gartenbauweise und symmetrischer Wegführung, allerdings mit freien Verläufen von Bewaldung.
-Dresden: Dort befindet sich das Sommerpalais.
-Dresden: Der Große Garten gehörte nicht zum Weltkulturerbe.
+Dresden: Am Rand der Innenstadt befindet sich der Große Garten, ein Park mit Merkmalen barocker Gartenbauweise und symmetrischer Wegführung, allerdings mit freien Verläufen von Bewaldung. Dort befindet sich das Sommerpalais. Der Große Garten gehörte nicht zum Weltkulturerbe.
 Dresden: Schloss Pillnitz war Teil der Dresdner Welterbe-Stätten
 Am Rande von Dresden, direkt an der Elbe, liegt das Schloss Pillnitz.
 Dresden: Dieses besteht aus drei Palais im barocken und chinamodischen Baustil und wurde als Sommerresidenz genutzt.
 Dresden: Am Palais an der Elbseite liegt die berühmte Treppe zur Elbe, über die es möglich war, aus der Innenstadt per Gondel an diesem Schloss zu landen.
 Dresden: In die europäische Geschichte ging es über die Pillnitzer Deklaration ein.
-Dresden: Die Kulturlandschaft Dresdner Elbtal mit einer Ausdehnung von Schloss Pillnitz bis Schloss Übigau wurde im Jahr 2004 durch die UNESCO in deren Liste der Welterbestätten aufgenommenen, 2009 mit dem Bau der Waldschlößchenbrücke jedoch wieder daraus gestrichen.
-Dresden: Die UNESCO sah in der Brücke eine Gefährdung der Landschaft als Welterbe.
+Dresden: Die Kulturlandschaft Dresdner Elbtal mit einer Ausdehnung von Schloss Pillnitz bis Schloss Übigau wurde im Jahr 2004 durch die UNESCO in deren Liste der Welterbestätten aufgenommenen, 2009 mit dem Bau der Waldschlößchenbrücke jedoch wieder daraus gestrichen. Die UNESCO sah in der Brücke eine Gefährdung der Landschaft als Welterbe.
 Dresden: Zu Beginn des 20. Jahrhunderts entstanden im Dresdner Raum bedeutende Bauwerke der Reformbaukunst.
 Für die daraus besonders hervorzuhebende 1909 gegründete erste deutsche Gartenstadt Dresden-Hellerau laufen seit ca. 2011 Bemühungen, für diesen Dresdner Stadtteil die Aufnahme in das UNESCO-Welterbe zu beantragen.
 Dresden: Namhafte Künstler und Architekten wie Richard Riemerschmid, Hermann Muthesius, Theodor Fischer, Kurt Frick und Heinrich Tessenow waren an der Gestaltung der von Karl Schmidt-Hellerau gegründeten Reformsiedlung beteiligt.
@@ -754,8 +683,7 @@ Dresden: Ebenfalls am 13. Februar 1945 zerstört, wurde sie dennoch ab Juni 1945
 Dresden: 1962 konnte auch das Hauptschiff wieder genutzt werden.
 Dresden: 1964 wurde die Hofkirche zur Kon-Kathedrale (svw.
 Durch den Umzug des Bischofs von Bautzen nach Dresden ist sie seit 1980 Kathedrale des Bistums Dresden-Meißen.
-Dresden: Evangelische Hauptkirche ist allerdings die am Südost-Rand des Altmarkts gelegene Kreuzkirche.
-Dresden: Sie ist der größte Kirchenbau Sachsens und, durch Zerstörungen oder Brände mit anschließenden Wiederaufbauten in veränderter Form, seit dem 13. Jahrhundert überliefert.
+Dresden: Evangelische Hauptkirche ist allerdings die am Südost-Rand des Altmarkts gelegene Kreuzkirche. Sie ist der größte Kirchenbau Sachsens und, durch Zerstörungen oder Brände mit anschließenden Wiederaufbauten in veränderter Form, seit dem 13. Jahrhundert überliefert.
 Dresden: Die Sophienkirche, die am Postplatz in unmittelbarer Nähe des Zwingers stand, war eines der wenigen Bauwerke der Gotik in der Stadt.
 Dresden: Die Ruine dieser Kirche wurde trotz eines guten Erhaltungszustandes im Rahmen einer sozialistisch-antikirchlichen Einstellung abgetragen und musste der HO-Gaststätte "Am Zwinger" weichen (von den Dresdnern Fresswürfel genannt), die ihrerseits den Start in die Marktwirtschaft nicht überlebte.
 Dresden: Heute geben einerseits der Cholerabrunnen, andererseits durch die Bemühungen bürgerschaftlichen Engagements, Elemente der Busmannkapelle der früheren Sophienkirche Auskunft über den vormaligen Standort.
@@ -773,18 +701,14 @@ Dresden: Von der im Neorenaissancestil errichteten Trinitatiskirche in Johannsta
 Heute dient sie der evangelisch-lutherischen Johanneskirchgemeinde Dresden-Johannstadt-Striesen wieder als Kirchenraum, dem Förderverein als Veranstaltungsort, unter anderem für Konzerte, der Offenen Sozialen Jugendarbeit der Gemeinde als Anlaufpunkt für Kinder und Jugendliche aus dem Stadtteil und fungiert als Ausgabestelle der Dresdner Tafel.
 Dresden: Die St.-Pauli-Kirche im Hechtviertel wird von einem gemeinnützigen Verein intensiv als Sommertheater genutzt.
 Dresden: Am südlichen Rand der Innenstadt, ebenfalls in der Südvorstadt, liegen die Russisch-Orthodoxe Kirche und die Lukaskirche.
-Dresden: In der Inneren Neustadt befindet sich die Dreikönigskirche mit ihrem Totentanzrelief.
-Dresden: Ihre Kriegsruine wurde im Zusammenhang mit der Fertigstellung der Neustädter Hauptstraße wieder aufgebaut.
-Dresden: Von 1990 bis 1993 war sie Sitz des sächsischen Landtags.
-Dresden: Die im Stadtteil Strehlen auf einer Anhöhe am Kaitzbach gelegene Christuskirche entstand in den Jahren 1902-1905.
-Dresden: Erbaut von den Dresdner Architekten Schilling & Graebner, stellt sie eine der modernsten und kühnsten Kirchenbauten ihrer Zeit in Deutschland dar und wird der Reformarchitektur zugeordnet.
+Dresden: In der Inneren Neustadt befindet sich die Dreikönigskirche mit ihrem Totentanzrelief. Ihre Kriegsruine wurde im Zusammenhang mit der Fertigstellung der Neustädter Hauptstraße wieder aufgebaut. Von 1990 bis 1993 war sie Sitz des sächsischen Landtags.
+Dresden: Die im Stadtteil Strehlen auf einer Anhöhe am Kaitzbach gelegene Christuskirche entstand in den Jahren 1902–1905. Erbaut von den Dresdner Architekten Schilling & Graebner, stellt sie eine der modernsten und kühnsten Kirchenbauten ihrer Zeit in Deutschland dar und wird der Reformarchitektur zugeordnet.
 Dresden: Die Alte Synagoge wurde während der Reichspogromnacht am 9. November 1938 zerstört.
 Dresden: Der Architekt des von 1838 bis 1840 erbauten Sakralgebäudes war Gottfried Semper.
 Dresden: Aus dem alten Gebäude konnte nur einer der beiden Davidsterne gerettet werden.
 Dresden: Fast exakt am selben Ort entstand der Bau der Neuen Synagoge, die am 9. November 2001 eingeweiht wurde.
 Dresden: ====  Moderne Bauwerke  ====
-Dresden: Das ehemalige Centrum-Warenhaus war mit seiner Fassade ein bekanntes Beispiel für DDR-Architektur.
-Dresden: Das Gebäude wurde abgerissen; an diesem Ort steht das Einkaufszentrum Centrum-Galerie.
+Dresden: Das ehemalige Centrum-Warenhaus war mit seiner Fassade ein bekanntes Beispiel für DDR-Architektur. Das Gebäude wurde abgerissen; an diesem Ort steht das Einkaufszentrum Centrum-Galerie.
 In Dresden befinden sich viele Baudenkmäler des 19. und 20. Jahrhunderts.
 Dresden: Die neudeutsche Romantik ist ebenso vertreten wie neoklassizistische Bauten und Gebäude der Gründerzeit, des Jugendstils und der Moderne wie Postmoderne.
 Dresden: Teilweise bauen diese neuen Bauwerke auf Vorgängern auf beziehungsweise dienen der Erneuerung dieser Bauwerke.
@@ -818,10 +742,8 @@ Dresden: Direkt am Hauptbahnhof befindet sich das neuerrichtete Glaskugelhaus.
 Der Gedanke eines Hauses in Kugelform wurde erstmals 1928 in Dresden verwirklicht.
 Dresden: Das für Ausstellungszwecke errichtete Kugelhaus befand sich bis 1938 auf dem Messe- und Ausstellungsgelände, dem heutigen Gelände der Gläsernen Manufaktur.
 Dresden: Das neue Kugelhaus, das eine reine Glasfassade hat, soll das Motiv der Kugel wieder aufnehmen.
-Dresden: Eines der Gebäude der Moderne ist der Ufa-Kristallpalast des Architekturbüros Coop Himmelb (l) au.
-Dresden: Dieses mittlerweile bekannte Büro baute mit diesem Gebäude sein erstes großes Projekt.
-Dresden: Es gehört trotz nutzungsbedingter Kompromisse zum Dekonstruktivismus, was vor allem am großen Glaskubus des Baus zu erkennen ist.
-Dresden: Weitere bekannte glasbetonende Bauwerke sind zum Beispiel das World Trade Center und die Gläserne Manufaktur von VW, beide am sogenannten "26er Ring" (Straßenzug um die Altstadt aus Ammonstraße, Wiener Straße, Lennéstraße und Güntzstraße) gelegen.
+Dresden: Eines der Gebäude der Moderne ist der Ufa-Kristallpalast des Architekturbüros Coop Himmelb(l)au. Dieses mittlerweile bekannte Büro baute mit diesem Gebäude sein erstes großes Projekt. Es gehört trotz nutzungsbedingter Kompromisse zum Dekonstruktivismus, was vor allem am großen Glaskubus des Baus zu erkennen ist.
+Dresden: Weitere bekannte glasbetonende Bauwerke sind zum Beispiel das World Trade Center und die Gläserne Manufaktur von VW, beide am sogenannten „26er Ring“ (Straßenzug um die Altstadt aus Ammonstraße, Wiener Straße, Lennéstraße und Güntzstraße) gelegen.
 Dresden: Zu den der Überbetonung des Glases entgegengestellten Bauwerken gehört die Synagoge, ein auch wegen der markanten Lage am alten Standort der 1938 in der Reichspogromnacht zerstörten Synagoge von Gottfried Semper direkt an der Elbe in seiner Gestaltung umstrittenes Gebäude.
 Dresden: Sie besteht aus zwei Flügeln, dem Gebets- und Gemeinderaum.
 Dresden: Der Gebetsraum ist nach außen fast völlig fensterlos.
@@ -832,24 +754,16 @@ Dresden: Die Auslage- und Lesebereiche der Bibliothek liegen größtenteils unte
 Dresden: Die einzige echte Fassade des Bauwerks besitzen die beiden aufragenden Riegel, die wenig Fensterfläche aufweisen.
 Dresden: Eine natürliche Beleuchtung der Bibliothek wird über Lichtschächte und das große Glasdach des zentralen Lesesaals erreicht.
 Dresden: Die Innenarchitektur wirkt ruhig und gleicht der einer Klosterbibliothek mit sehr vielen Nischen, Galerien und Säulen.
-Dresden: Am Rande der Innenstadt befindet sich das St. Benno-Gymnasium, einer der ersten Schulneubauten nach 1989.
-Dresden: Das von Behnisch Architekten entworfene Gebäude fällt durch seine aufgelockerte und farbige Gestaltung auf.
+Dresden: Am Rande der Innenstadt befindet sich das St. Benno-Gymnasium, einer der ersten Schulneubauten nach 1989. Das von Behnisch Architekten entworfene Gebäude fällt durch seine aufgelockerte und farbige Gestaltung auf.
 Dresden: Ein repräsentativer Bau der 1990er ist das Gebäude der sächsischen Landesärztekammer auf der Schützenhöhe.
-Dresden: In den Jahren 2016 bis 2019 wurde das Gebäude der ehemaligen Oberpostdirektion saniert.
-Dresden: Dabei wurden die Altbauten durch zwei Neubauten ergänzt.
+Dresden: In den Jahren 2016 bis 2019 wurde das Gebäude der ehemaligen Oberpostdirektion saniert. Dabei wurden die Altbauten durch zwei Neubauten ergänzt.
 Dresden: Blaues Wunder, Elbbrücke zwischen Blasewitz und Loschwitz
-Dresden, beiderseits der Elbe gelegen, weist mehrere Elbbrücken auf.
-Dresden: Die berühmteste ist das 1893 fertiggestellte Blaue Wunder (eigentlich Loschwitzer Brücke).
-Dresden: Die Stahlfachwerkbrücke gehört zu den technischen Sehenswürdigkeiten und liegt etwa acht Kilometer stromaufwärts der Innenstadt zwischen Loschwitz und Blasewitz.
-Dresden: Sie überspannt die Elbe über eine Länge von 141,5 m.
-Dresden: Nach jahrelangem politischen und juristischen Tauziehen (siehe Dresdner Brückenstreit) wurde am 24. August 2013 östlich der Innenstadt die neue Waldschlößchenbrücke eröffnet.
-(Internetquelle: http://www.spiegel.de/kultur/gesellschaft/dresden-umstrittene-waldschloesschenbruecke-eroeffnet-a-918363.html Dresden eröffnet Waldschlösschenbrücke)
-Dresden: Blick stromaufwärts zur Carolabrücke, Elbe mit Wasserstand 65 cm, Juli 2015
+Dresden, beiderseits der Elbe gelegen, weist mehrere Elbbrücken auf. Die berühmteste ist das 1893 fertiggestellte Blaue Wunder (eigentlich Loschwitzer Brücke). Die Stahlfachwerkbrücke gehört zu den technischen Sehenswürdigkeiten und liegt etwa acht Kilometer stromaufwärts der Innenstadt zwischen Loschwitz und Blasewitz. Sie überspannt die Elbe über eine Länge von 141,5 m.
+Nach jahrelangem politischen und juristischen Tauziehen (siehe Dresdner Brückenstreit) wurde am 24. August 2013 östlich der Innenstadt die neue Waldschlößchenbrücke eröffnet. (Internetquelle: http://www.spiegel.de/kultur/gesellschaft/dresden-umstrittene-waldschloesschenbruecke-eroeffnet-a-918363.html Dresden eröffnet Waldschlösschenbrücke )
+Dresden: Blick stromaufwärts zur Carolabrücke, Elbe mit Wasserstand 65 cm, Juli 2015
 Dresden: Die historische, 1910 ersetzte Augustusbrücke auf einem Canaletto-Bild
 Dresden: Marienbrücken: Eine Straßenbrücke und dahinter (hier weitgehend verdeckt) eine Eisenbahnbrücke
-Dresden: In der Innenstadt befinden sich vier Straßenbrücken und eine Eisenbahnbrücke:
-Dresden: Die Albertbrücke folgt in der Brückenfolge auf die Waldschlößchenbrücke und wurde als letzte der Steinbrücken angelegt.
-Dresden: Im Rahmen der spätestens seit 2008 notwendigen Sanierung, die letztlich 2014-2016 erfolgte, wurde die Brücke verbreitert und der ihr nördlich vorgelagerte Rosa-Luxemburg-Platz umgestaltet.
+Dresden: In der Innenstadt befinden sich vier Straßenbrücken und eine Eisenbahnbrücke:  Die Albertbrücke folgt in der Brückenfolge auf die Waldschlößchenbrücke und wurde als letzte der Steinbrücken angelegt. Im Rahmen der spätestens seit 2008 notwendigen Sanierung, die letztlich 2014–2016 erfolgte, wurde die Brücke verbreitert und der ihr nördlich vorgelagerte Rosa-Luxemburg-Platz umgestaltet.
 Dresden: Die Carolabrücke folgt etwa 640 Meter weiter.
 Dresden: Sie war ursprünglich eine auf steinernen Pfeilern ruhende Bogenbrücke mit Bögen aus Stahlfachwerk, wurde aber nach der Zerstörung im Zweiten Weltkrieg durch eine Spannbetonbrücke ersetzt.
 Dresden: Diese trägt mit der vierspurigen B 170 eine der wichtigsten Nord-Süd-Verbindungen der Stadt und zudem einen separaten Gleiskörper der Straßenbahn.
@@ -862,8 +776,7 @@ Dresden: Die Brücke selbst liegt direkt im alten Stadtkern.
 Dresden: Die stromabwärts letzte Brücke im Stadtzentrum ist die Marienbrücke, die zunächst eine kombinierte Eisenbahn-Straßenbrücke war.
 Dresden: Im Zuge der Neugestaltung der Dresdner Eisenbahnanlagen des auslaufenden 19. Jahrhunderts besteht sie nunmehr aus zwei Brücken: flussaufwärts die eigentliche Marienbrücke, seit 1900 eine reine Straßenbrücke und flussabwärts eine seit ihrer Sanierung (und teilweisem Neubau) fünf- (vorher vier-) gleisige Eisenbahnbrücke.
 Dresden: Um beide Brücken zu unterscheiden, meint der heutige Sprachgebrauch mit "Marienbrücke" die Straßenbrücke, die zweite wird korrekt als "Marien-Eisenbahnbrücke" bezeichnet.
-Dresden: Weiter flussabwärts liegt die zwischen den beiden Weltkriegen errichtete Flügelwegbrücke, die die Stadtteile Kaditz und Cotta verbindet.
-Der Brückenüberbau wurde 2004 komplett ausgetauscht und trägt nun sechs Fahrstreifen der Westumfahrung Dresdens.
+Weiter flussabwärts liegt die zwischen den beiden Weltkriegen errichtete Flügelwegbrücke, die die Stadtteile Kaditz und Cotta verbindet. Der Brückenüberbau wurde 2004 komplett ausgetauscht und trägt nun sechs Fahrstreifen der Westumfahrung Dresdens.
 Dresden: Weitere Brücken auf dem Stadtgebiet sind die ebenfalls erneuerte Autobahnbrücke der A 4 sowie die Niederwarthaer Eisenbahnbrücke der Berlin-Dresdner Eisenbahn im äußersten Westen.
 Dresden: Beide Brücken haben zusätzlich gesonderte Fuß- und Radwege.
 Dresden: Dazu kommt die 2008 fertiggestellte Straßenbrücke zwischen dem Ortsteil Niederwartha und Radebeul, die direkt neben der dortigen Eisenbahnbrücke entstanden ist.
@@ -895,16 +808,14 @@ Dresden: Seit seiner Restaurierung 1996 dient das Gebäude als Bürokomplex.
 An der Yenidze vorbei führt die Bahnstrecke zwischen Hauptbahnhof und dem Bahnhof Dresden-Neustadt.
 Dresden: Sie wurde ähnlich wie die Berliner Stadtbahn auf Viadukten durch die enge Innenstadt gebaut.
 Dresden: Bis zur Fertigstellung des durchgängigen Bahnsystems gab es Stichbahnhöfe: den Leipziger Bahnhof und den Schlesischen Bahnhof auf Neustädter Elbseite sowie den Berliner Bahnhof, den Böhmischen Bahnhof und den Albertbahnhof linkselbisch, die mittels ebenerdiger Bahngleise lose verbunden gewesen waren.
-Dresden: Einmalig in seinem Aufbau ist der Hauptbahnhof: Der mittlere Teil ist als ebenerdiger Kopfbahnhof für Züge aus Richtung Leipzig, Nürnberg oder Berlin errichtet.
-Dresden: Auf beiden Seiten gibt es aber durchgängige Hochbahnsteige Richtung Prag, mit jeweils zusätzlicher Bahnhofshalle.
-Dresden: Das Empfangsgebäude befindet sich auf der Stirnseite des Kopfbahnhofteils zwischen den Durchgangsgleisen.
+Dresden: Einmalig in seinem Aufbau ist der Hauptbahnhof: Der mittlere Teil ist als ebenerdiger Kopfbahnhof für Züge aus Richtung Leipzig, Nürnberg oder Berlin errichtet. Auf beiden Seiten gibt es aber durchgängige Hochbahnsteige Richtung Prag, mit jeweils zusätzlicher Bahnhofshalle. Das Empfangsgebäude befindet sich auf der Stirnseite des Kopfbahnhofteils zwischen den Durchgangsgleisen.
 Dresden: Der Fernsehturm befindet sich am Rand des östlichen Hochlands und ist 252 Meter hoch.
 Dresden: Er überragt die Stadt aufgrund der Berglage um etwa 370 Meter und wurde 1969 eröffnet.
 Dresden: Bis 1991 befand sich eine gastronomische Einrichtung auf knapp 150 Metern Höhe, also etwa 268 Meter über der Stadt.
 Dresden: Ebenfalls am Elbhang, wenngleich am südlichen in der nordwestlich gelegenen Ortschaft Cossebaude, liegt das Pumpspeicherwerk Niederwartha.
 Dresden: Es wurde 1930 erbaut und hat eine Leistung von 120 Megawatt.
 Dresden: Aus dem oberen Becken strömt das Wasser 143 Meter in das untere, das an der Elbe liegt.
-Weitere nennenswerte technische Bauwerke sind das Krematorium Tolkewitz, das Wasserwerk Saloppe und das Automatische Parkhaus Dresden-Neustadt, das im Rahmen der zur Fußball-WM 2006 gestarteten Initiative "Deutschland - Land der Ideen" als einer von 365 repräsentativen Orten ausgezeichnet wurde.
+Weitere nennenswerte technische Bauwerke sind das Krematorium Tolkewitz, das Wasserwerk Saloppe und das Automatische Parkhaus Dresden-Neustadt, das im Rahmen der zur Fußball-WM 2006 gestarteten Initiative „Deutschland – Land der Ideen“ als einer von 365 repräsentativen Orten ausgezeichnet wurde.
 Dresden: ====  Brunnen, Denkmäler und Skulpturen  ====
 Dresden: Denkmal an die 1938 zerstörte Alte Synagoge
 Die bekannteste Skulptur in Dresden ist der Goldene Reiter, ein Abbild Augusts des Starken im römischen Schuppenpanzer hoch zu Ross.
@@ -923,31 +834,23 @@ Dresden: Am Albertplatz befindet sich ein 240 Meter tiefer artesischer Brunnen, 
 Dresden: Auf dem Albertplatz befinden sich zwei Zierbrunnen, stadteinwärts links "Stille Wasser" und "Stürmische Wogen" stadteinwärts rechts, auf dem parkähnlichen und kreisrunden Albertplatz, zwischen denen sich die Straßenbahnhaltestellen befinden.
 Dresden: Eine historische und ebenfalls sehr berühmte Brunnenanlage ist das Nymphenbad im Zwinger.
 Dresden: Zur Erinnerung an Opfer des Nationalsozialismus wurden seit 2009 über 100 Stolpersteine verlegt.
-Dresden: Die Leistung der Dresdner Frauen bei der Enttrümmerung nach dem Zweiten Weltkrieg wird durch das Denkmal der Trümmerfrau von Walter Reinhold von 1952 gewürdigt.
-Dresden: Es steht, nach 1990 in Bronze neu gegossen, in einer Grünanlage vor dem Neuen Rathaus.
-Dresden: Dieses Denkmal war das erste seiner Art in der DDR.
+Dresden: Die Leistung der Dresdner Frauen bei der Enttrümmerung nach dem Zweiten Weltkrieg wird durch das Denkmal der Trümmerfrau von Walter Reinhold von 1952 gewürdigt. Es steht, nach 1990 in Bronze neu gegossen, in einer Grünanlage vor dem Neuen Rathaus. Dieses Denkmal war das erste seiner Art in der DDR.
 In Dresden befinden sich etwa 300 Brunnen, Wasserspiele und Fontänen.
 Dresden: Darunter sind auch moderne Anlagen wie die "Pusteblumen" auf der Prager Straße (diese sind den Springbrunnen aus sozialistischen Zeiten nachempfunden, die sich am selben Ort befanden) oder die Brunnen vor dem Hauptbahnhof, in denen sich das Glasdach der darunterliegenden Tiefgarage befindet.
 Siehe auch: Liste der Brunnen und Wasserspiele in Dresden
 Dresden: Palais im Großen Garten
 Dresden: Gartenstadt Hellerau mit Festspielhaus
-Dresden: Nachbildungen der Kursächsischen Postdistanzsäule aus dem Jahr 1722/32 vom ehemaligen Wilsdruffer Tor (Postplatz) in Zschertnitz und an der Freiberger Straße/Hertha-Lindner-Straße (Telekom) sowie des Kursächsischen Viertelmeilensteins Nr. 1 von der Obergebirgischen Poststraße als Denkmal für den Stadtteil Zschertnitz am Ausgang der Paradiesstraße
+Dresden: Nachbildungen der Kursächsischen Postdistanzsäule aus dem Jahr 1722/32 vom ehemaligen Wilsdruffer Tor (Postplatz) in Zschertnitz und an der Freiberger Straße/Hertha-Lindner-Straße (Telekom) sowie des Kursächsischen Viertelmeilensteins Nr. 1 von der Obergebirgischen Poststraße als Denkmal für den Stadtteil Zschertnitz am Ausgang der Paradiesstraße
 Dresden hat sowohl auf eigenem Stadtgebiet als auch im Umland zahlreiche Ausflugsziele.
 Dresden: Gerade der touristische Wert der Stadt ergibt sich aus der Nähe zu einigen für sich schon bekannten Regionen oder Bauwerken, wie zum Beispiel Schloss Moritzburg, Meißen, dem Erzgebirge sowie der Sächsischen Schweiz.
 Dresden: Dorthin bieten sich vor allem Fahrten mit den neun historischen Raddampfern der Sächsischen Dampfschiffahrtsgesellschaft an - jeder für sich ein Technikdenkmal.
-Dresden: Der Schillergarten, eine alte Gaststätte in Blasewitz, liegt direkt neben dem Blauen Wunder.
-Dresden: Bekannt ist Friedrich Schillers Verewigung der Tochter des damaligen Wirts als Gustel von Blasewitz in Wallensteins Lager.
-Dresden: Der unmittelbar an das Blaue Wunder anschließende Schillerplatz ist eines der bedeutendsten Stadtzentren außerhalb der Innenstadt.
+Dresden: Der Schillergarten, eine alte Gaststätte in Blasewitz, liegt direkt neben dem Blauen Wunder. Bekannt ist Friedrich Schillers Verewigung der Tochter des damaligen Wirts als Gustel von Blasewitz in Wallensteins Lager. Der unmittelbar an das Blaue Wunder anschließende Schillerplatz ist eines der bedeutendsten Stadtzentren außerhalb der Innenstadt.
 Dresden: Weite Teile des Stadtgebietes dienen der Naherholung; einige Stadtteile sind ehemalige Kurorte.
 Die Gesamtgröße der Erholungsflächen in Dresden beläuft sich auf 1561 Hektar (30,5 m2 je Einwohner). () Davon sind 890 Hektar öffentliche Grünflächen und Erholungsanlagen. () Des Weiteren existieren in Dresden 369 Kleingartenanlagen auf einer Fläche von 792 Hektar.
 Dresden: (Internetquelle: https://www.dresden.de/de/stadtraum/umwelt/gruenes-dresden/gaertnern/kleingaerten.php Kleingartenvereine) Ungefähr 50.000 Dresdnerinnen und Dresdner sind aktive Kleingärtner (Stand: Ende 2009).
 (Internetquelle: https://www.dresden.de/de/rathaus/aktuelles/pressemitteilungen/archiv/2009/11/pm_107.php Schönste Kleingartenanlage 2010 in Dresden gesucht) Außerdem gibt es in der Stadt 58 Friedhöfe mit einer Gesamtfläche von 196 Hektar, mehr als 50.000 Straßenbäume sowie etwa 900 öffentlich zugängliche Spielplätze. ()
-Dresden: Im Nordosten der Stadt liegt die Dresdner Heide.
-Dresden: Sie bedeckt mit 58 Quadratkilometern etwa 15% der heutigen Stadtfläche.
-Dresden: Sie wird von den Stadtteilen und Ortschaften Klotzsche, Weixdorf und Langebrück umfasst.
-Dresden: Südlich schließen direkt an die Dresdner Heide die Elbwiesen an.
-Dresden: Diese landwirtschaftlich genutzten, flussnahen Grünflächen durchziehen die gesamte Stadt und bilden damit etwa 5% des Stadtgebiets.
-Dresden: Direkt an die Elbwiesen schließen dabei verlandete Altarme der Elbe an, die ebenfalls weitestgehend Weideflächen, Feucht- oder Trockenwiesen geblieben sind.
+Dresden: Im Nordosten der Stadt liegt die Dresdner Heide. Sie bedeckt mit 58 Quadratkilometern etwa 15 % der heutigen Stadtfläche. Sie wird von den Stadtteilen und Ortschaften Klotzsche, Weixdorf und Langebrück umfasst.
+Dresden: Südlich schließen direkt an die Dresdner Heide die Elbwiesen an. Diese landwirtschaftlich genutzten, flussnahen Grünflächen durchziehen die gesamte Stadt und bilden damit etwa 5 % des Stadtgebiets. Direkt an die Elbwiesen schließen dabei verlandete Altarme der Elbe an, die ebenfalls weitestgehend Weideflächen, Feucht- oder Trockenwiesen geblieben sind.
 Dresden: Etwa einen Kilometer flussaufwärts der Altstadt befinden sich die drei Dresdner Elbschlösser mit ihren Parkanlagen: Schloss Albrechtsberg, Lingnerschloss (Villa Stockhausen) und Schloss Eckberg.
 Dresden: Sie bilden den Anfang des Dresdner Elbhangs, der ab dort bis zur Stadtgrenze im Osten verläuft.
 Dresden: An diesen Hängen, die teilweise an die Dresdner Heide grenzen, befinden sich 24 Hektar Weinanbauflächen.
@@ -960,9 +863,7 @@ Dresden: Weitere große Parks sind der Waldpark Blasewitz und der Schlosspark Pi
 Dresden: Der etwa 200 Jahre alte Baum gilt als älteste Kamelie in Europa.
 Dresden: Besonders die Zeit der reichen Blüte des Baums zwischen Februar und April zieht viele Besucher an.
 Dresden: ====  Musische Aktivitäten  ====
-Das Heinrich-Schütz-Konservatorium Dresden ist die Musikschule der Stadt.
-Dresden: Es werden über 7.000 Schüler unterrichtet.
-Dresden: (Internetquelle: https://www.hskd.de/uber-uns/das-sind-wir/ Das sind wir)
+Das Heinrich-Schütz-Konservatorium Dresden ist die Musikschule der Stadt. Es werden über 7.000 Schüler unterrichtet. (Internetquelle: https://www.hskd.de/uber-uns/das-sind-wir/ Das sind wir )
 =====  Vereinssport in Dresden  =====
 Ein früher Fußballverein war der Dresden English Football Club.
 Dresden: In den Kriegsjahren des Zweiten Weltkriegs konnte der Dresdner Sportclub (DSC) um den Nationalspieler und späteren Bundestrainer Helmut Schön jeweils zweimal den deutschen Pokal (Tschammerpokal) und die deutsche Meisterschaft erringen.
@@ -979,27 +880,22 @@ Dresden: Die hohe Schuldenlage aus der Erstligazeit und die geringeren Einnahmen
 Dresden: Die Heimspielstätte, das Rudolf-Harbig-Stadion, wurde komplett abgerissen und durch einen 2009 eröffneten Stadionneubau ersetzt.
 Dresden: Das neue Stadion war ein Schauplatz der Frauen-Fußball-Weltmeisterschaft 2011 in Deutschland.
 Dresden: Joynext-Arena, Spielstätte der Dresdner Eislöwen
-Erfolgreiche Sportvereine in anderen Sportarten sind die Dresden Monarchs, die in der GFL, der ersten Bundesliga des American Football spielen, der HC Elbflorenz, der in der 2. Handballbundesliga spielt und die Dresdner Eislöwen, die in der DEL2 spielen.
-Die Abteilung Sledge-Eishockey (Dresden Cardinals) spielt in der ersten Liga.
-Dresden ist zudem ein historisches Schachzentrum in Deutschland.
-Dresden: Dem Dresdner Schachbund gehören mehr als zehn Schachvereine, teils mit langer Tradition, an; im Jahr 2008 wurde hier die Schacholympiade ausgetragen.
+Erfolgreiche Sportvereine in anderen Sportarten sind die Dresden Monarchs, die in der GFL, der ersten Bundesliga des American Football spielen, der HC Elbflorenz, der in der 2. Handballbundesliga spielt und die Dresdner Eislöwen, die in der DEL2 spielen. Die Abteilung Sledge-Eishockey (Dresden Cardinals) spielt in der ersten Liga.
+Dresden ist zudem ein historisches Schachzentrum in Deutschland. Dem Dresdner Schachbund gehören mehr als zehn Schachvereine, teils mit langer Tradition, an; im Jahr 2008 wurde hier die Schacholympiade ausgetragen.
 Der Snooker-Verein SAX-MAX Dresden spielte von 2013 bis 2016 in der 1. Snooker-Bundesliga.
-Dresden: Im Breitensport sehr erfolgreich ist das Dresdner Nachtskaten, das als erste Veranstaltung dieser Art nächtliches Skaten auf verschiedenen Routen durch die Stadt ermöglicht.
-Dresden: Diese Veranstaltungen finden den ganzen Sommer über statt.
-Der älteste Mannschaftsduathlon Deutschlands - der 100km-Duathlon - findet seit 1996 jedes Frühjahr statt und verläuft auf einer 100 km langen Wettkampfstrecke rund um Dresden.
-Dresden: (Webarchiv: http://www.100km-duathlon.de/infos-rund-um-den-100km-duathlon/die-geburt-100km-duathlon .)
+Dresden: Im Breitensport sehr erfolgreich ist das Dresdner Nachtskaten, das als erste Veranstaltung dieser Art nächtliches Skaten auf verschiedenen Routen durch die Stadt ermöglicht. Diese Veranstaltungen finden den ganzen Sommer über statt.
+Der älteste Mannschaftsduathlon Deutschlands – der 100km-Duathlon – findet seit 1996 jedes Frühjahr statt und verläuft auf einer 100 km langen Wettkampfstrecke rund um Dresden. (Webarchiv: http://www.100km-duathlon.de/infos-rund-um-den-100km-duathlon/die-geburt-100km-duathlon .)
 Eine Abteilung Rollstuhltanz (Breitensport) gibt es im Tanzclub Saxonia e. V. Dresden (in Kooperation mit dem Verein Eureha e. V.).
 Dresden: (TC Saxonia e. V. (Rollstuhltanz), abgerufen am 8. Dezember 2011.)
 Dresden: Darüber hinaus wird im Rollstuhl-Turniertanz trainiert, um an die Erfolge der vergangenen Jahre anzuknüpfen, wo ein Paar mehrfacher Deutscher Meister war und 2004 einen 3. Platz bei der WM in Tokio erreichte.
-Dresden: (Kommentar: Bitte Vereine mit kompletter Bezeichnung und Sportart (!!!) nennen)
-Dresden: Weitere Vereine sind:
-FV Dresden 06 Laubegast e. V., Fußball
+Dresden: (Kommentar:  Bitte Vereine mit kompletter Bezeichnung und Sportart (!!!) nennen )
+Weitere Vereine sind:  FV Dresden 06 Laubegast e. V., Fußball
 SG Dresden Striesen, Fußball
 SSV Turbine Dresden e. V., Fußball
 USV TU Dresden, Mehrspartenverein
-Sächsischer Bergsteigerbund mit 16.984 Mitgliedern (Stand: 31. Dezember 2021); (, abgerufen am 17. Juni 2022.) zweitgrößter Verein in Dresden, größte DAV-Sektion in Sachsen, gegründet am 1. März 1911
-Sektion Dresden des Deutschen Alpenvereins mit 6.673 Mitgliedern (Stand: 31. Dezember 2021); (, abgerufen am 24. Juni 2022.) zweitgrößte DAV-Sektion in Sachsen, zweitälteste Sektion in Ostdeutschland nach der Sektion Leipzig, gegründet am 9. April 1873
-Akademische Sektion Dresden mit 589 Mitgliedern (Stand: 31. Dezember 2021); (, abgerufen am 27. September 2022.) gegründet am 10. Juni 1901
+Sächsischer Bergsteigerbund mit 16.984 Mitgliedern (Stand: 31. Dezember 2021); (, abgerufen am 17. Juni 2022.)  zweitgrößter Verein in Dresden, größte DAV-Sektion in Sachsen, gegründet am 1. März 1911
+Sektion Dresden des Deutschen Alpenvereins mit 6.673 Mitgliedern (Stand: 31. Dezember 2021); (, abgerufen am 24. Juni 2022.)  zweitgrößte DAV-Sektion in Sachsen, zweitälteste Sektion in Ostdeutschland nach der Sektion Leipzig, gegründet am 9. April 1873
+Akademische Sektion Dresden mit 589 Mitgliedern (Stand: 31. Dezember 2021); (, abgerufen am 27. September 2022.)  gegründet am 10. Juni 1901
 Dresden: Jahrelang wurde die Modernisierung von Sportstätten vernachlässigt.
 Dresden: Am 19. November 2007 begann der Abriss des alten Rudolf-Harbig-Stadions.
 Dresden: Die zuletzt max. für 23.000 Zuschauer zugelassene Arena wurde durch einen Stadionneubau an gleicher Stelle ersetzt, der am 15. September 2009 fertiggestellt wurde.
@@ -1007,10 +903,8 @@ Dresden: Das neue Stadion, das als reine Fußballarena konzipiert wurde und in d
 Dresden: Das zweite große Stadion ist das Heinz-Steyer-Stadion, das derzeit komplett umgebaut wird.
 Dresden: Bis Ende 2023 entsteht eine Multifunktions-Sportstätte, die dann 5.000 überdachte Sitzplätze bietet und mit mobilen Tribünen für große Sportveranstaltungen auf bis auf 15.000 Zuschauerplätze erweiterbar ist.
 Dresden: (Internetquelle: https://stadion-dresden.de/neubau-vision/ Neubau-Vision Heinz-Steyer-Stadion) Es liegt im Sportpark Ostra in der Friedrichstadt direkt an der Marienbrücke.
-Dresden: Die ohnehin marode Eissporthalle Pieschener Allee wurde durch das Elbhochwasser 2002 in Mitleidenschaft gezogen und durch einen Neubau ersetzt.
-Dresden: Der Nachfolgebau, die heutige Joynext-Arena, konnte 2007 eingeweiht werden.
-Dresden: Weitere Sportstätten sind die Margon Arena, die BallsportArena sowie weitere Anlagen im Ostragehege, in denen eine Leichtathletikhalle errichtet und einige Tennisplätze hochwassersicher verlegt wurden, außerdem die Schwimmhallen und die Wasserspringhalle am Freiberger Platz.
-Dresden: Im Stadtteil Seidnitz gibt es eine Pferderennbahn.
+Dresden: Die ohnehin marode Eissporthalle Pieschener Allee wurde durch das Elbhochwasser 2002 in Mitleidenschaft gezogen und durch einen Neubau ersetzt. Der Nachfolgebau, die heutige Joynext-Arena, konnte 2007 eingeweiht werden.
+Dresden: Weitere Sportstätten sind die Margon Arena, die BallsportArena sowie weitere Anlagen im Ostragehege, in denen eine Leichtathletikhalle errichtet und einige Tennisplätze hochwassersicher verlegt wurden, außerdem die Schwimmhallen und die Wasserspringhalle am Freiberger Platz. Im Stadtteil Seidnitz gibt es eine Pferderennbahn.
 Dresden: Der Studentenklub „Bärenzwinger“ unter der Brühlschen Terrasse
 Dresden: Die Äußere Neustadt ist eines der größten erhaltenen Stadtgebiete der Gründerzeit in Deutschland.
 Dresden: Gleichzeitig befindet sich dort das mit etwa 175 gastronomischen Einrichtungen größte Szene- und Kneipenviertel der Stadt.
@@ -1035,35 +929,24 @@ Dresden: Dauerhafte Konzerteinrichtungen sind der Alte Schlachthof, der bis zu 1
 Dresden: Gelegentlich werden für Konzerte die Messe im Neuen Schlachthof, das Kongresszentrum sowie Teile des Campus der Technischen Universität und der Elbwiesen genutzt.
 Dresden: Bei den Filmnächten am Elbufer finden ebenfalls Konzerte statt.
 Dresden: ===  Regelmäßige Veranstaltungen  ===
-In Dresden gibt es das ganze Jahr über verschiedene Festivals und Großveranstaltungen.
-Dresden: Insbesondere die musikalischen Veranstaltungen genießen internationale Bedeutung.
-Dresden: Stadtteilfeste mit verschiedenem Hintergrund ergänzen dieses Angebot.
+In Dresden gibt es das ganze Jahr über verschiedene Festivals und Großveranstaltungen. Insbesondere die musikalischen Veranstaltungen genießen internationale Bedeutung. Stadtteilfeste mit verschiedenem Hintergrund ergänzen dieses Angebot.
 Dresden: (Kommentar:  Nichts genaues gefunden
 Dresden: * Internationales Tanz Tanzfestival
 Dresden: * Pfingsten: Handfest im Puppentheater
-Im April findet das Filmfest Dresden statt.
-Dresden: Es ist ein bedeutendes Festival für Animations- und Kurzfilm.
-Dresden: Viel weiter reichende Tradition haben die Dresdner Musikfestspiele, deren ursprüngliche Vorläufer die Musikfeste des barocken Hofs waren.
-Dresden: Sie sind als Veranstaltung klassischer Musik deutschlandweit bekannt.
+Im April findet das Filmfest Dresden statt. Es ist ein bedeutendes Festival für Animations- und Kurzfilm. Viel weiter reichende Tradition haben die Dresdner Musikfestspiele, deren ursprüngliche Vorläufer die Musikfeste des barocken Hofs waren. Sie sind als Veranstaltung klassischer Musik deutschlandweit bekannt.
 Dresden: 1971 wurde das erste Internationale Dixieland-Festival ausgetragen.
 Dresden: Mittlerweile gehört es zu den weltweit bedeutendsten Jazz- und Bluesveranstaltungen.
 Dresden: Mit jährlich etwa 500.000 Besuchern ist es außerdem die größte Kulturveranstaltung in Sachsen.
 Dresden: Elemente des Festivals wie die Jazzmeile, die sich quer durch die Stadt zieht, sind ohne Eintritt erreichbar.
 Dresden: Der Hauptteil des Festivals findet aber auf viele Clubs und Bars verteilt statt.
-Jedes Jahr im Frühjahr findet die Internationale Tanzwoche Dresden statt.
-Sie präsentiert seit 1992 Ensembles von internationalem Rang vom Ballett, Tanztheater bis zum zeitgenössischen Tanz an mehreren Spielstätten in Dresden.
-Dresden: Gegenüber der Altstadtsilhouette finden seit 1990 jedes Jahr die Filmnächte am Elbufer statt.
-Dresden: Schon beim ersten Mal dauerte die Veranstaltung zehn Tage.
-Dresden: Mittlerweile ziehen Filme, Veranstaltungen und Konzerte in rund 60 Tagen 150.000 Zuschauer an, wodurch die Veranstaltung als die größte ihrer Art in Deutschland gilt.
+Jedes Jahr im Frühjahr findet die Internationale Tanzwoche Dresden statt. Sie präsentiert seit 1992 Ensembles von internationalem Rang vom Ballett, Tanztheater bis zum zeitgenössischen Tanz an mehreren Spielstätten in Dresden.
+Dresden: Gegenüber der Altstadtsilhouette finden seit 1990 jedes Jahr die Filmnächte am Elbufer statt. Schon beim ersten Mal dauerte die Veranstaltung zehn Tage. Mittlerweile ziehen Filme, Veranstaltungen und Konzerte in rund 60 Tagen 150.000 Zuschauer an, wodurch die Veranstaltung als die größte ihrer Art in Deutschland gilt.
 Dresden: Eine Veranstaltung mit politischem Ursprung ist die Bunte Republik Neustadt.
 Dresden: Von 1990 bis 1993 bestand im Stadtteil Äußere Neustadt aus Protest gegen die maroden Wohnbedingungen die gleichnamige Mikronation.
 Dresden: Bereits 1990 gab es ein entsprechendes Stadtteilfest, das weiterhin veranstaltet wird.
 Dresden: 2001 und 2002 kam es während des Festes zu Ausschreitungen, während die letzten Jahre friedlich verliefen.
 Dresden: Das Fest ist eines der alternativen Szenekultur geblieben.
-Dresden: Am rechten Elbufer entlang findet am Dresdner Elbhang alljährlich das Elbhangfest statt.
-Dresden: Es erstreckt sich vom Stadtteil Loschwitz bis Pillnitz.
-Dresden: Höhepunkt ist unter anderem eine Drachenboot-Regatta.
-Dresden: Nach der Elbflut 2002, die neben dem Stadtteil Kleinzschachwitz Laubegast mit einschloss, findet dort auf der anderen Elbseite das Inselfest statt.
+Dresden: Am rechten Elbufer entlang findet am Dresdner Elbhang alljährlich das Elbhangfest statt. Es erstreckt sich vom Stadtteil Loschwitz bis Pillnitz. Höhepunkt ist unter anderem eine Drachenboot-Regatta. Nach der Elbflut 2002, die neben dem Stadtteil Kleinzschachwitz Laubegast mit einschloss, findet dort auf der anderen Elbseite das Inselfest statt.
 Dresden: Im Sommer finden Veranstaltungen in den Abend- und Nachtstunden statt.
 Dresden: Ende Juni oder Anfang Juli laden die Forschungseinrichtungen und Hochschulen zur Langen Nacht der Wissenschaften ein.
 Dresden: Für die Hochschulen, Institute und die kooperierenden Technologieunternehmen bietet die Veranstaltung die Möglichkeit, Arbeiten einem großen Publikum vorzustellen.
@@ -1071,15 +954,12 @@ Dresden: Seit 1999 findet Anfang Juli die Museumssommernacht statt.
 Dresden: 2015 wurde diese in Museumsnacht umbenannt und fand 2016 und 2017 aufgrund eines Besucherrückgangs in den Vorjahren (durch oftmals am selben Tag stattfindende Spiele von Fußball-Welt- und Europameisterschaften) am dritten Septembersonnabend statt, seit 2018 wird sie ohne Nennung von Gründen wieder im Juli veranstaltet.
 Dresden: Einem ähnlichen Konzept folgt seit 2003 die Nacht der Kirchen, bei der etwa sechzig Kirchen und Gemeindehäuser christlicher Konfession ihre Türen öffnen.
 Dresden: Sie findet seit einiger Zeit alle 2 Jahre statt, 2016 fiel sie wegen des Deutschen Evangelischen Posaunentages aus und pausiert seitdem.
-Dresden: Im August findet das Dresdner Stadtfest statt.
-Dresden: Es erstreckt sich über die gesamte Innenstadt.
-Dresden: Neben Live-Musik bietet es ein auf Familien zugeschnittenes Programm, das jährlich etwa 500.000 Gäste zählt.
-Dresden: Weitere Festivals und Veranstaltungen im Sommer sind das Dresdner Kunstfest, die Kulturnacht und das Nachtskaten, das vielfach im Sommer freitags stattfindet.
-Dresden: Dabei rollen mehrere tausend Inlineskater einen Parcours auf gesperrten Straßen durch die Stadt.
+Dresden: Im August findet das Dresdner Stadtfest statt. Es erstreckt sich über die gesamte Innenstadt. Neben Live-Musik bietet es ein auf Familien zugeschnittenes Programm, das jährlich etwa 500.000 Gäste zählt.
+Dresden: Weitere Festivals und Veranstaltungen im Sommer sind das Dresdner Kunstfest, die Kulturnacht und das Nachtskaten, das vielfach im Sommer freitags stattfindet. Dabei rollen mehrere tausend Inlineskater einen Parcours auf gesperrten Straßen durch die Stadt.
 Dresden: Im Herbst findet das Volkstanzfest und Drehorgeltreffen statt.
 Dresden: Weitere Veranstaltungen im Herbst sind die Dresdner Tage der zeitgenössischen Musik, das Literaturfestival Bardinale und das Festival der Zauberkunst sowie alle zwei Jahre der Tag der Dorfkirchen.
 1997 fand als Höhepunkt der Zauberkunstaktivitäten in Dresden die jeweils dreijährlich stattfindende Weltmeisterschaft des internationalen Dachverbands FISM statt.
-Dresden: Seit 2004 findet jährlich an einem Wochenende im Herbst die CCC-Veranstaltung "Datenspuren" statt.
+Dresden: Seit 2004 findet jährlich an einem Wochenende im Herbst die CCC-Veranstaltung „Datenspuren“ statt.
 Dresden im Winter, Blick unter der Marienbrücke zur Stadt, Februar 2012
 Dresden: 575. Dresdner Striezelmarkt, 2009
 Dresden: Während der Adventszeit findet der Dresdner Striezelmarkt statt.
@@ -1088,9 +968,7 @@ Dresden: Er wird in der Regel auf dem Altmarkt errichtet und gehört zu den grö
 Dresden: Der Name des Marktes leitet sich von seinem Hauptprodukt, dem Dresdner Stollen ("Striezel"), ab.
 Dresden: Ein Höhepunkt des Marktes ist das Dresdner Stollenfest.
 Dresden: Gleichzeitig mit dem Striezelmarkt findet jährlich ein mittelalterlicher Weihnachtsmarkt im Stallhof des Residenzschlosses statt, an einigen weiteren Orten in der Stadt wie Prager Straße, Neumarkt oder Hauptstraße gibt es parallel dazu weitere Weihnachtsmärkte.
-Dresden: Am 13. Januar 2006 fand erstmals seit 67 Jahren wieder der Dresdner Opernball in der Semperoper statt.
-Dresden: Mittlerweile findet der Opernball regelmäßig jedes Jahr statt und erfreut sich immer größerer Beliebtheit.
-Dresden: Stargast des Opernballs 2009 war der russische Ministerpräsident Wladimir Putin.
+Dresden: Am 13. Januar 2006 fand erstmals seit 67 Jahren wieder der Dresdner Opernball in der Semperoper statt. Mittlerweile findet der Opernball regelmäßig jedes Jahr statt und erfreut sich immer größerer Beliebtheit. Stargast des Opernballs 2009 war der russische Ministerpräsident Wladimir Putin.
 Dresden: Im Februar findet das Fest sächsischer Puppen- und Marionettenspieler statt.
 Dresden: ===  Kulinarische Spezialitäten  ===
 Dresden: ==  Wirtschaft und Infrastruktur  ==
@@ -1106,8 +984,7 @@ Im sogenannten Zukunftsatlas 2016 belegte die Stadt Dresden Platz 28 von 402 Lan
 Laut der Studie belegt Dresden damit den ersten Platz unter allen Städten und Landkreisen in Ostdeutschland.
 (Internetquelle: https://www.prognos.com/zukunftsatlas-map/16/ Zukunftsatlas 2016) Im Zukunftsatlas 2019 wird Dresden auf Rang 41 gelistet, der Stadt werden dennoch "sehr hohe Zukunftschancen" zugesprochen.
 Dresden: (Internetquelle: https://www.handelsblatt.com/politik/deutschland/zukunftsatlas-2019/ PROGNOS Zukunftsatlas 2019)
-Dresden: Die Gewerbesteuereinnahmen der Stadt betrugen 2018 305 Millionen Euro.
-Dresden: 41.625 Personen über 18 Jahren waren 2019 überschuldet (9,25 Prozent).
+Dresden: Die Gewerbesteuereinnahmen der Stadt betrugen 2018 305 Millionen Euro. 41.625 Personen über 18 Jahren waren 2019 überschuldet (9,25 Prozent).
 Ende 2019 waren in Dresden 15.700 Menschen (5,3 Prozent) arbeitslos, der niedrigste Stand seit 1990.
 Im März 2020 lag der Anteil der Arbeitslosen in Dresden im Vergleich zu allen zivilen Erwerbspersonen bei 5,5 Prozent.
 Dresden: Als absolute Zahl wurden 16.410 Personen angegeben.
@@ -1131,28 +1008,22 @@ Zusammen mit der Messe Dresden und dem Kongresszentrum versucht sich die Stadt a
 Die Sächsischen Spielbanken betreiben in Dresden die Spielbank Dresden im Café Prag, eine von drei Spielbanken in Sachsen.
 Dresden: ===  Ansässige Unternehmen  ===
 Dresden: Gläserne Manufaktur von Volkswagen
-Dresden: In der Stadt sind vor allem Unternehmen aus dem Bereich Mikroelektronik, Informations- und Biotechnologie sowie Elektrotechnik tätig, die die Nähe der Universität und zahlreicher Forschungsinstitute nutzen.
-Dresden: Die Kompetenzfelder der Stadt liegen in den Bereichen
+Dresden: In der Stadt sind vor allem Unternehmen aus dem Bereich Mikroelektronik, Informations- und Biotechnologie sowie Elektrotechnik tätig, die die Nähe der Universität und zahlreicher Forschungsinstitute nutzen. Die Kompetenzfelder der Stadt liegen in den Bereichen
 Dresden: Mikroelektronik, Informations- und Kommunikationstechnologie
 Dresden: Neue Werkstoffe und Nanotechnologie
 Dresden: Maschinen- und Anlagenbau/Fahrzeug-, Luft- und Raumfahrttechnik, Solartechnik
 Dresden: Biotechnologie, Pharmazie und Impfstoffe
 Dresden: Tourismus, Handel und Märkte
 Dresden: Bildung, Kunst-, Geistes- und Sozialwissenschaften
-Dresden: Viele der Kompetenzfelder entstanden nicht erst in den letzten Jahren.
-Einige, wie zum Beispiel die Mikroelektronik, die schon vor 1989 in Dresden ein Zentrum besaß, wurden aber erfolgreich ausgebaut.
+Viele der Kompetenzfelder entstanden nicht erst in den letzten Jahren. Einige, wie zum Beispiel die Mikroelektronik, die schon vor 1989 in Dresden ein Zentrum besaß, wurden aber erfolgreich ausgebaut.
 Dresden: Durch die Möglichkeiten der engen Zusammenarbeit der Industrie mit den hier ansässigen Universitäten und Forschungseinrichtungen entwickelt sich die Stadt immer mehr zu einem der führenden Zentren der Halbleiterfertigung in Europa.
 Dresden: So entstanden in den vergangenen Jahren neue Fertigungsstätten führender Unternehmen wie Globalfoundries und Infineon.
 Dresden: Ein neues Halbleiterwerk der Robert Bosch GmbH wurde 2021 eröffnet.
 Viele Bereiche der Zulieferindustrie (Reinraumtechnik, Spezialmaschinenbau, Siliziumwafer) lassen sich in und um Dresden nieder, sodass in Anlehnung an das Silicon Valley in Kalifornien oft vom Silicon Saxony gesprochen wird.
-Dresden: Durch Forschungsarbeit im Bereich der Nanotechnologie und Werkstoffe erhofft man sich, führender Wirtschaftsstandort der aufkommenden Nanoelektronik, die einen Quantensprung für die elektronische Datenverarbeitung darstellen wird, zu werden.
-Dresden: An der wirtschaftlichen Nutzung von besonderen elektromagnetischen Eigenschaften von Supraleitern (Meißner-Ochsenfeld-Effekt) wird ebenfalls gearbeitet.
+Dresden: Durch Forschungsarbeit im Bereich der Nanotechnologie und Werkstoffe erhofft man sich, führender Wirtschaftsstandort der aufkommenden Nanoelektronik, die einen Quantensprung für die elektronische Datenverarbeitung darstellen wird, zu werden. An der wirtschaftlichen Nutzung von besonderen elektromagnetischen Eigenschaften von Supraleitern (Meißner-Ochsenfeld-Effekt) wird ebenfalls gearbeitet.
 Dresden: Neben der Mikroelektronik- und Halbleiterindustrie ist auch die Softwareindustrie vertreten, etwa durch das T-Systems-Tochterunternehmen T-Systems MMS sowie die Niederlassungen der Softwarehersteller SAP Deutschland AG & Co. KG, Amazon, LogMeIn und der polnischen Comarch.
-Ebenfalls findet man drei der Big-Four-Wirtschaftsprüfungsgesellschaften in Dresden vor: EY, KPMG und Deloitte.
-Dresden: Es sind auch zahlreiche kleine und mittlere Unternehmen sowie Startups im Bereich Softwareentwicklung vorhanden, wie Lovoo.
-Nach der Wende hat die Siemens AG in Dresden einen Standort errichtet.
-Dresden: Der Konzern kaufte 1991 von der Treuhandanstalt das Transformatoren- und Röntgenwerk "Hermann Matern," das auf die Koch & Sterzel AG zurückgeht.
-Dresden: Um dieses Werk herum im Stadtteil Übigau übernahm der Konzern eine Grundstücksfläche von rund 350.000 Quadratmetern.
+Ebenfalls findet man drei der Big-Four-Wirtschaftsprüfungsgesellschaften in Dresden vor: EY, KPMG und Deloitte. Es sind auch zahlreiche kleine und mittlere Unternehmen sowie Startups im Bereich Softwareentwicklung vorhanden, wie Lovoo.
+Nach der Wende hat die Siemens AG in Dresden einen Standort errichtet. Der Konzern kaufte 1991 von der Treuhandanstalt das Transformatoren- und Röntgenwerk „Hermann Matern“, das auf die Koch & Sterzel AG zurückgeht. Um dieses Werk herum im Stadtteil Übigau übernahm der Konzern eine Grundstücksfläche von rund 350.000 Quadratmetern.
 Dresden: Volkswagen ließ in der Gläsernen Manufaktur das Luxusfahrzeug (VW Phaeton) der Muttermarke des Volkswagen-Konzerns herstellen.
 Dresden: Im März 2016 wurde im 15. Jahr nach Inbetriebnahme die Fertigung eingestellt und nach einem Umbau der Anlagen zwischenzeitlich im April 2017 die nichtexklusive Fertigung des e-Golf aufgenommen.
 Dresden: Seit 2021 wird der Nachfolger VW ID.3 gefertigt.
@@ -1165,8 +1036,7 @@ Im Bereich Pharma und Arzneimittel spielt Dresden seit mehr als hundert Jahren e
 Dresden: Viele Verfahren zur industriellen Produktion von Arzneimitteln wurden hier entwickelt und angewandt.
 Das ehemalige Sächsische Serumwerk Dresden (heute Teil des GlaxoSmithKline-Konzerns) ist ein international bedeutsamer Lieferant für Grippeimpfstoffe.
 Die im benachbarten Radebeul ansässige und auf eine lange Tradition (als Chemische Fabrik Dr. F. von Heyden und Arzneimittelwerk Dresden) zurückblickende Arzneimittelproduktion, gehört jetzt zur italienischen Menarini-Gruppe.
-Des Weiteren ist der Zigarettenhersteller Philip Morris (Marke f6) in Dresden ansässig, der als VEB Vereinigte Zigarettenfabriken Dresden (VEZIFA) zu DDR-Zeiten Stammbetrieb des VEB Kombinat Tabak war.
-Die Feldschlößchen AG braut ihre Biere in Dresden-Coschütz.
+Des Weiteren ist der Zigarettenhersteller Philip Morris (Marke f6) in Dresden ansässig, der als VEB Vereinigte Zigarettenfabriken Dresden (VEZIFA) zu DDR-Zeiten Stammbetrieb des VEB Kombinat Tabak war. Die Feldschlößchen AG braut ihre Biere in Dresden-Coschütz.
 Siehe auch: Liste von Fotounternehmen in Dresden
 Dresden: Vor der Zerstörung durch den Luftangriff befand sich das repräsentative Einkaufszentrum der Stadt mit zahlreichen Fachgeschäften in der Prager Straße, während die großen Kaufhäuser den Bereich des Altmarktes prägten.
 Dresden: Den Wiederbeginn 1952 markierte der Bau des Warenhauses an der Wilsdruffer Straße nahe dem Postplatz.
@@ -1177,12 +1047,9 @@ Dresden: Dort haben sich Filialen der großen Warenhausketten angesiedelt und bi
 Dresden: Die Altmarkt-Galerie wurde bis 2011 zum Postplatz hin erweitert und hat seitdem mehr als 200 Geschäfte, darunter viele einmalige Markenstores in Ostdeutschland wie Hollister, Apple und O'Neill.
 Dresden: Das Gebiet ist durch mehrere Straßenbahnhaltestellen erschlossen.
 Dresden: Auch der Hauptbahnhof, am südlichen Ende der Prager Straße, ist seit seiner Fertigstellung und der Bebauung des Wiener Platzes ein bedeutendes Zentrum des Einzelhandels.
-Als Einkaufsstraße für hochwertige Güter und Luxusartikel - früher das Privileg der Prager Straße - hat sich dagegen die Königstraße in Dresden-Neustadt etabliert.
-Dresden: Geschäfte dieser Preisklasse sind stark mit dem Tourismus der Stadt verwoben.
-Dresden: Eine ähnliche Struktur hat sich am Neumarkt rund um die Frauenkirche entwickelt.
+Als Einkaufsstraße für hochwertige Güter und Luxusartikel – früher das Privileg der Prager Straße – hat sich dagegen die Königstraße in Dresden-Neustadt etabliert. Geschäfte dieser Preisklasse sind stark mit dem Tourismus der Stadt verwoben. Eine ähnliche Struktur hat sich am Neumarkt rund um die Frauenkirche entwickelt.
 Dresden: Neustädter Markt mit Goldenem Reiter (links), 1982
-Dresden: Die zur Fußgängerzone umgebaute Neustädter Hauptstraße hatte "ihre beste Zeit" in den 1980er Jahren.
-Dresden: In deren Nähe liegt die Neustädter Markthalle, ein kleines Einkaufszentrum mit 20 Händlern in einem rekonstruierten Jugendstilgebäude.
+Dresden: Die zur Fußgängerzone umgebaute Neustädter Hauptstraße hatte „ihre beste Zeit“ in den 1980er Jahren. In deren Nähe liegt die Neustädter Markthalle, ein kleines Einkaufszentrum mit 20 Händlern in einem rekonstruierten Jugendstilgebäude.
 Dresden: Auch in alten Stadtteilzentren wie am Schillerplatz in Blasewitz wurden wieder bedeutende Einkaufszentren geschaffen.
 Dresden: Andere Anlagen wie der Elbepark konzentrieren sich außerhalb der Innenstadt an Autobahnausfahrten und haben so einen deutlich überregionalen Einfluss.
 Der Preisdruck auf die Handelsflächen im Stadtzentrum durch große Einkaufszentren der Peripherie ist auch in Dresden spürbar und wird häufig kritisiert.
@@ -1190,21 +1057,15 @@ Dresden: In der Innenstadt werden gerade einmal 22 Prozent des Umsatzes des Einz
 Dresden: Das ist vergleichsweise wenig, wenngleich mehrere Nebenzentren existieren.
 Dresden: ===  Traditions- und ehemalige Unternehmen  ===
 Dresden: Das Sachsenwerk um 1900
-Dresden: Eines der bekanntesten Unternehmen war die am 12. November 1872 gegründete Dresdner Bank.
-Bereits 1885 wurde die operative Geschäftsführung nach Berlin verlegt, bis 1950 blieb die Bank aber im Handelsregister der Stadt Dresden eingetragen.
-Dresden: Die Raddampferflotte, die von der Sächsischen Dampfschiffahrtsgesellschaft betrieben wird, gilt als die größte und älteste der Welt.
-Dresden: Der 1879 gebaute Raddampfer Stadt Wehlen, benannt nach dem Ort Wehlen in der Sächsischen Schweiz, ist das älteste Schiff der Flotte.
-Dresden: Im Jahr fahren etwa 500.000 Passagiere auf den 13 Schiffen.
+Eines der bekanntesten Unternehmen war die am 12. November 1872 gegründete Dresdner Bank. Bereits 1885 wurde die operative Geschäftsführung nach Berlin verlegt, bis 1950 blieb die Bank aber im Handelsregister der Stadt Dresden eingetragen.
+Dresden: Die Raddampferflotte, die von der Sächsischen Dampfschiffahrtsgesellschaft betrieben wird, gilt als die größte und älteste der Welt. Der 1879 gebaute Raddampfer Stadt Wehlen, benannt nach dem Ort Wehlen in der Sächsischen Schweiz, ist das älteste Schiff der Flotte. Im Jahr fahren etwa 500.000 Passagiere auf den 13 Schiffen.
 Nur wenig jünger ist die Genossenschaft Konsum Dresden, ein Handelsunternehmen, das im Jahr 1888 als "Konsumverein Vorwärts" gegründet wurde.
 Dresden: Verunreinigte und überteuerte Lebensmittel führten damals dazu, dass mehrere Dresdner Familien selbst einkaufen und miteinander handeln wollten.
 Mit eigenen Produktions- und Logistikstrukturen wurde ein Ladennetz aufgebaut und bereits 1931 die erste konsumeigene Fleischfabrik in Dresden eröffnet.
 Dresden: Heute betreibt das Unternehmen noch über 40 Filialen und hat rund 25.600 Mitglieder.
 Dresden: Das im Jahr 1892 vom Dresdner Unternehmer Karl August Lingner herausgebrachte Mundwasser Odol wurde in den 1945 zerstörten Dresdner Lingner-Werken hergestellt.
-Dresden: Die "Sachsenwerk, Licht- und Kraft AG" wurde 1903 gegründet und baute vor allem Transformatoren und Schaltgeräte für elektrische Beleuchtungen sowie große elektrische Maschinen.
-Dresden: Seit den 1920er Jahren ist das Werk ein bedeutender Hersteller von Straßenbahn- und Lokomotivmotoren.
-Dresden: Heute gehört die VEM Sachsenwerk GmbH zur VEM Gruppe.
-Dresden: 1907 begann auf dem Dachboden der Löwenapotheke die Produktion der Zahncreme Chlorodont, die ab 1917 in den neu gegründeten Leowerken in immer größerem Stil erzeugt und vermarktet wurde.
-Dresden: Das Nachfolgeunternehmen nutzt die Räume noch heute.
+Dresden: Die „Sachsenwerk, Licht- und Kraft AG“ wurde 1903 gegründet und baute vor allem Transformatoren und Schaltgeräte für elektrische Beleuchtungen sowie große elektrische Maschinen. Seit den 1920er Jahren ist das Werk ein bedeutender Hersteller von Straßenbahn- und Lokomotivmotoren. Heute gehört die VEM Sachsenwerk GmbH zur VEM Gruppe.
+Dresden: 1907 begann auf dem Dachboden der Löwenapotheke die Produktion der Zahncreme Chlorodont, die ab 1917 in den neu gegründeten Leowerken in immer größerem Stil erzeugt und vermarktet wurde. Das Nachfolgeunternehmen nutzt die Räume noch heute.
 Dresden: Das seit Jahrzehnten international tätige Unternehmen Melitta wurde am 15. Dezember 1908 mit 73 Pfennigen Eigenkapital von Melitta Bentz ins Dresdner Handelsregister eingetragen.
 Mit dem Zentrum Mikroelektronik Dresden (ZMD) und dem Kombinat Robotron begann 1961 die Zeit der Mikroelektronik und Computerfertigung in Dresden.
 Dresden: 1989 waren etwa 4000 Angestellte beim Zentrum Mikroelektronik, im Kombinat Robotron wurden bis zu 68.000 Mitarbeiter beschäftigt.
@@ -1213,9 +1074,7 @@ Dresden: Nach weiteren Umbenennungen und der Privatisierung in den 1990er Jahren
 Dresden: Das Kombinat Robotron wurde 1990 aufgelöst und dessen Teilbetriebe wurden privatisiert.
 Von diesen Nachfolgeunternehmen existiert in Dresden nur noch die Robotron Datenbank-Software GmbH mit 442 Mitarbeitern (Geschäftsjahr 2017/2018).
 Dresden: (Mitarbeiterzahl laut Internetquelle: https://www.robotron.de/unternehmen/#c867 Zahlen und Fakten .)
-Dresden: Der Dresdner Maschinenbau hat eine Tradition als direkter Zulieferer der ansässigen Industrien der Pharmazeutik, Optik und Lebensmittelherstellung.
-Dresden: Wettbewerbsvorteile konnte die Sächsische Industrie vor allem durch die Anwendung der Feinmechanik im Großmaschinenbau erlangen.
-Dresden: Die Historie setzte sich zuletzt bei den Spezialmaschinenbauern für Reinraumtechnik fort.
+Dresden: Der Dresdner Maschinenbau hat eine Tradition als direkter Zulieferer der ansässigen Industrien der Pharmazeutik, Optik und Lebensmittelherstellung. Wettbewerbsvorteile konnte die Sächsische Industrie vor allem durch die Anwendung der Feinmechanik im Großmaschinenbau erlangen. Die Historie setzte sich zuletzt bei den Spezialmaschinenbauern für Reinraumtechnik fort.
 Dresden und Umland war bis in die Nachkriegszeit hinein ein Schwerpunkt der deutschen optisch-feinmechanischen Industrie, insbesondere im Bereich des Kamerabaus.
 Dresden: Die Ernemann-Werke, Zeiss Ikon, die Ihagee (Erfindung der einäugigen Kleinbild-Spiegelreflexkamera), die Kamera-Werke Niedersedlitz sowie das Kombinat VEB Pentacon (Praktica-Kameras) hatten hier ihren Sitz.
 Ebenfalls in Dresden wurde 1923 von dem 18-jährigen gelernten Fotografen Martin Hanke Hama gegründet.
@@ -1233,10 +1092,10 @@ Dresden: AG im Besitz der Stadt
 zwischenzeitlich VEB Energiekombinat Dresden
 Dresden: seit 1997 Städtisches Unternehmen
 Dresden: ====  Maschinen- und Anlagenbau  ====
-1945/46 enteignet, ab 1951 mit Seidel & Naumann VEB Schreibmaschinenwerk (e) Dresden
+1945/46 enteignet, ab 1951 mit Seidel & Naumann VEB Schreibmaschinenwerk(e) Dresden
 1946 VEB Karosseriewerk Dresden (KWD), 1994 privatisiert
 Binnenschiffbau, letzte der Schiffswerften in Dresden
-1945/46 enteignet, ab 1951 mit Clemens Müller VEB Schreibmaschinenwerk (e) Dresden, ab 1980 Kombinat Robotron, ab 1990 Robotron Erika GmbH, 1992 liquidiert
+1945/46 enteignet, ab 1951 mit Clemens Müller VEB Schreibmaschinenwerk(e) Dresden, ab 1980 Kombinat Robotron, ab 1990 Robotron Erika GmbH, 1992 liquidiert
 Dresden: Nähmaschinen, Fahrräder, Schreibmaschinen, Rechenmaschinen
 Dresden: ====  Optische Industrie  ====
 Dresden: Sitz verlagert nach Bad Oeynhausen
@@ -1265,13 +1124,12 @@ Dresden: Koch & Sterzel AG
 zwischenzeitlich VEB TuR „Hermann Matern“ Dresden
 Dresden: Tochtergesellschaft der Siemens AG
 Dresden: Radio H. Mende & Co.
-Juni 1945 Demontage; 1948-1969 VEB Funkwerk Dresden, 1969-1990 VEB Robotron-Meßelektronik Dresden
+Juni 1945 Demontage; 1948–1969 VEB Funkwerk Dresden, 1969–1990 VEB Robotron-Meßelektronik Dresden
 Dresden: Sitz 1950 nach Frankfurt am Main verlegt, 2009 mit der Commerzbank fusioniert
 Dresden: Dresdner Wach- und Schließgesellschaft
 Dresden: 1946–1989 VEB, 1992 privatisiert
 Dresden: Neuanfang 2006 in Lichtenau b. Chemnitz
-Dresden ist einer der wichtigsten Knotenpunkte im Straßen- und Schienenverkehr Ostdeutschlands und hat einen Flughafen.
-Dresden: Etwa 3335 Hektar des Stadtgebiets entfallen auf Verkehrsflächen. ()
+Dresden ist einer der wichtigsten Knotenpunkte im Straßen- und Schienenverkehr Ostdeutschlands und hat einen Flughafen. Etwa 3335 Hektar des Stadtgebiets entfallen auf Verkehrsflächen. ()
 Die folgende Tabelle zeigt die Aufteilung der in Dresden zurückgelegten Wege nach Verkehrsmitteln (verkehrstechnisch als bezeichnet) und deren Änderung seit 1991.
 (Statistik in Dresden: Verkehrsmittelwahl in Dresden 2014: Anteil des Radverkehrs steigt, zuletzt abgerufen am 25. Oktober 2014.)
 (Internetquelle: https://www.dresden.de/de/stadtraum/verkehr/verkehrsplanung/04/050_Verkehrserhebung_SrV.php#page=16 Ergebnisse der repräsentativen Haushaltbefragung "SrV 2018" zur privaten Mobilität in Dresden)
@@ -1310,7 +1168,7 @@ Dresden: (Webarchiv: http://www.adfc.de/misc/filePush.php?mimeType=application%2
 Dresden: (Kommunale Bürgerumfrage 2014 Tabellenteil (PDF; 11 MB), S. 90, "gewünschter Einsatz für Fahrradverkehr.")
 Dresden: Dennoch begeistern sich die Dresdner für das Fahrrad: Schon bei der ersten Teilnahme am Wettbewerb Stadtradeln 2011 Sieger in der Kategorie Fahrradaktivste Stadt mit den meisten Radkilometern.
 (Internetquelle: https://www.dresden.de/de/rathaus/aktuelles/pressemitteilungen/archiv/2011/11/pm_064.php Unterwegs zur Siegerehrung: Dresden erhält Preis für fahrradaktivste Stadt mit den meisten Radkilometern) Seit 2020 gibt es das Fahrradverleihsystem MietOn.
-Dresden: Insgesamt umfasst das Straßennetz in kommunaler Verwaltung 1.400 km Straßen (3.200 Straßennamen), 1.908 km Fußwege und 370 km Radwege.
+Dresden: Insgesamt umfasst das Straßennetz in kommunaler Verwaltung 1.400 km Straßen (3.200 Straßennamen), 1.908 km Fußwege und 370 km Radwege.
 Dresden: ====  Öffentlicher Personennahverkehr  ====
 Dresden: Dresdner Straßenbahnwagen NGT6DD vor dem Zwinger
 Den öffentlichen Personennahverkehr bedienen neben der S-Bahn zwölf Straßenbahn- und über 30 Buslinien der Dresdner Verkehrsbetriebe sowie einiger Busunternehmen (vgl. Busverkehr in Dresden).
@@ -1330,59 +1188,42 @@ Dresden: Lediglich für Sonderleistungen kommen gelegentlich noch die Tatra-Wage
 (Internetquelle: https://www.saechsische.de/warum-fahren-in-dresden-wieder-alte-tatras-3561523.html Warum fahren in Dresden wieder alte Tatras?)
 Dresden: Drei Elbfähren ermöglichen neben den Brücken (jeweils mit öffentlichem Nahverkehr per Eisenbahn, Bus oder Straßenbahn) den Übergang über die Elbe: von der Johannstadt zur Neustadt, von Niederpoyritz nach Alttolkewitz sowie von Kleinzschachwitz nach Pillnitz.
 Dresden: Im Stadtteil Loschwitz gibt es außerdem die historischen Bergbahnen: eine Standseilbahn zum Nobelviertel Weißer Hirsch sowie eine Schwebebahn nach Oberloschwitz, an deren Bergstation sich eine hervorragende Aussicht auf die Stadt und das südwestliche Umland bietet.
-Dresden: Auf der Elbe fahren die Raddampfer der Weißen Flotte und stellen ausschließlich touristisch genutzte Verbindungen elbaufwärts in die Sächsische Schweiz und elbabwärts nach Meißen bereit.
-Dresden ist auch Haltepunkt für Passagierschiffe der Flusskreuzfahrt-Veranstalter.
+Auf der Elbe fahren die Raddampfer der Weißen Flotte und stellen ausschließlich touristisch genutzte Verbindungen elbaufwärts in die Sächsische Schweiz und elbabwärts nach Meißen bereit. Dresden ist auch Haltepunkt für Passagierschiffe der Flusskreuzfahrt-Veranstalter.
 Im Norden von Dresden, in Klotzsche, liegt seit 1935 der Flughafen Dresden mit nationalen und internationalen Fluglinien.
 Dresden: Er wurde nach der Wiedervereinigung saniert und hat daher ein gut ausgebautes Terminal sowie eine gute Anbindung an den öffentlichen Personennahverkehr.
 Der Flughafen Dresden hat eine eingeschränkte Nachtruhe zwischen 0 und 5 Uhr, die darüber hinaus in den weiteren Randzeiten davor und danach nur eingeschränkt Flugverkehr zulässt.
 Siehe auch: Flugplätze in Dresden
-Dresden hat kein eigenes Fernbusterminal.
-Genutzt werden die Bushaltestellen in der Bayrischen Straße am Dresdner Hauptbahnhof oder die Haltestelle am Bahnhof Dresden-Neustadt.
+Dresden hat kein eigenes Fernbusterminal. Genutzt werden die Bushaltestellen in der Bayrischen Straße am Dresdner Hauptbahnhof oder die Haltestelle am Bahnhof Dresden-Neustadt.
 Dresden: Insbesondere die Bushaltestelle südlich des Hauptbahnhofs ist jedoch nicht für den expandierenden Fernbusverkehr ausgelegt.
 Dresden: Vor allem fehlt es an Unterständen und Sitzbänken.
 Dresden: So existieren Überlegungen, einen zentralen Omnibusbahnhof nördlich des Hauptbahnhofs am westlichen Ende des Wiener Platzes zu errichten.
 Dresden: Der Busbahnhof soll neben einem 43 Meter hohen neuen Hochhaus mit zehn Steigen bis 2025 fertig sein.
-Neben einer Vielzahl nationaler, bedienen auch einige internationale Linien Dresden.
-Dresden: So können unter anderem die Städte Amsterdam, Budapest, Brüssel, London, Kopenhagen, Paris, Prag, Stockholm, Wien oder Zürich umstiegsfrei erreicht werden.
-(Busverbindungen von und nach Dresden, abgerufen am 29. Oktober 2014.)
+Neben einer Vielzahl nationaler, bedienen auch einige internationale Linien Dresden. So können unter anderem die Städte Amsterdam, Budapest, Brüssel, London, Kopenhagen, Paris, Prag, Stockholm, Wien oder Zürich umstiegsfrei erreicht werden. (Busverbindungen von und nach Dresden, abgerufen am 29. Oktober 2014.)
 Dresden war und ist ein wichtiger Eisenbahnknoten im Güterverkehr, zu dessen Eisenbahnanlagen der Rangierbahnhof Dresden-Friedrichstadt gehört.
 Durch die Automobilwerke des Volkswagen-Konzerns in Chemnitz, Zwickau, bei der tschechischen Tochter Škoda in Mladá Boleslav und in Dresden selbst kommt dem Güterbahnhof als Logistikzentrum eine wichtige Funktion zu.
 Dresden: Täglich rollen etwa 200 Güterzüge über die Elbtalbahn von und nach Tschechien.
-Dresden: Eine Besonderheit stellte bis 2020 die Güterstraßenbahn CarGoTram dar, die die Gläserne Manufaktur von Volkswagen am Großen Garten bediente.
-Dresden: Die Bahn wurde eingerichtet, um die Innenstadt zwischen Logistikzentrum am Güterbahnhof in der Friedrichstadt und Manufaktur keiner zusätzlichen Belastung durch LKW auszusetzen.
-Dresdens Hafen liegt linkselbisch in Dresden-Friedrichstadt und dient der Elbe-Containerlinie und der Binnenschiffslinie ETS-Elbe.
-Dresden: Er erhielt 2007 zusätzlich eine RoRo-Anlage mit einer zulässigen Höchstlast von 500 Tonnen.
+Dresden: Eine Besonderheit stellte bis 2020 die Güterstraßenbahn CarGoTram dar, die die Gläserne Manufaktur von Volkswagen am Großen Garten bediente. Die Bahn wurde eingerichtet, um die Innenstadt zwischen Logistikzentrum am Güterbahnhof in der Friedrichstadt und Manufaktur keiner zusätzlichen Belastung durch LKW auszusetzen.
+Dresdens Hafen liegt linkselbisch in Dresden-Friedrichstadt und dient der Elbe-Containerlinie und der Binnenschiffslinie ETS-Elbe. Er erhielt 2007 zusätzlich eine RoRo-Anlage mit einer zulässigen Höchstlast von 500 Tonnen.
 Siehe auch: Häfen in Dresden
-Dresden liegt am Kreuzungspunkt der E 40 und E 55, zweier wichtiger Europastraßen.
-Dresden: Über die A 17 ist es gelungen, den Güterfernverkehr aus der Stadt zu verlagern.
-Dresden: Alleine die E 55 nutzen täglich mehr als 2000 LKW.
-Dresden: Mit der Sächsischen Zeitung (SZ) und den Dresdner Neuesten Nachrichten (DNN) erscheinen zwei traditionelle Tageszeitungen.
-Dresden: Die Sächsische Zeitung war ab 1946 und zu DDR-Zeiten Organ der SED.
-Dresden: Heute gehört sie mehrheitlich zum Verlagshaus Gruner + Jahr.
+Dresden liegt am Kreuzungspunkt der E 40 und E 55, zweier wichtiger Europastraßen. Über die A 17 ist es gelungen, den Güterfernverkehr aus der Stadt zu verlagern. Alleine die E 55 nutzen täglich mehr als 2000 LKW.
+Dresden: Mit der Sächsischen Zeitung (SZ) und den Dresdner Neuesten Nachrichten (DNN) erscheinen zwei traditionelle Tageszeitungen. Die Sächsische Zeitung war ab 1946 und zu DDR-Zeiten Organ der SED. Heute gehört sie mehrheitlich zum Verlagshaus Gruner + Jahr.
 Dresden: Die Vorläufer der DNN waren Zeitungen der NDPD (Sächsische Neueste Nachrichten), LDPD (Sächsisches Tageblatt) beziehungsweise CDU (Die Union).
 Dresden: Die Dresdner Neuesten Nachrichten gehören heute zur Leipziger Verlags- und Druckereigesellschaft, die zudem Gesellschafterin der Leipziger Volkszeitung (LVZ) ist.
 Dresden: An der Leipziger Verlags- und Druckereigesellschaft ist zu 100% die Verlagsgesellschaft Madsack beteiligt, an welcher wiederum zu über 20% die Deutsche Druck- und Verlagsgesellschaft (dd_vg) beteiligt ist, das Medienbeteiligungsunternehmen der SPD.
 Dresden: Weitere Zeitungen sind die Dresdner Morgenpost (mit dem Online-Ableger Tag24) und die Lokalausgabe der Bild.
 Dresden: ====  Sonstige Zeitungen und Zeitschriften  ====
 Dresden: Das kostenlose Dresdner Amtsblatt (DDA) erscheint als Veröffentlichungsorgan der Stadtverwaltung wöchentlich.
-Dresden: Dresdner Kulturmagazin (kostenlos) und Sax sind monatlich erscheinende Stadtmagazine mit Veranstaltungskalender.
-Dresden: Das Gastronomiemagazin Augusto erscheint jährlich.
-Dresden: Weitere Magazine sind Frizz, Spot, DD-INside, Skunk, SPIESSER, Urania, caz, Prinz und port01, die teilweise werbefinanziert sind.
-Dresden: Einige dieser Blätter sind auch in anderen deutschen Städten vertreten.
-Weiterhin werden in Dresden noch die kostenlosen Anzeigenblätter Wochenkurier, freitagSZ und Dresden am Wochenende verteilt, die beiden letzteren als Portfolioergänzung des Verlags der Sächsischen Zeitung (DDV Mediengruppe).
-Dresden: Des Weiteren gibt es Anzeigenblätter für die jeweiligen Stadtteile, beispielsweise die Leubener Zeitung für den Stadtbezirk Leuben.
+Dresden: Dresdner Kulturmagazin (kostenlos) und Sax sind monatlich erscheinende Stadtmagazine mit Veranstaltungskalender. Das Gastronomiemagazin Augusto erscheint jährlich. Weitere Magazine sind Frizz, Spot, DD-INside, Skunk, SPIESSER, Urania, caz, Prinz und port01, die teilweise werbefinanziert sind. Einige dieser Blätter sind auch in anderen deutschen Städten vertreten.
+Weiterhin werden in Dresden noch die kostenlosen Anzeigenblätter Wochenkurier, freitagSZ und Dresden am Wochenende verteilt, die beiden letzteren als Portfolioergänzung des Verlags der Sächsischen Zeitung (DDV Mediengruppe). Des Weiteren gibt es Anzeigenblätter für die jeweiligen Stadtteile, beispielsweise die Leubener Zeitung für den Stadtbezirk Leuben.
 Darüber hinaus erscheinen in Dresden die Literaturzeitschriften Ostragehege und Signum.
 Dresden: ====  Hörfunk und Fernsehen  ====
 Dresden: Da in der Tallage nur an wenigen Orten im Stadtgebiet überregional ausgestrahlte Rundfunkprogramme zu empfangen waren, wurde 1969 der 252 Meter hohe Fernsehturm eröffnet, der heute noch in Betrieb ist.
 In Dresden befinden sich neben dem Landesfunkhaus des MDR zahlreiche Produktions- und Dienstleistungsunternehmen.
 Private Radiosender wie Hitradio RTL, Radio PSR, Energy Sachsen, Radio Dresden und R.SA sind mit ihren Programmen in Dresden vertreten.
-Neben Fernsehsendern in einzelnen Stadtteilen, die von Antennengemeinschaften betrieben werden, gibt es Dresden Fernsehen als privatrechtlichen Sender für das gesamte Stadtgebiet.
-Dresden: Außerdem sendet rund um die Uhr über das Vodafone-Kabelnetz der Lokalfernsehsender tvM (Meissen Fernsehen).
-Über Primacom wird der regionale Sportsender 8Sport in Dresden verbreitet.
+Neben Fernsehsendern in einzelnen Stadtteilen, die von Antennengemeinschaften betrieben werden, gibt es Dresden Fernsehen als privatrechtlichen Sender für das gesamte Stadtgebiet. Außerdem sendet rund um die Uhr über das Vodafone-Kabelnetz der Lokalfernsehsender tvM (Meissen Fernsehen). Über Primacom wird der regionale Sportsender 8Sport in Dresden verbreitet.
 In Dresden beheimatet sind zwei Sächsische Ausbildungs- und Erprobungskanäle (SAEK)  - ein schulisch spezialisierter SAEK im St. Benno-Gymnasium und einer im Medienkulturzentrum Pentacon.
 Hier findet der interessierte Bürger offene Studios (Kommentar: ???, zwei Magazine im Ballungsraumfernsehen in Dresden, Leipzig und Chemnitz) und kann das Produzieren sowie Senden erlernen und auf Sendung gehen (eigener Radiosender NEON 425 auf 104,25 MHz im Dresdner Kabel).
-Neben den öffentlichen und privaten Radiosendern besteht in Dresden das Freie Radio coloRadio, das wochentags von 18 bis 24 Uhr sowie am Wochenende von 12 bis 24 Uhr auf den Frequenzen 98,4 und 99,3 MHz zu hören ist.
-Dresden: Diese Frequenzen teilt sich coloRadio mit apollo radio.
+Neben den öffentlichen und privaten Radiosendern besteht in Dresden das Freie Radio coloRadio, das wochentags von 18 bis 24 Uhr sowie am Wochenende von 12 bis 24 Uhr auf den Frequenzen 98,4 und 99,3 MHz zu hören ist. Diese Frequenzen teilt sich coloRadio mit apollo radio.
 Während der DDR-Zeit konnten in Dresden größtenteils keine westlichen Fernsehsender empfangen werden, weshalb Dresden den Namen Tal der Ahnungslosen bekam.
 Im Volksmund wurde der Name der ARD als Außer Raum Dresden gedeutet.
 Dresden: Um dennoch westdeutsche Fernsehsender empfangen zu können, gründeten sich ab 1987 mehrere Bürgerinitiativen, die staatlich toleriert über Satelliten empfangene Signale westdeutscher Fernsehprogramme in kleinen Kabelnetzen verbreiteten.
@@ -1391,8 +1232,7 @@ Dresden: Zusätzlich wurden tschechische Fernsehprogramme mit aufbereitet, in de
 Dresden: ===  Öffentliche Einrichtungen von überregionaler Bedeutung  ===
 Aufgrund ihres Status als Landeshauptstadt haben in Dresden zahlreiche öffentliche Einrichtungen und Institutionen beziehungsweise Körperschaften des öffentlichen Rechts der Landesebene ihren Sitz, so der Sächsische Landtag, die Sächsische Staatskanzlei, alle Ministerien der Sächsischen Staatsregierung, der Sächsische Datenschutzbeauftragte, das Landeskriminalamt Sachsen und weitere Landesbehörden.
 Dresden: Das Prinzip der räumlichen Trennung der Legislative und Exekutive von der Judikative wurde in Sachsen in der Weise eingehalten, dass sich außer dem Oberlandesgericht für die ordentliche Gerichtsbarkeit alle weiteren oberen Landesgerichte in Leipzig, Chemnitz und Bautzen befinden.
-Das aus der 1954 gegründeten Medizinischen Akademie Dresden entstandene Universitätsklinikum Carl Gustav Carus an der Technischen Universität Dresden ist das Krankenhaus der Maximalversorgung für Ostsachsen mit etwa 1300 Betten.
-Das Städtische Klinikum Dresden ist ein Krankenhaus zur Schwerpunktversorgung.
+Das aus der 1954 gegründeten Medizinischen Akademie Dresden entstandene Universitätsklinikum Carl Gustav Carus an der Technischen Universität Dresden ist das Krankenhaus der Maximalversorgung für Ostsachsen mit etwa 1300 Betten. Das Städtische Klinikum Dresden ist ein Krankenhaus zur Schwerpunktversorgung.
 Siehe auch: Liste der Krankenhäuser in Dresden, Liste von Sanatorien in Dresden und Umgebung
 Dresden: Des Weiteren gibt es eine Handwerkskammer und eine Industrie- und Handelskammer.
 Das Wasser- und Schifffahrtsamt Dresden ist der Wasser- und Schifffahrtsdirektion Ost untergeordnet und hauptsächlich für die Elbe auf einer Länge von 290 km verantwortlich.
@@ -1400,17 +1240,15 @@ Zur Bundeszollverwaltung gehören ein Zollfahndungsamt und ein Hauptzollamt mit 
 Dresden: Letzteres und das dazugehörige Zollamt sind der Bundesfinanzdirektion Mitte in Potsdam unterstellt.
 Dresden: Bis zum 31. Dezember 2007 war es der Zoll- und Verbrauchsteuerabteilung (ZuVA) der Oberfinanzdirektion Chemnitz nachgeordnet.
 Dresden: Mit Ablauf dieses Datums wurde die ZuVA aufgelöst.
-Die Bundesanstalt Technisches Hilfswerk hat in Dresden eine Regionalstelle und einen Ortsverband.
-Dresden: Diese sind dem THW Länderverband Sachsen, Thüringen mit Sitz in Altenburg unterstellt.
+Die Bundesanstalt Technisches Hilfswerk hat in Dresden eine Regionalstelle und einen Ortsverband. Diese sind dem THW Länderverband Sachsen, Thüringen mit Sitz in Altenburg unterstellt.
 Die Bundesnetzagentur für Elektrizität, Gas, Telekommunikation, Post und Eisenbahnen ist in Dresden mit einer Außenstelle vertreten.
 Darüber hinaus haben die Sächsische Akademie der Künste, die Sächsische Landesstiftung Natur und Umwelt, die Bürgerstiftung, die Brücke/Most-Stiftung und seit 2006 das Gerhard Richter Archiv ihren Sitz in Dresden.
 Dresden kann auf eine lange Geschichte als Garnisonsstadt zurück blicken.
 Dresden: Heute ist in der Albertstadt neben der Offizierschule des Heeres samt Verwaltung sowie des Militärhistorischen Museums auch das Landeskommando Sachsen angesiedelt.
 In Dresden gibt es 18 genehmigte Prostitutionsstätten.
 Dresden: ==  Bildung und Forschung  ==
-Dresden wurde vom Stifterverband für die Deutsche Wissenschaft für das Jahr 2006 zur "Stadt der Wissenschaft" ernannt.
-Dresden: Die Verankerung von Wissenschaft und Bildung in der Bevölkerung zeigt sich besonders in der jährlich stattfindenden, gut besuchten Langen Nacht der Wissenschaften.
-(Lange Nacht der Wissenschaften Dresden.)
+Dresden wurde vom Stifterverband für die Deutsche Wissenschaft für das Jahr 2006 zur „Stadt der Wissenschaft“ ernannt.
+Die Verankerung von Wissenschaft und Bildung in der Bevölkerung zeigt sich besonders in der jährlich stattfindenden, gut besuchten Langen Nacht der Wissenschaften. (Lange Nacht der Wissenschaften Dresden.)
 Dresden: ===  Hochschulbildung und universitäre Forschung  ===
 Hörsaalzentrum der TU Dresden
 Dresden: Hochschule für Bildende Künste an der Brühlschen Terrasse
@@ -1426,40 +1264,31 @@ Die größte Fachhochschule Dresdens ist die Hochschule für Technik und Wirtsch
 Die Hauptgebäude der HTW Dresden liegen direkt am Hauptbahnhof.
 Sie beherbergten bis 1992 die Hochschule für Verkehrswesen "Friedrich List," die seit 1992 die gleichnamige Fakultät für Verkehrswissenschaften in der TU Dresden bildet.
 Derzeit studieren etwa 5000 Menschen an der HTW Dresden.
-Dresden: Bedeutung im Bereich der Bildenden Künste besitzt die Hochschule für Bildende Künste (HfBK), die sich direkt in der Innenstadt an der Brühlschen Terrasse befindet.
-Ebenfalls in ihren Bereichen bedeutend sind die Palucca Hochschule für Tanz Dresden und die Hochschule für Musik "Carl Maria von Weber" (HfM).
-Seit Dezember 2012 ist zudem die Universität der Vereinten Nationen (United Nations University, UNU) mit dem Institute for Integrated Management of Material Fluxes and of Resources (UNU-FLORES) in Dresden vertreten.
-Dresden: UNU-FLORES wird sich mit dem Fokus des Globalen Wandels sowie der Ressourcensteuerung zur Green Economy beschäftigen.
+Bedeutung im Bereich der Bildenden Künste besitzt die Hochschule für Bildende Künste (HfBK), die sich direkt in der Innenstadt an der Brühlschen Terrasse befindet. Ebenfalls in ihren Bereichen bedeutend sind die Palucca Hochschule für Tanz Dresden und die Hochschule für Musik „Carl Maria von Weber“ (HfM).
+Seit Dezember 2012 ist zudem die Universität der Vereinten Nationen (United Nations University, UNU) mit dem Institute for Integrated Management of Material Fluxes and of Resources (UNU-FLORES) in Dresden vertreten. UNU-FLORES wird sich mit dem Fokus des Globalen Wandels sowie der Ressourcensteuerung zur Green Economy beschäftigen.
 Dresden: Weitere Hochschulen sind die Evangelische Hochschule für Soziale Arbeit und die Hochschule für Kirchenmusik.
-Daneben existieren als weitere wichtige Bildungsanstalten die Staatliche Studienakademie Dresden (Berufsakademie), eine Zweigstelle der Staatlichen Studienakademie Sachsen sowie die Sächsische Verwaltungs- und Wirtschafts-Akademie e. V. als reine Fortbildungseinrichtung.
-Dresden: Ebenfalls den höheren Bildungseinrichtungen kann die Offizierschule des Heeres zugeordnet werden, die traditionell die Offiziere des deutschen Heeres ausbildet.
+Daneben existieren als weitere wichtige Bildungsanstalten die Staatliche Studienakademie Dresden (Berufsakademie), eine Zweigstelle der Staatlichen Studienakademie Sachsen sowie die Sächsische Verwaltungs- und Wirtschafts-Akademie e. V. als reine Fortbildungseinrichtung. Ebenfalls den höheren Bildungseinrichtungen kann die Offizierschule des Heeres zugeordnet werden, die traditionell die Offiziere des deutschen Heeres ausbildet.
 Dresden: ===  Außeruniversitäre Wissenschaftseinrichtungen  ===
 Derzeit (Kommentar: ZEITRAHMEN?) baut die Fraunhofer-Gesellschaft in Dresden mit ihren elf Einrichtungen und dem Institutszentrum ihren deutschlandweit größten Standort auf.
 Dresden: Als führende Trägerorganisation der angewandten Forschung in Deutschland betreibt sie in ihren Instituten Vertragsforschung.
 Dresden: Die Forschung der Fraunhofer-Einrichtungen ist für viele hoch technologisierte Unternehmen ein bedeutsamer Standortfaktor geworden.
 Dresden: So betreibt die Gesellschaft - in die Anlagen des ehemaligen Qimonda-Werks integriert - das Fraunhofer-Center Nanoelektronische Technologien (CNT) in Zusammenarbeit in Form einer Public Private Partnership mit AMD Saxony und Qimonda.
-Weitere Fraunhofer-Institute in Dresden sind:
-Dresden: Fraunhofer-Institut für Organische Elektronik, Elektronenstrahl- und Plasmatechnik (FEP)
+Weitere Fraunhofer-Institute in Dresden sind:  Fraunhofer-Institut für Organische Elektronik, Elektronenstrahl- und Plasmatechnik (FEP)
 Dresden: Fraunhofer-Institut für Keramische Technologien und Systeme (IKTS)
 Dresden: Fraunhofer-Institut für Photonische Mikrosysteme (IPMS)
 Dresden: Fraunhofer-Institut für Verkehrs- und Infrastruktursysteme (IVI)
 Dresden: Fraunhofer-Institut für Werkstoff- und Strahltechnik (IWS)
-Fraunhofer-Institutsteile und -Zentren in Dresden sind:
-Fraunhofer-Institut für Fertigungstechnik und Angewandte Materialforschung (IFAM) – Institutsteil Dresden
+Fraunhofer-Institutsteile und -Zentren in Dresden sind:  Fraunhofer-Institut für Fertigungstechnik und Angewandte Materialforschung (IFAM) – Institutsteil Dresden
 Fraunhofer-Institut für Integrierte Schaltungen (IIS) – Institutsteil Dresden
 Fraunhofer-Institut für Werkzeugmaschinen und Umformtechnik (IWU) – Institutsteil Dresden
 Fraunhofer IVV, Außenstelle für Verarbeitungsmaschinen und Verpackungstechnik (IVV Dresden)
 Mit dem Standort Dresden verbunden wird zudem das Zentrum All Silicon System Integration Dresden (IZM-ASSID), das direkt an der Stadtgrenze in Boxdorf steht.
 Dresden: Max-Planck-Institut für molekulare Zellbiologie und Genetik
-Die Max-Planck-Gesellschaft betreibt in Dresden seit 2001 das Max-Planck-Institut für molekulare Zellbiologie und Genetik (MPI CBG).
-Seitdem hat es sich über Forschungsprogramme wie Molecular Bioengineering Dresden zu einem wichtigen Institut im Bereich der funktionellen Genomik entwickelt.
-Dresden: Etwa 300 Mitarbeiter arbeiten in diesem Institut.
+Die Max-Planck-Gesellschaft betreibt in Dresden seit 2001 das Max-Planck-Institut für molekulare Zellbiologie und Genetik (MPI CBG). Seitdem hat es sich über Forschungsprogramme wie Molecular Bioengineering Dresden zu einem wichtigen Institut im Bereich der funktionellen Genomik entwickelt. Etwa 300 Mitarbeiter arbeiten in diesem Institut.
 Dresden: Weitere Institute der Gesellschaft sind das Max-Planck-Institut für Chemische Physik fester Stoffe (MPI CPfS) und Max-Planck-Institut für Physik komplexer Systeme (MPI PKS).
-Das Helmholtz-Zentrum Dresden-Rossendorf e. V. (HZDR) gehörte bis 2011 zur Wissenschaftsgemeinschaft Gottfried Wilhelm Leibniz und hat Forschungsschwerpunkte in den Lebenswissenschaften (insbesondere Krebsforschung), der Energieforschung und in der Materialforschung.
-Seit 2009 hat das Deutsche Zentrum für Neurodegenerative Erkrankungen (DZNE) einen Standort in Dresden.
+Das Helmholtz-Zentrum Dresden-Rossendorf e. V. (HZDR) gehörte bis 2011 zur Wissenschaftsgemeinschaft Gottfried Wilhelm Leibniz und hat Forschungsschwerpunkte in den Lebenswissenschaften (insbesondere Krebsforschung), der Energieforschung und in der Materialforschung. Seit 2009 hat das Deutsche Zentrum für Neurodegenerative Erkrankungen (DZNE) einen Standort in Dresden.
 Dresden: ====  Wissenschaftsgemeinschaft „Gottfried Wilhelm Leibniz“  ====
-Dresden: Die als Leibniz-Gemeinschaft bekannte Wissenschaftsgemeinschaft betreibt hier schon seit einigen Jahren Forschungsinstitute verschiedener Disziplinen:
-Leibniz-Institut für Festkörper- und Werkstoffforschung (IFW) Dresden
+Die als Leibniz-Gemeinschaft bekannte Wissenschaftsgemeinschaft betreibt hier schon seit einigen Jahren Forschungsinstitute verschiedener Disziplinen:  Leibniz-Institut für Festkörper- und Werkstoffforschung (IFW) Dresden
 Institut für Polymerforschung Dresden e. V. (IPF)
 Dresden: Leibniz-Institut für ökologische Raumentwicklung e. V. (IÖR)
 Dresden: ifo Institut für Wirtschaftsforschung (Einzige Niederlassung mit Fokus der Wirtschaft in den Neuen Bundesländern)
@@ -1471,9 +1300,8 @@ Dresdens altsprachliches Gymnasium und zugleich die älteste Schule der Stadt is
 Dresden: Das Sächsische Landesgymnasium für Musik "Carl Maria von Weber" bildet musikalisch besonders begabte Schüler aus.
 Dresden: Weiterhin gibt es eine Eliteschule des Sports, das Sportgymnasium.
 Siehe auch: Liste der Gymnasien in Dresden
-Zu den Ehrenbürgern der Stadt zählen neben Monarchen und Politikern insbesondere Wissenschaftler und Künstler, die in Dresden wirkten - beispielsweise der Wissenschaftler Manfred von Ardenne, die Tanzpädagogin Gret Palucca und der Musiker Richard Strauss.
-Dresden: Adolf Hitler war während der Zeit des Nationalsozialismus, wie damals üblich, ebenfalls Ehrenbürger der Stadt.
-Dresden: Dieser Status wurde ihm aber nach Mai 1945 wieder aberkannt.
+Zu den Ehrenbürgern der Stadt zählen neben Monarchen und Politikern insbesondere Wissenschaftler und Künstler, die in Dresden wirkten – beispielsweise der Wissenschaftler Manfred von Ardenne, die Tanzpädagogin Gret Palucca und der Musiker Richard Strauss.
+Dresden: Adolf Hitler war während der Zeit des Nationalsozialismus, wie damals üblich, ebenfalls Ehrenbürger der Stadt. Dieser Status wurde ihm aber nach Mai 1945 wieder aberkannt.
 Siehe auch: Liste der Ehrenbürger von Dresden
 Dresden: ===  Söhne und Töchter der Stadt  ===
 Der weltweit bekannte Autor Erich Kästner wurde in Dresden geboren und wuchs im Stadtteil Neustadt auf.
@@ -1487,95 +1315,47 @@ Dresden: So auch Peter Scholze, der erst zweite deutsche Träger der Fields-Meda
 Siehe auch: Liste von Söhnen und Töchtern der Stadt Dresden
 Weitere Personen, die längere Zeit in Dresden lebten und wirkten, waren u. a. Hans Georg von Arnim-Boitzenburg, Berthold Auerbach, Carl Gustav Carus, Johan Christian Clausen Dahl, Otto Dix, Felix Draeseke, Hans Erlwein, Caspar David Friedrich, Karl Gutzkow, Heinrich von Kleist, Victor Klemperer, Charlotte Meentzen, Pierre I Mercier, Daniel Pöppelmann, Sergei Wassiljewitsch Rachmaninow, Wilhelm Rudolph, Wolf Curt von Schierbrand, Gertrude Seltmann-Meentzen, Richard Wagner, Carl Maria von Weber, Maria Reiche, Mary Wigman, Erhard Ludewig Winterstein, Nicolaus Ludwig Graf von Zinzendorf und Otto Zirnbauer.
 Dresden: ==  Siehe auch  ==
-Beschreibung der Königlich-Sächsischen Residenzstadt Dresden und der umliegenden Gegend für Fremde bearbeitet.
-Dresden: Erster Teil und zweiter Teil in einem Band.
-Dresden, Walthersche Hofbuchhandlung 1807.
-Dresden: Kleist-Archiv Sembdner, Heilbronn 2010, ISBN 978-3-940494-43-6.
-Fritz Löffler: Das alte Dresden.
-Dresden: Seemann, Leipzig 1999, (Erstausgabe 1955, 16. Auflage 2006), ISBN 3-363-00007-3.
-Alexander McKee: Dresden 1945 - Das deutsche Hiroshima.
-Dresden: Paul Zsolnay Verlag, Hamburg/Wien 1983, ISBN 3-552-03529-X.
+Beschreibung der Königlich-Sächsischen Residenzstadt Dresden und der umliegenden Gegend für Fremde bearbeitet. Erster Teil und zweiter Teil in einem Band. Neudruck [der Ausg.] Dresden, Walthersche Hofbuchhandlung 1807. Kleist-Archiv Sembdner, Heilbronn 2010, ISBN 978-3-940494-43-6.
+Fritz Löffler: Das alte Dresden. Geschichte seiner Bauten. Seemann, Leipzig 1999, (Erstausgabe 1955, 16. Auflage 2006), ISBN 3-363-00007-3.
+Alexander McKee: Dresden 1945 – Das deutsche Hiroshima. Paul Zsolnay Verlag, Hamburg/Wien 1983, ISBN 3-552-03529-X.
 Heinz Quinger: Dresden. (Kunstgeschichtliche Städtebücher). Leipzig 1991.
 Landeshauptstadt Dresden: Flächennutzungsplan. Stadtplanungsamt, Dresden 1998.
-Landeshauptstadt Dresden: Integriertes Stadtentwicklungskonzept Dresden.
-Dresden: Teil I. Analyse und Handlungsfelder.
-Ingeborg Flagge: Dresden (FSB Architekturführer.
-Dresden: Verlag Das Beispiel, Darmstadt 2004, ISBN 3-935243-48-0.
-Thomas Widera: Dresden 1945-1948.
-Dresden: Politik und Gesellschaft unter sowjetischer Besatzungsherrschaft (= Schriften des Hannah-Arendt-Instituts für Totalitarismusforschung.
-Dresden: Vandenhoeck & Ruprecht, Göttingen 2005, ISBN 3-525-36901-8.
-Dresden: Ulrich Hübner, Ulrike Grötzsch u. a.: Symbol und Wahrhaftigkeit.
-Verlag der Kunst Dresden, 2005, ISBN 3-86530-068-5.
-Eckhart Leisering: Acta sunt hec Dresdene - die Ersterwähnung Dresdens in der Urkunde vom 31. März 1206, Sächsisches Staatsarchiv, Mitteldeutscher Verlag (mdv), Halle/Saale und Dresden 2005, ISBN 3-89812-320-0 (), S. 5/40/35-41/94.
-Karlheinz Blaschke, Reiner Groß, Holger Starke (Hrsg.): Geschichte der Stadt Dresden.
-Dresden: Band 1: Von den Anfängen bis zum Ende des Dreißigjährigen Krieges.
-Dresden: ISBN 978-3-8062-1906-7; Band 2: Vom Ende des Dreißigjährigen Krieges bis zur Reichsgründung.
-Dresden: ISBN 978-3-8062-1927-2; Band 3: Von der Reichsgründung bis zur Gegenwart.
-Dresden: Theiss, Stuttgart 2005-2006, ISBN 3-8062-1928-1.
-Georg Dehio: Handbuch der deutschen Kunstdenkmäler - Dresden.
-Dresden: Bearbeitet von Barbara Bechter, Wiebke Fastenrath, Heinrich Magirius u. a., 1996/2005 aktualisiert von Friedrich Kobler, Heinrich Magirius, Mathis Nitzsche und Hartmut Ritschel.
-Dresden: Deutscher Kunstverlag, Berlin, ISBN 3-422-03110-3. (mit 40 Plänen und Grundrissen).
-Thorsten Pietschmann: Dresden.
-Dresden: Architektur und Kunst (= Cybela Bildhandbuch Architektur und Kunst.
-Dresden: Cybela Verlag, Oybin-Lückendorf 2013, ISBN 978-3-944470-00-9.
+Landeshauptstadt Dresden: Integriertes Stadtentwicklungskonzept Dresden. Teil I. Analyse und Handlungsfelder. Stadtplanungsamt, Dresden 2001.
+Ingeborg Flagge: Dresden (FSB Architekturführer. Stadtführer zeitgenössischer Architektur). Verlag Das Beispiel, Darmstadt 2004, ISBN 3-935243-48-0.
+Thomas Widera: Dresden 1945–1948. Politik und Gesellschaft unter sowjetischer Besatzungsherrschaft (= Schriften des Hannah-Arendt-Instituts für Totalitarismusforschung. Bd. 25). Vandenhoeck & Ruprecht, Göttingen 2005, ISBN 3-525-36901-8.
+Ulrich Hübner, Ulrike Grötzsch u. a.: Symbol und Wahrhaftigkeit. Reformbaukunst in Dresden. Verlag der Kunst Dresden, 2005, ISBN 3-86530-068-5.
+Eckhart Leisering: Acta sunt hec Dresdene – die Ersterwähnung Dresdens in der Urkunde vom 31. März 1206, Sächsisches Staatsarchiv, Mitteldeutscher Verlag (mdv), Halle/Saale und Dresden 2005, ISBN 3-89812-320-0 (), S. 5/40/35-41/94.
+Karlheinz Blaschke, Reiner Groß, Holger Starke (Hrsg.): Geschichte der Stadt Dresden. Band 1: Von den Anfängen bis zum Ende des Dreißigjährigen Krieges. ISBN 978-3-8062-1906-7; Band 2: Vom Ende des Dreißigjährigen Krieges bis zur Reichsgründung. ISBN 978-3-8062-1927-2; Band 3: Von der Reichsgründung bis zur Gegenwart. Theiss, Stuttgart 2005–2006, ISBN 3-8062-1928-1.
+Georg Dehio: Handbuch der deutschen Kunstdenkmäler – Dresden. Bearbeitet von Barbara Bechter, Wiebke Fastenrath, Heinrich Magirius u. a., 1996/2005 aktualisiert von Friedrich Kobler, Heinrich Magirius, Mathis Nitzsche und Hartmut Ritschel. Deutscher Kunstverlag, Berlin, ISBN 3-422-03110-3. (mit 40 Plänen und Grundrissen).
+Thorsten Pietschmann: Dresden. Architektur und Kunst (= Cybela Bildhandbuch Architektur und Kunst. Band 2). Cybela Verlag, Oybin-Lückendorf 2013, ISBN 978-3-944470-00-9.
 Jürgen Helfricht: Kleines Dresden-ABC. Husum, Husum 2014, ISBN 978-3-89876-719-4.
-Dresden: Claudia Quiring, Hans-Georg Lippert (Hrsg.): Dresdner Moderne 1919-1933.
-Dresden: Neue Ideen für Stadt, Architektur und Menschen.
-Sandstein Verlag, Dresden 2019, ISBN 978-3-95498-464-0.
-Steffen Raßloff: Kleine Geschichte der Stadt Dresden.
-Dresden: Rhino Verlag, Ilmenau 2019, ISBN 978-3-95560-072-3.
-Andreas Krase (Hrsg.): Dresden in Photographien des 19. Jahrhunderts.
-Dresden: Schirmer Mosel, München 2020, ISBN 978-3-8296-0777-3 (Bildband mit 250 historischen Aufnahmen).
-Steffen Raßloff: Dresden.
-Dresden: 55 Highlights aus der Geschichte.
-Dresden: Sutton Verlag, Erfurt 2021, ISBN 978-3-96303-297-4.
-Dresden: Andreas Ruby: Stadtplanung.
-Dresden: Las Vegas an der Elbe.
-Dresden: In: Die Zeit.
-Dresden: 9. November 2000 und 2. Januar 2014, abgerufen am 25. Dezember 2020.
-Mit Themen aus Dresden:
-Dresden: Oliver Bendel: Verlorene Schwestern. Leipziger Literaturverlag, Leipzig 2009, ISBN 978-3-86660-079-9.
-Dresden: Renatus Deckert (Hrsg.): Die wüste Stadt.
-Sieben Dichter über Dresden.
-Dresden: Insel Verlag, Frankfurt am Main 2005, ISBN 3-458-34849-2.
-Dresden: Wilhelm von Kügelgen: Jugenderinnerungen eines alten Mannes. u. a. hrsg. von Philipp von Nathusius.
-Dresden: W. Hertz, Berlin 1870.
-Dresden: Eberhard Panitz: Dresdner Novelle 1989.
-Dresden: Verlag am Park, Berlin 2009, ISBN 978-3-89793-232-6.
-Detlev Schöttker (Hrsg.): Dresden.
-Dresden: Wagenbach Verlag, Berlin 2006, ISBN 3-8031-1239-7.
-Dresden: Uwe Tellkamp: Der Turm.
-Dresden: Geschichte aus einem versunkenen Land.
-Dresden: Suhrkamp, Frankfurt am Main 2008, ISBN 978-3-518-42020-1.
+Claudia Quiring, Hans-Georg Lippert (Hrsg.): Dresdner Moderne 1919–1933. Neue Ideen für Stadt, Architektur und Menschen. Sandstein Verlag, Dresden 2019, ISBN 978-3-95498-464-0.
+Steffen Raßloff: Kleine Geschichte der Stadt Dresden. Rhino Verlag, Ilmenau 2019, ISBN 978-3-95560-072-3.
+Andreas Krase (Hrsg.): Dresden in Photographien des 19. Jahrhunderts. Schirmer Mosel, München 2020, ISBN 978-3-8296-0777-3 (Bildband mit 250 historischen Aufnahmen).
+Steffen Raßloff: Dresden. 55 Highlights aus der Geschichte. Sutton Verlag, Erfurt 2021, ISBN 978-3-96303-297-4.
+Dresden: Andreas Ruby: Stadtplanung. Las Vegas an der Elbe. In: Die Zeit. 9. November 2000 und 2. Januar 2014, abgerufen am 25. Dezember 2020.
+Mit Themen aus Dresden:  Oliver Bendel: Verlorene Schwestern. Leipziger Literaturverlag, Leipzig 2009, ISBN 978-3-86660-079-9.
+Renatus Deckert (Hrsg.): Die wüste Stadt. Sieben Dichter über Dresden. Insel Verlag, Frankfurt am Main 2005, ISBN 3-458-34849-2.
+Dresden: Wilhelm von Kügelgen: Jugenderinnerungen eines alten Mannes. u. a. hrsg. von Philipp von Nathusius. W. Hertz, Berlin 1870.
+Dresden: Eberhard Panitz: Dresdner Novelle 1989. Verlag am Park, Berlin 2009, ISBN 978-3-89793-232-6.
+Detlev Schöttker (Hrsg.): Dresden. Eine literarische Einladung. Wagenbach Verlag, Berlin 2006, ISBN 3-8031-1239-7.
+Dresden: Uwe Tellkamp: Der Turm. Geschichte aus einem versunkenen Land. Roman. Suhrkamp, Frankfurt am Main 2008, ISBN 978-3-518-42020-1.
 Dresden: Mathias Ullmann: Ohne Engel. VAT, Mainz 2009, ISBN 978-3-940884-20-6.
-Dresden: Marcus Wächtler: Grüner Dresdner.
-Dresden: SWB Media Publishing, Stuttgart 2015, ISBN 978-3-945769-10-2.
+Dresden: Marcus Wächtler: Grüner Dresdner. SWB Media Publishing, Stuttgart 2015, ISBN 978-3-945769-10-2.
 Dresden: Frank Goldammer: Max Heller, Band 1 Der Angstmann. dtv Verlagsgesellschaft, München 2017, ISBN 978-3-423-21696-8.
-Michael Göring: Dresden.
-Dresden: Osburg Verlag, Hamburg 2021, ISBN 978-3-95510-243-2.
-Tilo Richter (Text), Hans-Christian Schink (Fotos): Industriearchitektur in Dresden.
-Dresden: Kiepenheuer, Leipzig 1997, ISBN 3-378-01019-3.
-Reinhardt Balzk, Jürgen Leibiger (Hrsg.): Industriegeschichte der Stadt Dresden 1945-1990.
-Schriften der Hochschule für Musik "Carl Maria von Weber" Dresden.
-Dresden: Band I: Die Dresdner Oper im 19. Jahrhundert.
-Dresden: Hrsg. von Michael Heinemann und Hans John, ISBN 3-89007-310-7.
-Dresden: Band II: Die Dresdner Stadtmusik, Militärmusikkorps und Zivilkapellen im 19. Jahrhundert.
-Dresden: Hrsg. von Anneliese Zänsler, ISBN 3-89007-319-0.
-Dresden: Band III: Die Dresdner Kirchenmusik im 19. und 20. Jahrhundert.
-Dresden: Hrsg. von Matthias Herrmann, ISBN 3-89007-331-X.
-Band IV: Dresden und die avancierte Musik im 20. Jahrhundert.
-Dresden: Teil I: 1900-1933.
-Dresden: Hrsg. von Matthias Herrmann und Hanns-Werner Heister, ISBN 3-89007-346-8.
-Band V: Dresden und die avancierte Musik im 20. Jahrhundert.
-Dresden: Teil II: 1933-1966.
-Dresden: Hrsg. von Matthias Herrmann und Hanns-Werner Heister, ISBN 3-89007-510-X.
-Band VI: Dresden und die avancierte Musik im 20. Jahrhundert.
-Dresden: Teil III: 1966-1999.
-Dresden: Hrsg. von Matthias Herrmann und Stefan Weiss, ISBN 3-89007-511-8.
-Dresden: Band VII: Die Dresdner Oper im 20. Jahrhundert.
-Dresden: Hrsg. von Michael Heinemann und Hans John, ISBN 3-89007-651-3.
+Michael Göring: Dresden. Roman einer Familie. 2. Auflage. Osburg Verlag, Hamburg 2021, ISBN 978-3-95510-243-2.
+Tilo Richter (Text), Hans-Christian Schink (Fotos): Industriearchitektur in Dresden. Kiepenheuer, Leipzig 1997, ISBN 3-378-01019-3.
+Reinhardt Balzk, Jürgen Leibiger (Hrsg.): Industriegeschichte der Stadt Dresden 1945–1990. Beiträge zum 800. Stadtjubiläum. Schkeuditz 2007.
+Musik in Dresden. Schriften der Hochschule für Musik „Carl Maria von Weber“ Dresden. Laaber-Verlag, Laaber 1995–2005.
+Dresden: Band I: Die Dresdner Oper im 19. Jahrhundert. Hrsg. von Michael Heinemann und Hans John, ISBN 3-89007-310-7.
+Dresden: Band II: Die Dresdner Stadtmusik, Militärmusikkorps und Zivilkapellen im 19. Jahrhundert. Hrsg. von Anneliese Zänsler, ISBN 3-89007-319-0.
+Dresden: Band III: Die Dresdner Kirchenmusik im 19. und 20. Jahrhundert. Hrsg. von Matthias Herrmann, ISBN 3-89007-331-X.
+Band IV: Dresden und die avancierte Musik im 20. Jahrhundert. Teil I: 1900–1933. Hrsg. von Matthias Herrmann und Hanns-Werner Heister, ISBN 3-89007-346-8.
+Band V: Dresden und die avancierte Musik im 20. Jahrhundert. Teil II: 1933–1966. Hrsg. von Matthias Herrmann und Hanns-Werner Heister, ISBN 3-89007-510-X.
+Band VI: Dresden und die avancierte Musik im 20. Jahrhundert. Teil III: 1966–1999. Hrsg. von Matthias Herrmann und Stefan Weiss, ISBN 3-89007-511-8.
+Dresden: Band VII: Die Dresdner Oper im 20. Jahrhundert. Hrsg. von Michael Heinemann und Hans John, ISBN 3-89007-651-3.
 Internetauftritt der Landeshauptstadt Dresden
-Dresden in Zahlen - II. Quartal 2022 (PDF; 9,3 MB) (Kommentar: jeweils neueste Version abrufbar unter: https://www.dresden.de/de/leben/stadtportrait/statistik/publikationen/dresden-in-zahlen-quartal.php)
+Dresden in Zahlen – II. Quartal 2022 (PDF; 9,3 MB)(Kommentar: jeweils neueste Version abrufbar unter: https://www.dresden.de/de/leben/stadtportrait/statistik/publikationen/dresden-in-zahlen-quartal.php)
 Dresden: Liniennetzpläne des öffentlichen Nahverkehrs
 Dresden: www.bausituation-dresden.de Blog mit Fotos
 Dresden: Historische Fotografien 1900/1914 (Sammlung Bernd Nasner)
