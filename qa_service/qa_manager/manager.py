@@ -30,9 +30,13 @@ class QaManager:
         with QaManager.lock:
             # Load model for Question Answering (QA)
 
+            model_id = 'Sahajtomar/German-question-answer-Electra'  # Model Size is around 1.24 GB
+
             # Max token length is 512 -> Embedding is 1024 dimensional
             # This model is really good, good with rivers, bad with mayor - 9/10
-            model_id = 'deepset/gelectra-large-germanquad'  # Model Size is around 1.3 GB
+            # model_id = 'deepset/gelectra-large-germanquad'  # Model Size is around 1.3 GB
+
+            # model_id = 'svalabs/rembert-german-question-answering'  # Model Size is around 2.16 GB
 
             models_folder = os.environ.get('MODELS_FOLDER', '/opt/speech_service/models/')
 

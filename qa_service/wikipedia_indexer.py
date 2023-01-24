@@ -466,6 +466,51 @@ def _test_answer():
     print(qa_manager.answer('Wer ist der Bürgermeister von Dresden?', 'Der Bürgermeister von Dresden ist Max Mustermann.'))
 
 
+def _test_opensearch_answer_wiki(
+        embedding_manager: EmbeddingManager,
+        question: str,
+        top_k: int = 10,
+        range_from: int = -1,
+        range_to: int = 3,
+        index: str = 'wiki_index'):
+    client = get_os_client()
+    embedding = embedding_manager.embed([question])[0]
+    # Search for the document.
+    query = {
+        'size': top_k,
+        '_source': ['sentence'],
+        'query': {
+            'knn': {
+                'embedding': {
+                    'vector': embedding.cpu().numpy(),
+                    'k': top_k
+                }
+            }
+        }
+    }
+    response = client.search(
+        body=query,
+        index=index,
+        request_timeout=300
+    )
+    hits = [hit['_id'].split(':') for hit in response['hits']['hits']]
+    # log.info(f"Search results: {response}")
+    ids = {}  # use dict for unique keys (overlapping ranges possible), that preserve ordering
+    for (country, article, line) in [hit['_id'].split(':') for hit in response['hits']['hits']]:
+        for l in range(max(1, int(line) - range_from), int(line) + range_to + 1):
+            ids[f"{country}:{article}:{l}"] = 0
+
+    client = get_os_client()
+    response = client.mget({'ids': list(ids)}, index, _source=['sentence'], request_timeout=300)  # type: ignore
+
+    # log.info(f"Search results:\n{response}")
+
+    text = '\n'.join([doc['_source']['sentence'] for doc in response['docs'] if '_source' in doc])
+    log.info(f"Extrated sentences:\n{text}")
+    qa_manager = QaManager()
+    print(qa_manager.answer(question, text))
+
+
 def main():
     import sys
     logging.basicConfig(stream=sys.stdout, level=logging.DEBUG)
@@ -480,9 +525,9 @@ def main():
     embedding_manager = EmbeddingManager()
 
     # _test_similarity(embedding_manager)
-    _test_similarity_wiki(embedding_manager, 'Wie heißt der Bürgermeister von Dresden?', 'Dresden', 50)
+    # _test_similarity_wiki(embedding_manager, 'Wie heißt der Bürgermeister von Dresden?', 'Dresden', 50)
 
-    # _test_download_wiki()
+    _test_download_wiki()
     # _test_parse_wiki()
 
     # _test_opensearch_create_index(embedding_manager)
@@ -492,6 +537,17 @@ def main():
     # _test_opensearch_get_wiki('de:Dresden:1')
 
     # _test_answer()
+
+    # _test_opensearch_answer_wiki(embedding_manager, 'Wie groß ist Berlin?', 10)
+
+    while True:
+        choice = input('Welche Frage hast Du zu deutschen Städten?\n').strip()
+        if not choice:
+            continue
+        if choice == 'exit':
+            break
+        _test_opensearch_answer_wiki(embedding_manager, choice, top_k=20, range_from=-1, range_to=4)
+
 
 if __name__ == '__main__':
     main()
