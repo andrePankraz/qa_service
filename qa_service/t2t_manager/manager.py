@@ -96,15 +96,17 @@ class T2tManager:
         start = timer()
 
         prompt = f"Frage: {question}\nFakten:\n-----\n{context}"
-        prompt_end = '\n-----\nKurzer Antwortsatz mit allen passenden Fakten: '
+        prompt_end = '\n-----\nKurze Antwort (vollständige Aufzählung): '
 
+        # T5 was trained for max sequence length 512, but can handle longer sequences!
+        # There will be a warning and the model might not attend to all facts, but it works.
         # Shorten prompt for max sequence length 512:
-        max_length = self.get_max_sequence_length()
-        while len(
-            self.pipeline.tokenizer(
-                prompt + prompt_end,
-                return_tensors='pt').input_ids[0]) >= max_length:  # type: ignore
-            prompt = prompt.rsplit('\n', 1)[0]
+        # max_length = self.get_max_sequence_length()
+        # while len(
+        #     self.pipeline.tokenizer(
+        #         prompt + prompt_end,
+        #         return_tensors='pt').input_ids[0]) >= max_length:  # type: ignore
+        #     prompt = prompt.rsplit('\n', 1)[0]
 
         prompt += prompt_end
         log.debug(f"Prompt:\n{prompt}")

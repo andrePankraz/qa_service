@@ -20,20 +20,20 @@ log = logging.getLogger(__name__)
 log.setLevel(logging.DEBUG)
 
 
-class QaManager:
+class T2tManager:
 
     lock = threading.Lock()
 
     def __new__(cls):
         # Singleton!
         if not hasattr(cls, 'instance'):
-            cls.instance = super(QaManager, cls).__new__(cls)
+            cls.instance = super(T2tManager, cls).__new__(cls)
         return cls.instance
 
     def __init__(self) -> None:
         if hasattr(self, 'tokenizer'):
             return
-        with QaManager.lock:
+        with T2tManager.lock:
             openai.api_key = os.getenv("OPENAI_API_KEY")
             # Load tokenizer for counting tokens (Use tiktoken or transformer.GPT2TokenizerFast)
             # With tiktoken as tokenizer:
@@ -45,24 +45,26 @@ class QaManager:
             # self.tokenizer = GPT2TokenizerFast.from_pretrained(model_id, cache_dir=models_folder)
             # log.info("...done.")
 
+    def get_max_sequence_length(self) -> int:
+        return 4000  # text-davinci-003
+
     def answer(self, question: str, context: str, top_k: int = 5) -> list:
         log.debug(f"Answering...")
         start = timer()
 
-        prompt = f"Beantworte die folgende Frage kurz und nutze dabei ausschließlich die nachfolgend aufgelisteten Fakten:\nFrage:{question}\nFakten:\n-----\n{context}"
+        prompt = f"Frage: {question}\nFakten:\n-----\n{context}"
+        prompt_end = '\n-----\nKurze Antwort (vollständige Aufzählung): '
 
-        # Shorten prompt for context window size (max. 4000, for wiggling space 3000)
-        # With transformer.GPT2TokenizerFast as tokenizer:
-        # while len(self.tokenizer(prompt)['input_ids']) > 3000:
-        # With tiktoken as tokenizer:
-        while len(self.tokenizer.encode(prompt)) > 3000:
+        # Shorten prompt for max sequence length 4000:
+        max_length = self.get_max_sequence_length()
+        while len(self.tokenizer.encode(prompt + prompt_end)) >= max_length:
             prompt = prompt.rsplit('\n', 1)[0]
-        prompt += "\n-----\nAntwort:\n"
 
-        answers = [prompt]
+        prompt += prompt_end
+        log.debug(f"Prompt:\n{prompt}")
 
         answer = openai.Completion.create(
-            model="text-davinci-003",
+            model='text-davinci-003',
             prompt=prompt,
             max_tokens=500,
             temperature=0.7)

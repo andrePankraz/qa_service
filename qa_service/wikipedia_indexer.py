@@ -552,7 +552,7 @@ def main():
     # _test_answer("Wie heißt der Bürgermeister von Berlin?", "Berlin: Bürgermeister: Max Mustermann.")
 
     # _test_similarity_wiki('Wie heißt der Bürgermeister von Berlin?', 'Berlin', 50)
-    _test_sim_answer_wiki('Welche Flüsse fließen durch Dresden?', 'Dresden', 50)
+    _test_sim_answer_wiki('Wie heißt der Bürgermeister von Berlin?', 'Berlin', 50)
 
     # _test_download_wiki()
     # _test_parse_wiki()
