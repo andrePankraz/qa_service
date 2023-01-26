@@ -40,9 +40,9 @@ class EmbeddingManager:
         with EmbeddingManager.lock:
             # Load model for Sentence Embedding
 
+            model_id = 'facebook/mcontriever-msmarco'  # Model Size is around 0.7 GB
             # Max token length is 512 -> Embedding is 768 dimensional
             # This model is good, small and just 768-dim, but it's really slow and memory intensive - 5/10
-            model_id = 'facebook/mcontriever-msmarco'  # Model Size is around 0.7 GB
 
             models_folder = os.environ.get('MODELS_FOLDER', '/opt/speech_service/models/')
             device = 'cpu'
@@ -57,11 +57,17 @@ class EmbeddingManager:
             log.info(f"Loading model {model_id!r} in folder {models_folder!r}...")
             self.tokenizer = AutoTokenizer.from_pretrained(model_id, cache_dir=models_folder)
             self.model = Contriever.from_pretrained(model_id, cache_dir=models_folder).to(device)
-            log.info(f"Tokens: {self.get_max_seq_length()}")
-            log.info(f"Dimensions: {self.get_dimensions()}")
+            log.info(f"Max Sequence Length: {self.get_max_sequence_length()}")
+            log.info(f"Embedding Dimensions: {self.get_embedding_dimensions()}")
             log.info("...done.")
             if device != 'cpu':
                 log.info(f"VRAM left: {round(torch.cuda.mem_get_info(0)[0]/1024**3,1)} GB")
+
+    def get_max_sequence_length(self) -> int:
+        return self.model.config.max_position_embeddings
+
+    def get_embedding_dimensions(self) -> int:
+        return self.model.config.pooler_fc_size
 
     def embed(self, sentences: list[str]) -> torch.Tensor:
         log.debug(f"Embedding {len(sentences)} sentences...")
@@ -84,9 +90,3 @@ class EmbeddingManager:
         log.debug(f"...done in {timer() - start:.3f}s")
         assert isinstance(embeddings, torch.Tensor)
         return embeddings
-
-    def get_dimensions(self) -> int:
-        return self.model.config.pooler_fc_size
-
-    def get_max_seq_length(self) -> int:
-        return self.model.config.max_position_embeddings

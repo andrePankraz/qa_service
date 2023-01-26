@@ -32,9 +32,9 @@ class QaManager:
 
             model_id = 'Sahajtomar/German-question-answer-Electra'  # Model Size is around 1.24 GB
 
-            # Max token length is 512 -> Embedding is 1024 dimensional
-            # This model is really good, good with rivers, bad with mayor - 9/10
             # model_id = 'deepset/gelectra-large-germanquad'  # Model Size is around 1.3 GB
+            # Max sequence length is 512
+            # This model is really good, good with rivers, bad with mayor - 9/10
 
             # model_id = 'svalabs/rembert-german-question-answering'  # Model Size is around 2.16 GB
 

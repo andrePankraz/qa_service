@@ -13,6 +13,7 @@ import os
 from qa_manager import QaManager
 import re
 from sentence_transformers import util
+from t2t_manager import T2tManager
 import torch
 from wikipedia_processor import download, read_places, wiki_sentences
 
@@ -51,17 +52,9 @@ def get_os_client() -> OpenSearch:
     return client
 
 
-def _test_similarity(embedding_manager: EmbeddingManager):
-    embeddings = embedding_manager.embed(
-        ['Was ist die Hauptstadt von Deutschland?',
-         'Von welchem Land ist Berlin die Hauptstadt?',
-         'Die Hauptstadt von Deutschland ist Berlin.',
-         'Berlin ist die Hauptstadt von Deutschland.',
-         'Die Hauptstadt von Italien ist Rom.',
-         'Rom ist die Hauptstadt von Italien',
-         'In Rom, der Hauptstadt von Italien, wohnen auch viele Deutsche.',
-         'In Amerika gibt es eine kleine Stadt namens Berlin.',
-         'Da beißt die Maus keinen Faden ab.'])
+def _test_similarity(sentences: list[str]):
+    embedding_manager = EmbeddingManager()
+    embeddings = embedding_manager.embed(sentences)
 
     # torch.set_printoptions(profile="full")
     torch.set_printoptions(linewidth=200)
@@ -71,9 +64,14 @@ def _test_similarity(embedding_manager: EmbeddingManager):
     print(f"Similarity:\n{util.cos_sim(embeddings, embeddings)}")
 
 
-def _test_similarity_wiki(embedding_manager: EmbeddingManager, question: str, wikipage: str, number: int = 10):
-    download(f"https://de.wikipedia.org/wiki/Spezial:Exportieren/{wikipage}", f"{imports_folder}{wikipage}.xml")
+def _test_answer(question: str, context: str):
+    qa_manager = QaManager()
+    print(qa_manager.answer(question, context))
 
+
+def _test_similarity_wiki(question: str, wikipage: str, number: int = 10):
+    download(f"https://de.wikipedia.org/wiki/Spezial:Exportieren/{wikipage}", f"{imports_folder}{wikipage}.xml")
+    embedding_manager = EmbeddingManager()
     for title, sentences, _ in wiki_sentences(f"{imports_folder}{wikipage}.xml", filtered=True):
         log.info(f"##### {title} #####")
 
@@ -88,6 +86,30 @@ def _test_similarity_wiki(embedding_manager: EmbeddingManager, question: str, wi
         for score, idx in zip(top_results[0], top_results[1]):
             if score >= 0.4:
                 log.info(f"(Score: {score:.4f})  {sentences[idx]}")
+
+
+def _test_sim_answer_wiki(question: str, wikipage: str, number: int = 10):
+    download(f"https://de.wikipedia.org/wiki/Spezial:Exportieren/{wikipage}", f"{imports_folder}{wikipage}.xml")
+    embedding_manager = EmbeddingManager()
+    for title, sentences, _ in wiki_sentences(f"{imports_folder}{wikipage}.xml", filtered=True):
+        log.info(f"##### {title} #####")
+
+        with open(f"{imports_folder}{wikipage}.txt", "wt") as f:
+            print('\n'.join(sentences), file=f)
+
+        query_embedding = embedding_manager.embed([question])[0]
+        sentence_embeddings = embedding_manager.embed(sentences)
+
+        cos_scores = util.cos_sim(query_embedding, sentence_embeddings)
+        top_results = torch.topk(cos_scores[0], k=min(number, len(cos_scores[0])))
+        for score, idx in zip(top_results[0], top_results[1]):
+            if score >= 0.4:
+                log.info(f"(Score: {score:.4f})  {sentences[idx]}")
+
+        context = '\n'.join([sentences[idx] for idx in top_results[1]])
+
+        qa_manager = T2tManager()
+        print(qa_manager.answer(question, context))  # type: ignore
 
 
 def _test_download_wiki():
@@ -111,11 +133,12 @@ def _test_parse_wiki():
     log.info(f"Articles: {article_nr}   Sentences: {sentence_nr}")
 
 
-def _test_opensearch_create_index(embedding_manager: EmbeddingManager, index: str = 'wiki_index'):
+def _test_opensearch_create_index(index: str = 'wiki_index'):
     client = get_os_client()
     if client.indices.exists(index):
         response = client.indices.delete(index)
         log.info(f"Deleting index: {response}")
+    embedding_manager = EmbeddingManager()
     if not client.indices.exists(index):
         # Create an index with non-default settings.
         # See: https://opensearch.org/docs/latest/search-plugins/knn/approximate-knn/
@@ -142,7 +165,7 @@ def _test_opensearch_create_index(embedding_manager: EmbeddingManager, index: st
                     },
                     'embedding': {
                         'type': 'knn_vector',
-                        'dimension': embedding_manager.get_dimensions(),
+                        'dimension': embedding_manager.get_embedding_dimensions(),
                         'method': {
                             'name': 'hnsw',
                             'engine': 'nmslib',
@@ -160,7 +183,7 @@ def _test_opensearch_create_index(embedding_manager: EmbeddingManager, index: st
         log.info(f"Creating index: {response}")
 
     # Add a document to the index.
-    embedding = numpy.zeros(embedding_manager.get_dimensions(), dtype=float)
+    embedding = numpy.zeros(embedding_manager.get_embedding_dimensions(), dtype=float)
 
     language = 'de'
     title = 'Berlin'
@@ -195,11 +218,12 @@ def _test_opensearch_create_index(embedding_manager: EmbeddingManager, index: st
     log.info(f"Search results: {response}")
 
 
-def _test_opensearch_create_index_nested(embedding_manager: EmbeddingManager, index: str = 'wiki_index'):
+def _test_opensearch_create_index_nested(index: str = 'wiki_index'):
     client = get_os_client()
     if client.indices.exists(index):
         response = client.indices.delete(index)
         log.info(f"Deleting index: {response}")
+    embedding_manager = EmbeddingManager()
     if not client.indices.exists(index):
         # Create an index with non-default settings.
         # See: https://opensearch.org/docs/latest/search-plugins/knn/knn-index/
@@ -229,7 +253,7 @@ def _test_opensearch_create_index_nested(embedding_manager: EmbeddingManager, in
                             },
                             'embedding': {
                                 'type': 'knn_vector',
-                                'dimension': embedding_manager.get_dimensions(),
+                                'dimension': embedding_manager.get_embedding_dimensions(),
                                 'method': {
                                     'name': 'hnsw',
                                     'engine': 'nmslib',
@@ -249,10 +273,10 @@ def _test_opensearch_create_index_nested(embedding_manager: EmbeddingManager, in
         log.info(f"Creating index: {response}")
 
     # Add a document to the index.
-    embedding1 = numpy.zeros(embedding_manager.get_dimensions(), dtype=float)
-    embedding2 = numpy.zeros(embedding_manager.get_dimensions(), dtype=float)
+    embedding1 = numpy.zeros(embedding_manager.get_embedding_dimensions(), dtype=float)
+    embedding2 = numpy.zeros(embedding_manager.get_embedding_dimensions(), dtype=float)
     embedding2[0] = 1
-    embedding3 = numpy.zeros(embedding_manager.get_dimensions(), dtype=float)
+    embedding3 = numpy.zeros(embedding_manager.get_embedding_dimensions(), dtype=float)
     embedding3[0] = -1
 
     sentence1 = 'Testsatz1'
@@ -310,7 +334,7 @@ def _test_opensearch_create_index_nested(embedding_manager: EmbeddingManager, in
     log.info(f"Search results: {response}")
 
 
-def _test_opensearch_index_wiki(embedding_manager: EmbeddingManager, index: str = 'wiki_index'):
+def _test_opensearch_index_wiki(index: str = 'wiki_index'):
     client = get_os_client()
     language = 'de'
     places = read_places()
@@ -320,6 +344,7 @@ def _test_opensearch_index_wiki(embedding_manager: EmbeddingManager, index: str 
     text_pattern = re.compile('Postleitzahl|PLZ')
     article_nr = 0
     sentence_nr = 0
+    embedding_manager = EmbeddingManager()
     for title, sentences, progress in wiki_sentences(
             imports_folder + 'dewiki-latest-pages-articles-multistream.xml.bz2', title_pattern=places, text_pattern=text_pattern, filtered=True):
         article_nr += 1
@@ -353,7 +378,7 @@ def _test_opensearch_index_wiki(embedding_manager: EmbeddingManager, index: str 
     log.info(f"Articles: {article_nr}   Sentences: {sentence_nr}")
 
 
-def _test_opensearch_index_wiki_nested(embedding_manager: EmbeddingManager, index: str = 'wiki_index'):
+def _test_opensearch_index_wiki_nested(index: str = 'wiki_index'):
     client = get_os_client()
     language = 'de'
     places = read_places()
@@ -363,6 +388,7 @@ def _test_opensearch_index_wiki_nested(embedding_manager: EmbeddingManager, inde
     text_pattern = re.compile('Postleitzahl|PLZ')
     article_nr = 0
     sentence_nr = 0
+    embedding_manager = EmbeddingManager()
     for title, sentences, progress in wiki_sentences(
             imports_folder + 'dewiki-latest-pages-articles-multistream.xml.bz2', title_pattern=places, text_pattern=text_pattern, filtered=True):
         article_nr += 1
@@ -388,12 +414,8 @@ def _test_opensearch_index_wiki_nested(embedding_manager: EmbeddingManager, inde
     log.info(f"Articles: {article_nr}   Sentences: {sentence_nr}")
 
 
-def _test_opensearch_search_wiki(
-        embedding_manager: EmbeddingManager,
-        question: str,
-        number: int = 10,
-        index: str = 'wiki_index'):
-    client = get_os_client()
+def _test_opensearch_search_wiki(question: str, number: int = 10, index: str = 'wiki_index'):
+    embedding_manager = EmbeddingManager()
     embedding = embedding_manager.embed([question])[0]
     # Search for the document.
     query = {
@@ -408,6 +430,7 @@ def _test_opensearch_search_wiki(
             }
         }
     }
+    client = get_os_client()
     response = client.search(
         body=query,
         index=index,
@@ -420,10 +443,8 @@ def _test_opensearch_search_wiki(
     log.info(f"Search results:\n{out}")
 
 
-def _test_opensearch_search_wiki_nested(embedding_manager: EmbeddingManager, question: str,
-                                        number: int = 10,
-                                        index: str = 'wiki_index'):
-    client = get_os_client()
+def _test_opensearch_search_wiki_nested(question: str, number: int = 10, index: str = 'wiki_index'):
+    embedding_manager = EmbeddingManager()
     embedding = embedding_manager.embed([question])[0]
     # Search for the document.
     query = {
@@ -446,6 +467,7 @@ def _test_opensearch_search_wiki_nested(embedding_manager: EmbeddingManager, que
             }
         }
     }
+    client = get_os_client()
     response = client.search(
         body=query,
         index=index,
@@ -454,26 +476,19 @@ def _test_opensearch_search_wiki_nested(embedding_manager: EmbeddingManager, que
     log.info(f"Search results: {response}")
 
 
-def _test_opensearch_get_wiki(id: str,
-                              index: str = 'wiki_index'):
+def _test_opensearch_get_wiki(id: str, index: str = 'wiki_index'):
     client = get_os_client()
     response = client.get(index, id, request_timeout=300)
     log.info(f"Search results: {response}")
 
 
-def _test_answer(question: str, context: str):
-    qa_manager = QaManager()
-    print(qa_manager.answer(question, context))
-
-
 def _test_opensearch_answer_wiki(
-        embedding_manager: EmbeddingManager,
         question: str,
         top_k: int = 10,
         range_before: int = 1,
         range_after: int = 3,
         index: str = 'wiki_index'):
-    client = get_os_client()
+    embedding_manager = EmbeddingManager()
     embedding = embedding_manager.embed([question])[0]
     # Search for the document.
     query = {
@@ -488,6 +503,7 @@ def _test_opensearch_answer_wiki(
             }
         }
     }
+    client = get_os_client()
     response = client.search(
         body=query,
         index=index,
@@ -521,25 +537,33 @@ def main():
     # logging.info("Setting limits to 5 GB RAM")
     # resource.setrlimit(resource.RLIMIT_AS, (5000000000, 5000000000))
 
-    embedding_manager = EmbeddingManager()
+    # _test_similarity(
+    #     ['Was ist die Hauptstadt von Deutschland?',
+    #      'Von welchem Land ist Berlin die Hauptstadt?',
+    #      'Die Hauptstadt von Deutschland ist Berlin.',
+    #      'Berlin ist die Hauptstadt von Deutschland.',
+    #      'Die Hauptstadt von Italien ist Rom.',
+    #      'Rom ist die Hauptstadt von Italien',
+    #      'In Rom, der Hauptstadt von Italien, wohnen auch viele Deutsche.',
+    #      'In Amerika gibt es eine kleine Stadt namens Berlin.',
+    #      'Da beißt die Maus keinen Faden ab.'])
+    # _test_answer("Wie heißt der Bürgermeister von Berlin?", "Der Bürgermeister von Berlin heißt Max Mustermann.")
+    # _test_answer("Wie heißt der Bürgermeister von Berlin?", "Berlin: Bürgermeister ist Max Mustermann.")
+    # _test_answer("Wie heißt der Bürgermeister von Berlin?", "Berlin: Bürgermeister: Max Mustermann.")
 
-    # _test_similarity(embedding_manager)
-    _test_similarity_wiki(embedding_manager, 'Wie heißt der Bürgermeister von Dresden?', 'Dresden', 50)
+    # _test_similarity_wiki('Wie heißt der Bürgermeister von Berlin?', 'Berlin', 50)
+    _test_sim_answer_wiki('Welche Flüsse fließen durch Dresden?', 'Dresden', 50)
 
     # _test_download_wiki()
     # _test_parse_wiki()
 
-    # _test_opensearch_create_index(embedding_manager)
-    # _test_opensearch_index_wiki(embedding_manager)
-    # _test_opensearch_search_wiki(embedding_manager, 'Wie heißt der Bürgermeister von Berlin?', 100)
+    # _test_opensearch_create_index()
+    # _test_opensearch_index_wiki()
+    # _test_opensearch_search_wiki(, 'Wie heißt der Bürgermeister von Berlin?', 100)
 
     # _test_opensearch_get_wiki('de:Dresden:1')
 
-    # _test_answer("Wann ist Bürgermeister von Berlin?", "Der Bürgermeister von Berlin heißt Max Mustermann.")
-    # _test_answer("Wann ist Bürgermeister von Berlin?", "Berlin: Bürgermeister ist Max Mustermann.")
-    # _test_answer("Wann ist Bürgermeister von Berlin?", "Berlin: Bürgermeister: Max Mustermann.")
-
-    _test_opensearch_answer_wiki(embedding_manager, 'Wie heißt der Bürgermeister von Dresden?', 10)
+    # _test_opensearch_answer_wiki('Wie heißt der Bürgermeister von Berlin?', 10)
 
     while False:
         choice = input('Welche Frage hast Du zu deutschen Städten?\n').strip()
@@ -547,7 +571,7 @@ def main():
             continue
         if choice == 'exit':
             break
-        _test_opensearch_answer_wiki(embedding_manager, choice, top_k=20, range_before=1, range_after=4)
+        _test_opensearch_answer_wiki(choice, top_k=20, range_before=1, range_after=4)
 
 
 if __name__ == '__main__':
