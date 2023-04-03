@@ -4,12 +4,11 @@ This file was created by ]init[ AG 2023.
 Module for Text Generation Models.
 '''
 import os
-# pip install bitsandbytes accelerate
-from transformers import T5Tokenizer, T5ForConditionalGeneration
 import logging
 import threading
 from timeit import default_timer as timer
 import torch
+# pip install bitsandbytes accelerate
 from transformers import pipeline
 
 log = logging.getLogger(__name__)
@@ -33,20 +32,24 @@ class T2tManager:
             # Load model for Text-to-Text Generation
 
             model_id = 'google/flan-t5-xl'  # Model Size is around 10.6 GB
+            # Text2TextGeneration
             # Max sequence length is 512
 
-            # model_id = 'google/flan-t5-xxl'  # Model Size is around 50 GB
+            # model_id = 'google/flan-t5-xxl'  # Model Size is around 41.9 GB
+            # Text2TextGeneration
             # Meeds at least 24 GB VRAM? -->
-            # Exception has occurred: OutOfMemoryError       (note: full exception trace is shown but execution is paused at: _run_module_as_main)
-            # CUDA out of memory. Tried to allocate 40.00 MiB (GPU 0; 15.99 GiB total
-            # capacity; 14.85 GiB already allocated; 0 bytes free; 15.13 GiB reserved
-            # in total by PyTorch) If reserved memory is >> allocated memory try
-            # setting max_split_size_mb to avoid fragmentation.  See documentation for
-            # Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+            # model_id = 'google/flan-ul2'
+            # Text2TextGeneration
+
+            # model_id = 'bigscience/bloomz-7b1-mt'  # Model Size is around 13.1 GB
+            # TextGeneration: Isn't instruction tuned, just answers 'Yes'
+            # Max sequence length is 512
 
             # model_id = 'google/mt5-xl'  # Model Size is around 13.9 GB
+            # Text2TextGeneration: Isn't instruction tuned
             # Needs: pip install protobuf==3.20.*
-            # Isn't optimized for tasks like flan - more prompt engineering needed?!
+            # Tokenization seems defect with pipelines...
 
             models_folder = os.environ.get('MODELS_FOLDER', '/opt/speech_service/models/')
 
@@ -60,12 +63,6 @@ class T2tManager:
                 if (vram >= 4):
                     device = 'cuda:0'
             log.info(f"Loading model {model_id!r} in folder {models_folder!r}...")
-            # tokenizer = T5Tokenizer.from_pretrained(model_id, cache_dir=models_folder)
-            # model = T5ForConditionalGeneration.from_pretrained(
-            #    model_id, cache_dir=models_folder, device_map='auto', load_in_8bit=True)
-            # input_ids = tokenizer(input_text, return_tensors='pt').input_ids.to('cuda')
-            # outputs = model.generate(input_ids, max_new_tokens=500)  # type: ignore
-            # response = tokenizer.decode(outputs[0])
             self.pipeline = pipeline(
                 'text2text-generation',
                 model=model_id,
@@ -86,10 +83,10 @@ class T2tManager:
     def generate(self, prompt: str) -> str:
         log.debug(f"Generating...")
         start = timer()
-        text: str = self.pipeline(prompt)  # type: ignore
+        response: list[dict] = self.pipeline(prompt, max_length=1024)  # type: ignore
         log.debug(f"...done in {timer() - start:.3f}s")
         # assert isinstance(answers, list)
-        return text
+        return response[0]['generated_text']
 
     def answer(self, question: str, context: str) -> str:
         log.debug(f"Answering...")
@@ -111,6 +108,6 @@ class T2tManager:
         prompt += prompt_end
         log.debug(f"Prompt:\n{prompt}")
 
-        response: list[dict] = self.pipeline(prompt, max_length=100)  # type: ignore
+        response: list[dict] = self.pipeline(prompt, max_new_tokens=200)  # type: ignore
         log.debug(f"...done in {timer() - start:.3f}s")
         return response[0]['generated_text']

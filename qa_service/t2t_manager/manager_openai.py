@@ -1,7 +1,7 @@
 '''
 This file was created by ]init[ AG 2023.
 
-Module for Sentence Embedding Models.
+Module for Text Generation Models from Open AI via API (GPT).
 '''
 import logging
 import os
