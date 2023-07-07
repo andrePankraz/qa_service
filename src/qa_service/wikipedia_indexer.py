@@ -5,17 +5,17 @@ Module for building a Wikipedia index with sentence embeddings.
 
 First download into folder imports: wget https://dumps.wikimedia.org/dewiki/latest/dewiki-latest-pages-articles-multistream.xml.bz2
 '''
-from embedding_manager import EmbeddingManagerOnPrem
 import logging
 import numpy
 from opensearchpy import OpenSearch, helpers
 import os
-from qa_manager import QaManager
+from qa_service.embedding_manager import EmbeddingManagerOnPrem
+from qa_service.qa_manager import QaManager
+from qa_service.t2t_manager import T2tManager
+from qa_service.wikipedia_processor import download, read_places, wiki_sentences
 import re
 from sentence_transformers import util
-from t2t_manager import T2tManager
 import torch
-from wikipedia_processor import download, read_places, wiki_sentences
 
 log = logging.getLogger(__name__)
 log.setLevel(logging.DEBUG)

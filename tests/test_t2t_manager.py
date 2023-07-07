@@ -1,8 +1,8 @@
-'''
+"""
 This file was created by ]init[ AG 2022.
 
 Tests for Whatever.
-'''
+"""
 import logging
 from qa_service.t2t_manager.manager import T2tManager
 
@@ -10,16 +10,24 @@ log = logging.getLogger(__name__)
 
 t2tManager = T2tManager()
 
+
 def test_question_elterngeld():
-    log.debug(t2tManager.generate('''Frage: Wie wirkt sich der Brexit auf den Anspruch auf Elterngeld für britische Staatsangehörige aus?
+    log.debug(
+        t2tManager.generate(
+            """Frage: Wie wirkt sich der Brexit auf den Anspruch auf Elterngeld für britische Staatsangehörige aus?
 
 Nutze für die Beantwortung ausschließlich folgende relevanteste Fakten (ansonsten antworte mit [NIX]):
 Kann ich Elterngeld erhalten, obwohl ich in unterschiedlichen Ländern lebe und arbeite? Wenn beide Eltern in verschiedenen Ländern arbeiten, dann bekommen beide Eltern Familien-Leistungen vorrangig von dem Land, in dem auch das Kind wohnt. Seit dem sogenannten Brexit gehört Großbritannien nicht mehr zur EU. Falls Sie die britische Staatsangehörigkeit haben und Grenzgängerin oder Grenzgänger sind, können Sie unter bestimmten Voraussetzungen trotzdem Elterngeld nach den besonderen EU-Regelungen bekommen. Für weitere Informationen wenden Sie sich bitte an Ihre Elterngeldstelle.
 
-Antwort:'''))
+Antwort:"""
+        )
+    )
+
 
 def test_question_neustarthilfe():
-    log.debug(t2tManager.generate('''### Instruction:
+    log.debug(
+        t2tManager.generate(
+            """### Instruction:
 Du agierst als eine Suchmaschine, spezialisiert auf das Antragsportal "Überbrückungshilfen" mit Fokus auf das Teilprogramm "Neustarthilfe". Du beantwortest Fragen zu diesem Thema basierend auf gegebenem Kontext.
 
 Regeln:
@@ -47,7 +55,14 @@ Kontext:
 - Es ist nur ein Antrag auf Neustarthilfe 2022 pro Förderzeitraum möglich! Wenn Sie einen Antrag als natürliche Person gestellt beziehungsweise Neustarthilfe 2022 in Anspruch genommen haben, kann die Kapitalgesellschaft, deren Gesellschafterin oder Gesellschafter Sie sind, beziehungsweise die Genossenschaft, deren Mitglied Sie sind, grundsätzlich keinen Antrag auf Neustarthilfe 2022 für den gleichen Förderzeitraum stellen und umgekehrt. Ausnahme (vgl. Ziffer 5.1): Wenn Sie als natürliche Person weniger als 25 Prozent der Geschäftsanteile an einer Kapitalgesellschaft halten, können sowohl Sie als natürliche Person als auch die Kapitalgesellschaft weiterhin einen Antrag auf Neustarthilfe 2022 stellen. - Ein Antrag und die Inanspruchnahme von Überbrückungshilfe IV schließt grundsätzlich einen Antrag und die Inanspruchnahme von Neustarthilfe 2022 aus und umgekehrt. Ausnahme (vgl. Ziffer 5.1): Hat eine Kapitalgesellschaft, an der Sie als natürliche Person weniger als 25 Prozent der Geschäftsanteile halten, bereits Überbrückungshilfe IV beantragt oder in Anspruch genommen, können Sie als natürliche Person weiterhin einen Antrag auf Neustarthilfe 2022 stellen. - Wenn Sie Mitglied einer Genossenschaft und gleichzeitig Gesellschafterin oder Gesellschafter einer Kapitalgesellschaft sind, können Sie für den gleichen Förderzeitraum nur entweder im Antrag auf Neustarthilfe 2022 der Kapitalgesellschaft oder im Antrag der Genossenschaft, aber nicht in beiden Anträgen berücksichtigt werden. - Verhältnis zu den Überbrückungshilfen III und Überbrückungshilfen III Plus, einschließlich Neustarthilfe und Neustarthilfe Plus: Ein Antrag und die Inanspruchnahme von Überbrückungshilfe III (Plus), einschließlich der Neustarthilfe (Plus) mit Förderzeitraum Januar bis Juni 2021 (Juli bis Dezember 2021), schließt einen Antrag und die Inanspruchnahme von Neustarthilfe 2022 nicht aus und umgekehrt. - Wahlrecht: Den Antragstellenden wird ein Wahlrecht zwischen der Neustarthilfe 2022 und der Überbrückungshilfe IV eingeräumt, das bis zum 15. Juni 2022 ausgeübt werden kann. Sie können somit von der Neustarthilfe 2022 zur Überbrückungshilfe IV wechseln und umgekehrt. Einzelheiten zum Vorgehen siehe Ziffer 7.
 
 ### Input:
-Wer ist antragsberechtigt?'''))
+Wer ist antragsberechtigt?"""
+        )
+    )
+
 
 def test_question_wim():
-    log.debug(t2tManager.generate('''Erzeuge 2 Varianten folgender Frage, die für Embedding-Modelle (Bi-Encoder) geeignet sind: Wo muss ich meine Reisekosten einreichen?'''))
+    log.debug(
+        t2tManager.generate(
+            """Erzeuge 2 Varianten folgender Frage, die für Embedding-Modelle (Bi-Encoder) geeignet sind: Wo muss ich meine Reisekosten einreichen?"""
+        )
+    )

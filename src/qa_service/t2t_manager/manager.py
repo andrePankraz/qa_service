@@ -1,8 +1,8 @@
-'''
+"""
 This file was created by ]init[ AG 2023.
 
 Module for Text Generation Models.
-'''
+"""
 import os
 import logging
 import threading
@@ -15,17 +15,16 @@ log.setLevel(logging.DEBUG)
 
 
 class T2tManager:
-
     lock = threading.Lock()
 
     def __new__(cls):
         # Singleton!
-        if not hasattr(cls, 'instance'):
+        if not hasattr(cls, "instance"):
             cls.instance = super(T2tManager, cls).__new__(cls)
         return cls.instance
 
     def __init__(self) -> None:
-        if hasattr(self, 'pipeline'):
+        if hasattr(self, "pipeline"):
             return
         with T2tManager.lock:
             # Load model for Text-to-Text Generation
@@ -59,35 +58,35 @@ class T2tManager:
 
             # Model Size is around 26 GB, Multilanguage, Instruction tuned,
             # Max sequence length is 8k
-            model_id = 'Salesforce/xgen-7b-8k-inst'
+            model_id = "Salesforce/xgen-7b-8k-inst"
 
-            models_folder = os.environ.get('MODELS_FOLDER', '/opt/qa_service/models/')
+            models_folder = os.environ.get("MODELS_FOLDER", "/opt/qa_service/models/")
 
-            device = 'cpu'
+            device = "cpu"
             if torch.cuda.is_available():
                 log.info(f"CUDA available: {torch.cuda.get_device_name(0)}")
                 mem_info = torch.cuda.mem_get_info(0)
                 vram = round(mem_info[1] / 1024**3, 1)
-                log.info(
-                    f"VRAM available: {round(mem_info[0]/1024**3,1)} GB out of {vram} GB")
-                if (vram >= 4):
-                    device = 'cuda:0'
+                log.info(f"VRAM available: {round(mem_info[0]/1024**3,1)} GB out of {vram} GB")
+                if vram >= 4:
+                    device = "cuda:0"
             log.info(f"Loading model {model_id!r} in folder {models_folder!r}...")
             self.pipeline = pipeline(
-                'text-generation',
+                "text-generation",
                 model=model_id,
                 tokenizer=model_id,
                 device=device,
                 trust_remote_code=True,
                 model_kwargs={
-                    'cache_dir': models_folder,
-                    'torch_dtype': torch.bfloat16,
+                    "cache_dir": models_folder,
+                    "torch_dtype": torch.bfloat16,
                     # 'device_map': 'auto',
                     # 'load_in_8bit': True
-                })
+                },
+            )
             log.info(f"Max Sequence Length: {self.get_max_sequence_length()}")
             log.info("...done.")
-            if device != 'cpu':
+            if device != "cpu":
                 log.info(f"VRAM left: {round(torch.cuda.mem_get_info(0)[0]/1024**3,1)} GB")
 
     def get_max_sequence_length(self) -> int:
@@ -99,7 +98,7 @@ class T2tManager:
         response: list[dict] = self.pipeline(prompt, max_new_tokens=200)  # type: ignore
         log.debug(f"...done in {timer() - start:.3f}s")
         # assert isinstance(answers, list)
-        return response[0]['generated_text']
+        return response[0]["generated_text"]
 
     def answer(self, question: str, context: str) -> str:
         log.debug(f"Answering...")
@@ -122,4 +121,4 @@ Antworte in einem kurzen und prägnanten Satz:"""
 
         response: list[dict] = self.pipeline(prompt, max_new_tokens=200)  # type: ignore
         log.debug(f"...done in {timer() - start:.3f}s")
-        return response[0]['generated_text']
+        return response[0]["generated_text"]

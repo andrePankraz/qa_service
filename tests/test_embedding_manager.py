@@ -1,12 +1,12 @@
-'''
+"""
 This file was created by ]init[ AG 2022.
 
 Tests for Whatever.
-'''
+"""
 import logging
 import numpy as np
-import torch
 from qa_service.embedding_manager.manager import EmbeddingManagerOnPrem
+import torch
 
 log = logging.getLogger(__name__)
 
@@ -34,7 +34,10 @@ def test_embedding():
         ("Er liest gerne Krimis.", "Er bevorzugt Bücher aus dem Krimi-Genre."),
         ("Sie ist sehr sportlich und fit.", "Sie ist eine begeisterte Sportlerin."),
         ("Die Pflanze benötigt mehr Wasser.", "Die Pflanze ist durstig und muss gegossen werden."),
-        ("Er hat sich für ein Studium der Informatik entschieden.", "Er hat sich entschlossen, Informatik zu studieren."),
+        (
+            "Er hat sich für ein Studium der Informatik entschieden.",
+            "Er hat sich entschlossen, Informatik zu studieren.",
+        ),
         ("Die Geburtstagsfeier war ein großer Erfolg.", "Die Party zum Geburtstag war sehr gelungen."),
     ]
 

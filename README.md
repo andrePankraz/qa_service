@@ -1,7 +1,6 @@
 <!---
-This file was created by ]init[ AG 2022.
+This file was created by ]init[ AG 2023.
 -->
-
 # QA Service
 
 Solve Question Answering (QA) problems with Natural Language Processing (NLP) from AI.
@@ -14,11 +13,11 @@ Docker must have CUDA enabled (e.g. for WSL see https://docs.nvidia.com/cuda/wsl
 
 ## Start as local service with Test-UI
 
-- Clone https://github.com/andrePankraz/qa_service
-
-      $ cd qa_service
-      $ docker compose up
-
+- Clone git@github.com:andrePankraz/qa_service.git
+    ```bash
+    $ cd qa_service
+    $ docker compose up
+    ```
   - Will take some time at first start (images & packages are downloaded, >10 GB)
   - Wait & check if up and running
 - Go to URL: http://localhost:8200/
@@ -26,17 +25,18 @@ Docker must have CUDA enabled (e.g. for WSL see https://docs.nvidia.com/cuda/wsl
 
 ## Start for Development
 
-- Clone https://github.com/andrePankraz/qa_service
-
-      $ cd qa_service
-      $ docker compose --env-file docker/.envs/dev.env up
-
+- Clone git@github.com:andrePankraz/qa_service.git
+    ```bash
+    $ cd qa_service
+    $ docker compose --env-file docker/.envs/dev.env up
+    ```
   - Will take some time at first start (images & packages are downloaded, >10 GB)
   - Wait & check if up and running
 - Install [VS Code](https://code.visualstudio.com/)
-  - Install Extension
+  - Install following Extensions
     - Dev Containers
     - Docker
+    - Black Formatter
     - Markdown All in One
 - Attach VS Code to Docker Container
   - Attach to running containers... (Lower left edge in VS Code)
@@ -45,5 +45,6 @@ Docker must have CUDA enabled (e.g. for WSL see https://docs.nvidia.com/cuda/wsl
   - Run / Start Debug
     - VS Code Extension Python will be installed the first time (Wait and another Start Debug)
     - Select Python Interpreter
+    - Use Launch Configuration Python:FastAPI (Under "Run & Debugging")
 - Go to URL: http://localhost:8200/
   - Will take some time at first start (models are downloaded, several GB)

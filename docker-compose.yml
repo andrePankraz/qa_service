@@ -61,7 +61,7 @@ services:
       - 5601:5601 # Map host port 5601 to container port 5601
   python:
     build:
-      context: docker/python
+      dockerfile: docker/python/Dockerfile
       target: ${TARGET:-local} # dev or local
     depends_on:
       - opensearch-node1
