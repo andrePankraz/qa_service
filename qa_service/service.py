@@ -16,15 +16,15 @@ log.setLevel(logging.DEBUG)
 app = FastAPI()
 
 
-@app.on_event("startup")
+@app.on_event('startup')
 def startup_event():
-    log.info("Startup...")
+    log.info('Startup...')
     app.mount('/', StaticFiles(directory='resources/html', html=True), name='static')
 
 
-@app.on_event("shutdown")
+@app.on_event('shutdown')
 def shutdown_event():
-    log.info("Shutting down...")
+    log.info('Shutting down...')
 
 # Following ordering is important for overlapping path matches...
 

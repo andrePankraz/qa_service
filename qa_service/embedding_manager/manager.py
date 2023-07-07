@@ -1,8 +1,9 @@
 '''
-This file was created by ]init[ AG 2022.
+This file was created by ]init[ AG 2023.
 
 Module for Sentence Embedding Models.
 '''
+import abc
 import logging
 import os
 from sentence_transformers import SentenceTransformer
@@ -14,53 +15,52 @@ log = logging.getLogger(__name__)
 log.setLevel(logging.DEBUG)
 
 
-class EmbeddingManager:
+class AbstractEmbeddingManager(abc.ABC):
 
-    lock = threading.Lock()
+    _lock = threading.Lock()
 
     def __new__(cls):
         # Singleton!
         if not hasattr(cls, 'instance'):
-            cls.instance = super(EmbeddingManager, cls).__new__(cls)
+            with cls._lock:
+                if not hasattr(cls, 'instance'):
+                    cls.instance = super().__new__(cls)
         return cls.instance
 
+    @abc.abstractmethod
+    def __init__(self):
+        pass
+
+    @property
+    @abc.abstractmethod
+    def max_sequence_length(self) -> int:
+        pass
+
+    @property
+    @abc.abstractmethod
+    def embedding_dimensions(self) -> int:
+        pass
+
+    @abc.abstractmethod
+    def embed(self, paragraphs: list[str]) -> torch.Tensor:
+        pass
+
+
+class EmbeddingManagerOnPrem(AbstractEmbeddingManager):
+
+    _lock = threading.Lock()
+
     def __init__(self) -> None:
-        if hasattr(self, 'model'):
-            return
-        with EmbeddingManager.lock:
-            # Load model for Sentence Embedding
+        with EmbeddingManagerOnPrem._lock:
+            if hasattr(self, '_initialized'):
+                return
+            # Load model for Paragraph Embedding (Bi-Encoder)
 
-            model_id = 'PM-AI/bi-encoder_msmarco_bert-base_german'  # Model Size is around 0.4 GB
-            # Max sequence length is 350 -> Embedding is 768 dimensional
-            # This model is really good, small and just 768-dim, even though scores all quite similar - 8/10
-
-            # model_id = 'Sahajtomar/German-semantic'  # Model Size is around 1.3 GB
+            # Model Size is around 1.3 GB, mostly German, but English works too,
             # Max sequence length is 512 -> Embedding is 1024 dimensional
-            # This model is really good, good with rivers, bad with mayor - 9/10
+            model_id = 'aari1995/German_Semantic_STS_V2'
 
-            # model_id = 'aari1995/gBERT-large-sts-v2' # Model Size is around 1.25 GB
-            # Max sequence length is 512 -> Embedding is 1024 dimensional
-            # This model is quite good, but major river info sentence is missing - 7/10
-
-            # model_id = 'setu4993/LaBSE' # Model Size is around 1.77 GB
-            # Max sequence length is 512 -> Embedding is 768 dimensional
-            # This model is quite bad, focussing on very short sentences - 4/10
-
-            # model_id = 'symanto/sn-xlm-roberta-base-snli-mnli-anli-xnli' # Model Size is around 1 GB
-            # Max sequence length is 128 -> Embedding is 768 dimensional
-            # This model is really bad, mixing up rivers and climate stuff - 3/10
-
-            # model_id = 'T-Systems-onsite/german-roberta-sentence-transformer-v2' # Model Size is around 1 GB
-            # Max sequence length is 512 -> Embedding is 768 dimensional
-            # Needs: pip install 'protobuf<=3.20.1' --force-reinstall
-            # This model is really bad, very often no rivers at all - 2/10
-
-            # model_id = 'T-Systems-onsite/cross-en-de-roberta-sentence-transformer' # Model Size is around 1 GB
-            # Max sequence length is 512 -> Embedding is 768 dimensional
-            # Needs: pip install 'protobuf<=3.20.1' --force-reinstall
-            # This model is really bad, very often no rivers at all - 2/10
-
-            models_folder = os.environ.get('MODELS_FOLDER', '/opt/speech_service/models/')
+            models_folder = os.environ.get('MODELS_FOLDER', '/opt/qa_service/models/')
             device = 'cpu'
             if torch.cuda.is_available():
                 log.info(f"CUDA available: {torch.cuda.get_device_name(0)}")
@@ -70,24 +70,31 @@ class EmbeddingManager:
                     f"VRAM available: {round(mem_info[0]/1024**3,1)} GB out of {vram} GB")
                 if (vram >= 4):
                     device = 'cuda:0'
-            log.info(f"Loading model {model_id!r} in folder {models_folder!r}...")
+            log.info(f"Loading embedding model {model_id!r} in folder {models_folder!r}...")
             self.model = SentenceTransformer(model_id, device=device, cache_folder=models_folder)
-            log.info(f"Max Sequence Length: {self.get_max_sequence_length()}")
-            log.info(f"Embedding Dimensions: {self.get_embedding_dimensions()}")
+            self.tokenizer = self.model.tokenizer
+            log.info(f"Max Sequence Length: {self.max_sequence_length}")
+            log.info(f"Embedding Dimensions: {self.embedding_dimensions}")
             log.info("...done.")
             if device != 'cpu':
+                log.info(f"Embed 'Test': {self.embed(['Test'])}")  # Trigger CUDA loading
                 log.info(f"VRAM left: {round(torch.cuda.mem_get_info(0)[0]/1024**3,1)} GB")
+            self._initialized = True
 
-    def get_max_sequence_length(self) -> int:
+    @property
+    def max_sequence_length(self) -> int:
         return self.model.get_max_seq_length()  # type: ignore
 
-    def get_embedding_dimensions(self) -> int:
+    @property
+    def embedding_dimensions(self) -> int:
         return self.model.get_sentence_embedding_dimension()  # type: ignore
 
-    def embed(self, sentences: list[str]) -> torch.Tensor:
-        log.debug(f"Embedding {len(sentences)} sentences...")
+    def embed(self, paragraphs: list[str]) -> torch.Tensor:
+        log.debug(f"Embedding {len(paragraphs)} paragraphs...")
         start = timer()
-        embeddings = self.model.encode(sentences, convert_to_tensor=True)
+        embeddings = self.model.encode(paragraphs, convert_to_tensor=True)
+        # L2-normalize -> dot-score is then same like cosine-similarity
+        embeddings = embeddings / torch.sqrt((embeddings**2).sum(1, keepdims=True))  # type:ignore
         log.debug(f"...done in {timer() - start:.3f}s")
         assert isinstance(embeddings, torch.Tensor)
         return embeddings

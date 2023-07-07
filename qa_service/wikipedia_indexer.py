@@ -5,7 +5,7 @@ Module for building a Wikipedia index with sentence embeddings.
 
 First download into folder imports: wget https://dumps.wikimedia.org/dewiki/latest/dewiki-latest-pages-articles-multistream.xml.bz2
 '''
-from embedding_manager import EmbeddingManager
+from embedding_manager import EmbeddingManagerOnPrem
 import logging
 import numpy
 from opensearchpy import OpenSearch, helpers
@@ -53,7 +53,7 @@ def get_os_client() -> OpenSearch:
 
 
 def _test_similarity(sentences: list[str]):
-    embedding_manager = EmbeddingManager()
+    embedding_manager = EmbeddingManagerOnPrem()
     embeddings = embedding_manager.embed(sentences)
 
     # torch.set_printoptions(profile="full")
@@ -71,7 +71,7 @@ def _test_answer(question: str, context: str):
 
 def _test_similarity_wiki(question: str, wikipage: str, number: int = 10):
     download(f"https://de.wikipedia.org/wiki/Spezial:Exportieren/{wikipage}", f"{imports_folder}{wikipage}.xml")
-    embedding_manager = EmbeddingManager()
+    embedding_manager = EmbeddingManagerOnPrem()
     for title, sentences, _ in wiki_sentences(f"{imports_folder}{wikipage}.xml", filtered=True):
         log.info(f"##### {title} #####")
 
@@ -90,7 +90,7 @@ def _test_similarity_wiki(question: str, wikipage: str, number: int = 10):
 
 def _test_sim_answer_wiki(question: str, wikipage: str, number: int = 10):
     download(f"https://de.wikipedia.org/wiki/Spezial:Exportieren/{wikipage}", f"{imports_folder}{wikipage}.xml")
-    embedding_manager = EmbeddingManager()
+    embedding_manager = EmbeddingManagerOnPrem()
     for title, sentences, _ in wiki_sentences(f"{imports_folder}{wikipage}.xml", filtered=True):
         log.info(f"##### {title} #####")
 
@@ -121,11 +121,13 @@ def _test_parse_wiki():
     places = read_places()
     # title_pattern = re.compile('^Dresden$')
     # Articles: 28283   Sentences: 2595783
-    text_pattern = re.compile('Postleitzahl|PLZ')
     article_nr = 0
     sentence_nr = 0
     for title, sentences, progress in wiki_sentences(
-            imports_folder + 'dewiki-latest-pages-articles-multistream.xml.bz2', title_pattern=places, text_pattern=text_pattern, filtered=True):
+            imports_folder + 'dewiki-latest-pages-articles-multistream.xml.bz2',
+            title_pattern=places,
+            text_pattern=re.compile('Postleitzahl|PLZ'),
+            filtered=True):
         article_nr += 1
         sentence_nr += len(sentences)
         log.info(f"### {article_nr} / {sentence_nr} ({progress:.2f}%): {title} ###")
@@ -138,7 +140,7 @@ def _test_opensearch_create_index(index: str = 'wiki_index'):
     if client.indices.exists(index):
         response = client.indices.delete(index)
         log.info(f"Deleting index: {response}")
-    embedding_manager = EmbeddingManager()
+    embedding_manager = EmbeddingManagerOnPrem()
     if not client.indices.exists(index):
         # Create an index with non-default settings.
         # See: https://opensearch.org/docs/latest/search-plugins/knn/approximate-knn/
@@ -165,7 +167,7 @@ def _test_opensearch_create_index(index: str = 'wiki_index'):
                     },
                     'embedding': {
                         'type': 'knn_vector',
-                        'dimension': embedding_manager.get_embedding_dimensions(),
+                        'dimension': embedding_manager.embedding_dimensions,
                         'method': {
                             'name': 'hnsw',
                             'engine': 'nmslib',
@@ -183,7 +185,7 @@ def _test_opensearch_create_index(index: str = 'wiki_index'):
         log.info(f"Creating index: {response}")
 
     # Add a document to the index.
-    embedding = numpy.zeros(embedding_manager.get_embedding_dimensions(), dtype=float)
+    embedding = numpy.zeros(embedding_manager.embedding_dimensions, dtype=float)
 
     language = 'de'
     title = 'Berlin'
@@ -223,7 +225,7 @@ def _test_opensearch_create_index_nested(index: str = 'wiki_index'):
     if client.indices.exists(index):
         response = client.indices.delete(index)
         log.info(f"Deleting index: {response}")
-    embedding_manager = EmbeddingManager()
+    embedding_manager = EmbeddingManagerOnPrem()
     if not client.indices.exists(index):
         # Create an index with non-default settings.
         # See: https://opensearch.org/docs/latest/search-plugins/knn/knn-index/
@@ -253,7 +255,7 @@ def _test_opensearch_create_index_nested(index: str = 'wiki_index'):
                             },
                             'embedding': {
                                 'type': 'knn_vector',
-                                'dimension': embedding_manager.get_embedding_dimensions(),
+                                'dimension': embedding_manager.embedding_dimensions,
                                 'method': {
                                     'name': 'hnsw',
                                     'engine': 'nmslib',
@@ -273,10 +275,10 @@ def _test_opensearch_create_index_nested(index: str = 'wiki_index'):
         log.info(f"Creating index: {response}")
 
     # Add a document to the index.
-    embedding1 = numpy.zeros(embedding_manager.get_embedding_dimensions(), dtype=float)
-    embedding2 = numpy.zeros(embedding_manager.get_embedding_dimensions(), dtype=float)
+    embedding1 = numpy.zeros(embedding_manager.embedding_dimensions, dtype=float)
+    embedding2 = numpy.zeros(embedding_manager.embedding_dimensions, dtype=float)
     embedding2[0] = 1
-    embedding3 = numpy.zeros(embedding_manager.get_embedding_dimensions(), dtype=float)
+    embedding3 = numpy.zeros(embedding_manager.embedding_dimensions, dtype=float)
     embedding3[0] = -1
 
     sentence1 = 'Testsatz1'
@@ -344,7 +346,7 @@ def _test_opensearch_index_wiki(index: str = 'wiki_index'):
     text_pattern = re.compile('Postleitzahl|PLZ')
     article_nr = 0
     sentence_nr = 0
-    embedding_manager = EmbeddingManager()
+    embedding_manager = EmbeddingManagerOnPrem()
     for title, sentences, progress in wiki_sentences(
             imports_folder + 'dewiki-latest-pages-articles-multistream.xml.bz2', title_pattern=places, text_pattern=text_pattern, filtered=True):
         article_nr += 1
@@ -388,7 +390,7 @@ def _test_opensearch_index_wiki_nested(index: str = 'wiki_index'):
     text_pattern = re.compile('Postleitzahl|PLZ')
     article_nr = 0
     sentence_nr = 0
-    embedding_manager = EmbeddingManager()
+    embedding_manager = EmbeddingManagerOnPrem()
     for title, sentences, progress in wiki_sentences(
             imports_folder + 'dewiki-latest-pages-articles-multistream.xml.bz2', title_pattern=places, text_pattern=text_pattern, filtered=True):
         article_nr += 1
@@ -415,7 +417,7 @@ def _test_opensearch_index_wiki_nested(index: str = 'wiki_index'):
 
 
 def _test_opensearch_search_wiki(question: str, number: int = 10, index: str = 'wiki_index'):
-    embedding_manager = EmbeddingManager()
+    embedding_manager = EmbeddingManagerOnPrem()
     embedding = embedding_manager.embed([question])[0]
     # Search for the document.
     query = {
@@ -444,7 +446,7 @@ def _test_opensearch_search_wiki(question: str, number: int = 10, index: str = '
 
 
 def _test_opensearch_search_wiki_nested(question: str, number: int = 10, index: str = 'wiki_index'):
-    embedding_manager = EmbeddingManager()
+    embedding_manager = EmbeddingManagerOnPrem()
     embedding = embedding_manager.embed([question])[0]
     # Search for the document.
     query = {
@@ -488,7 +490,7 @@ def _test_opensearch_answer_wiki(
         range_before: int = 1,
         range_after: int = 3,
         index: str = 'wiki_index'):
-    embedding_manager = EmbeddingManager()
+    embedding_manager = EmbeddingManagerOnPrem()
     embedding = embedding_manager.embed([question])[0]
     # Search for the document.
     query = {
@@ -532,11 +534,6 @@ def main():
     logging.getLogger('urllib3.connectionpool').setLevel(logging.INFO)
     logging.getLogger('opensearch').setLevel(logging.INFO)
 
-    # import resource
-    # logging.info(f"Current limits: {resource.getrlimit(resource.RLIMIT_AS)}")
-    # logging.info("Setting limits to 5 GB RAM")
-    # resource.setrlimit(resource.RLIMIT_AS, (5000000000, 5000000000))
-
     # _test_similarity(
     #     ['Was ist die Hauptstadt von Deutschland?',
     #      'Von welchem Land ist Berlin die Hauptstadt?',
@@ -552,13 +549,13 @@ def main():
     # _test_answer("Wie heißt der Bürgermeister von Berlin?", "Berlin: Bürgermeister: Max Mustermann.")
 
     # _test_similarity_wiki('Wie heißt der Bürgermeister von Berlin?', 'Berlin', 50)
-    _test_sim_answer_wiki('Wie heißt der Bürgermeister von Berlin?', 'Berlin', 50)
+    # _test_sim_answer_wiki('Wie heißt der Bürgermeister von Berlin?', 'Berlin', 50)
 
     # _test_download_wiki()
     # _test_parse_wiki()
 
     # _test_opensearch_create_index()
-    # _test_opensearch_index_wiki()
+    _test_opensearch_index_wiki()
     # _test_opensearch_search_wiki(, 'Wie heißt der Bürgermeister von Berlin?', 100)
 
     # _test_opensearch_get_wiki('de:Dresden:1')

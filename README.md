@@ -16,7 +16,7 @@ Docker must have CUDA enabled (e.g. for WSL see https://docs.nvidia.com/cuda/wsl
 
 - Clone https://github.com/andrePankraz/qa_service
 
-      $ export DOCKER_BUILDKIT=1
+      $ cd qa_service
       $ docker compose up
 
   - Will take some time at first start (images & packages are downloaded, >10 GB)
@@ -28,7 +28,7 @@ Docker must have CUDA enabled (e.g. for WSL see https://docs.nvidia.com/cuda/wsl
 
 - Clone https://github.com/andrePankraz/qa_service
 
-      $ export DOCKER_BUILDKIT=1
+      $ cd qa_service
       $ docker compose --env-file docker/.envs/dev.env up
 
   - Will take some time at first start (images & packages are downloaded, >10 GB)

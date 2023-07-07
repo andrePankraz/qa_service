@@ -9,10 +9,10 @@ import logging
 from mwparserfromhell import nodes, parse, wikicode
 import numpy
 import os
-import re
-from sentence_cleaner_splitter.cleaner_splitter import SentenceSplitClean
-from typing import Generator
 from .places import read_places
+import re
+import stanza
+from typing import Generator
 from xml.etree import cElementTree as ET
 
 log = logging.getLogger(__name__)
@@ -159,14 +159,10 @@ def _wikicode_texts(wikicode: wikicode.Wikicode, title: str, ancestors: list) ->
         #     yield from _wikicode_texts(child_code, ancestors + [mode])
 
 
-sentence_splitter = SentenceSplitClean('deu_Latn', 'default')
-
-
-def wiki_sentences(
+def wiki_documents(
         filepath: str,
         title_pattern: re.Pattern | numpy.ndarray | None = None,
-        text_pattern: re.Pattern | None = None,
-        filtered: bool | None = None) -> Generator[tuple[str, list[str], float], None, None]:
+        text_pattern: re.Pattern | None = None) -> Generator[tuple[str, str, float], None, None]:
 
     for title, wikicode, progress in wiki_articles(filepath):
         # if True:
@@ -181,6 +177,34 @@ def wiki_sentences(
         # wikicode = str(wikicode).replace('&amp;', '&').replace('&lt;', '<').replace('&gt;', '>')
         wikicode = unescape(str(wikicode))
         text = ''.join(wikicode_texts(wikicode, title))
+
+        yield title, text, progress
+
+
+models_folder = os.environ.get('MODELS_FOLDER', '/opt/qa_service/models/')
+# configure stanza for sentence splitting in multiple languages
+nlp = stanza.MultilingualPipeline(
+    model_dir=f"{models_folder}stanza",
+    lang_id_config={
+        'langid_clean_text': True,
+        'langid_lang_subset': ['de', 'en']},
+    lang_configs={
+        'de': {'processors': 'tokenize,mwt', 'verbose': False},
+        'en': {'processors': 'tokenize', 'verbose': False}},
+    use_gpu=False)
+log.info(f"""Stanza Test De: {
+    len(nlp('Initialisiere Modell für Deutsch. Das ist ein Test!').sentences) == 2}""")  # type:ignore
+log.info(f"""Stanza Test En: {
+    len(nlp('Intializing model for English. This is a test!').sentences) == 2}""")  # type:ignore
+
+
+def wiki_sentences(
+        filepath: str,
+        title_pattern: re.Pattern | numpy.ndarray | None = None,
+        text_pattern: re.Pattern | None = None,
+        filtered: bool | None = None) -> Generator[tuple[str, list[str], float], None, None]:
+
+    for title, text, progress in wiki_documents(filepath, title_pattern, text_pattern):
         sentences = list()
 
         current_line = ''
@@ -195,7 +219,7 @@ def wiki_sentences(
             if len(tokens) <= 50:
                 lines = [line]  # don't split any further
             else:
-                lines = [sentence for _, _, sentence in sentence_splitter(line)]
+                lines = [nlp_sentence.text for nlp_sentence in nlp(line).sentences]  # type: ignore
             for line in lines:
                 line = line.strip()
                 if not filtered:

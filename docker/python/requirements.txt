@@ -1,7 +1,13 @@
+accelerate
+bitsandbytes
+bs4
 fastapi
 mwparserfromhell
+openai
 opensearch-py
-sentence_cleaner_splitter@git+https://github.com/facebookresearch/LASER.git#subdirectory=utils
+pandas
 sentence_transformers
-transformers@git+https://github.com/huggingface/transformers.git
+stanza
+tiktoken
+transformers # @git+https://github.com/huggingface/transformers.git
 uvicorn

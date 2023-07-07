@@ -8,7 +8,6 @@ import logging
 import threading
 from timeit import default_timer as timer
 import torch
-# pip install bitsandbytes accelerate
 from transformers import pipeline
 
 log = logging.getLogger(__name__)
@@ -31,27 +30,38 @@ class T2tManager:
         with T2tManager.lock:
             # Load model for Text-to-Text Generation
 
-            model_id = 'google/flan-t5-xl'  # Model Size is around 10.6 GB
-            # Text2TextGeneration
-            # Max sequence length is 512
+            ##### text2text-generation ####
 
+            # T5 was trained for max sequence length 512, but can handle longer sequences!
+            # There will be a warning and the model might not attend to all facts, but it works.
+            # Token indices sequence length is longer than the specified maximum
+            # sequence length for this model (683 > 512). Running this sequence
+            # through the model will result in indexing errors
+            # model_id = 'google/flan-t5-xl'  # Model Size is around 10.6 GB
+
+            # Needs at least 24 GB VRAM?!
             # model_id = 'google/flan-t5-xxl'  # Model Size is around 41.9 GB
-            # Text2TextGeneration
-            # Meeds at least 24 GB VRAM? -->
 
-            # model_id = 'google/flan-ul2'
-            # Text2TextGeneration
+            # Needs at least 20 GB VRAM?!
+            # model_id = 'google/flan-ul2'  # Model Size is around 36.7 GB
 
-            # model_id = 'bigscience/bloomz-7b1-mt'  # Model Size is around 13.1 GB
-            # TextGeneration: Isn't instruction tuned, just answers 'Yes'
-            # Max sequence length is 512
-
-            # model_id = 'google/mt5-xl'  # Model Size is around 13.9 GB
-            # Text2TextGeneration: Isn't instruction tuned
             # Needs: pip install protobuf==3.20.*
-            # Tokenization seems defect with pipelines...
+            # Tokenization seems defect & Isn't instruction tuned
+            # model_id = 'google/mt5-xl'  # Model Size is around 13.9 GB
 
-            models_folder = os.environ.get('MODELS_FOLDER', '/opt/speech_service/models/')
+            ##### text-generation ####
+            # Decoder-only - small max sequence length is very punishing!
+            # max_new_tokens=512
+
+            # Replace in snapshots/5f.../tokenizer_config.json "tokenizer_class": "LLaMATokenizer" with LlamaTokenizer
+            # model_id = 'decapoda-research/llama-7b-hf'  # Model Size is around 12.5 GB
+            # model_id = 'decapoda-research/llama-13b-hf'  # Model Size is around 36.3 GB
+
+            # Model Size is around 26 GB, Multilanguage, Instruction tuned,
+            # Max sequence length is 8k
+            model_id = 'Salesforce/xgen-7b-8k-inst'
+
+            models_folder = os.environ.get('MODELS_FOLDER', '/opt/qa_service/models/')
 
             device = 'cpu'
             if torch.cuda.is_available():
@@ -64,13 +74,16 @@ class T2tManager:
                     device = 'cuda:0'
             log.info(f"Loading model {model_id!r} in folder {models_folder!r}...")
             self.pipeline = pipeline(
-                'text2text-generation',
+                'text-generation',
                 model=model_id,
                 tokenizer=model_id,
+                device=device,
+                trust_remote_code=True,
                 model_kwargs={
                     'cache_dir': models_folder,
-                    'device_map': 'auto',
-                    'load_in_8bit': True
+                    'torch_dtype': torch.bfloat16,
+                    # 'device_map': 'auto',
+                    # 'load_in_8bit': True
                 })
             log.info(f"Max Sequence Length: {self.get_max_sequence_length()}")
             log.info("...done.")
@@ -83,7 +96,7 @@ class T2tManager:
     def generate(self, prompt: str) -> str:
         log.debug(f"Generating...")
         start = timer()
-        response: list[dict] = self.pipeline(prompt, max_length=1024)  # type: ignore
+        response: list[dict] = self.pipeline(prompt, max_new_tokens=200)  # type: ignore
         log.debug(f"...done in {timer() - start:.3f}s")
         # assert isinstance(answers, list)
         return response[0]['generated_text']
@@ -92,20 +105,19 @@ class T2tManager:
         log.debug(f"Answering...")
         start = timer()
 
-        prompt = f"Frage: {question}\nFakten:\n-----\n{context}"
-        prompt_end = '\n-----\nKurze Antwort (vollständige Aufzählung): '
+        prompt = f"""\
+Du bist ein hilfreicher, ehrlicher und harmloser KI-Assistent.
+Du beantwortest Fragen, basierend auf gegebenen Fakten.
 
-        # T5 was trained for max sequence length 512, but can handle longer sequences!
-        # There will be a warning and the model might not attend to all facts, but it works.
-        # Shorten prompt for max sequence length 512:
-        # max_length = self.get_max_sequence_length()
-        # while len(
-        #     self.pipeline.tokenizer(
-        #         prompt + prompt_end,
-        #         return_tensors='pt').input_ids[0]) >= max_length:  # type: ignore
-        #     prompt = prompt.rsplit('\n', 1)[0]
+Nutze nur folgende Fakten zur Beantwortung der nachfolgend gestellten Frage:
+<BEGIN FAKTEN>
+{context}
+</END FAKTEN>
 
-        prompt += prompt_end
+Frage: {question}
+
+Antworte in einem kurzen und prägnanten Satz:"""
+
         log.debug(f"Prompt:\n{prompt}")
 
         response: list[dict] = self.pipeline(prompt, max_new_tokens=200)  # type: ignore
